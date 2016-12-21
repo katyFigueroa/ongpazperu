@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text-css" href="css/scrolling-nav.css">
+    <link rel="stylesheet" href="css/main2.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" type="text/css" href="css/font.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <script type="text/javascript" src="js/jquery-1.12.3.js"></script>
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+        
+        <script type="text/javascript">
+
+            google.maps.event.addDomListener(window, 'load', init);
+        
+            function init() {
+
+                var mapOptions = {
+
+                    zoom: 14,
+
+                    center: new google.maps.LatLng(-16.4571241,-71.5308932), 
+
+                    styles: [{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#444444"}]},{"featureType":"landscape","elementType":"all","stylers":[{"color":"#f2f2f2"}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"all","stylers":[{"saturation":-100},{"lightness":45}]},{"featureType":"road.highway","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"road.arterial","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"all","stylers":[{"color":"#425a68"},{"visibility":"on"}]}]
+                };
+
+                var mapElement = document.getElementById('map');
+
+                var map = new google.maps.Map(mapElement, mapOptions);
+
+                var marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(-16.4571241,-71.5308932),
+                    map: map,
+                    title: 'Snazzy!'
+                });
+            }
+        </script>
+
+
+</head>
+<body>
+
+<!-- --------MENU--------------- -->
+<div id="navbar" style="font-family: 'Roboto', sans-serif; font-size:14px;">    
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+              <a class="navbar-brand" href="#"><img src="img/logo_horizontal.png" class="Logotype" style="width:220px;"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html" class="title_menu">INICIO</a></li>
+                    <li><a href="nosotros.html" class="title_menu" >NOSOTROS </a> </li>
+                    <li><a href="programas.html" class=" title_menu" >PROGRAMAS</a></li>
+                    <li class="active"><a href="contacto.html" class="title_menu">CONTÁCTANOS</a></li>
+                </ul>
+            </div>
+          </div>
+        </nav>
+</div>
+<!-- -------------FIN MENU--------------- -->
+
+<div class="imagen-hero" style="margin-top: 80px;">
+    <img src="img/contacto-portada.jpg" style="width: 100%;">
+</div>
+
+<div class="section-content">
+    <div class="container">
+    <div class="row contacto-form">
+      <div class="col-md-8 padding datos-contacto">
+        <div class="entrada-text">
+          <h1 class="title">CONTÁCTANOS</h1>
+          <p>Gracias por querer ponerse en contacto con nosotros. Por favor, sírvase completar el siguiente formulario con la consulta o solicitud que nos quiere hacer llegar. Pronto nos contactaremos contigo.</p>
+          <input type="text" class="form-control mi-input" placeholder="Nombre y Apellido">
+          <br>
+          <input type="text" class="form-control mi-input" placeholder="Correo electrónico">
+          <br>
+          <textarea name="" id="" cols="20" rows="5" style="width: 100%;" placeholder="Escribe aquí tu mensaje"></textarea>
+           <br>
+           <input class="button" type="submit" value="ENVIAR" class="submit-btn">
+        </div>
+        <div class="social">
+            <i class="fa fa-cogs col-md-1" aria-hidden="true"></i>
+            <br>
+            <p class="col-md-4">Tambien puedes contactarnos en nuestras redes sociales</p>
+            <ul class="list-unstyled list-inline redes col-md-6 text-center">
+              <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+              <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+            </ul>
+        </div>
+      </div>
+      <div class="col-md-4 padding datos-ubicacion">
+        <div class="col-md-1"><h1><i class="fa fa-map-marker"></i></h1></div>
+        <div class="col-md-10"><h3>ENCUÉNTRANOS</h3></div>
+        <div class="col-md-12">
+          <p>Oficina</p>
+          <p>Av. Salaverry s/n Urb. Lara, Socabaya</p>
+          <p>Tel. (054) 436555</p>
+          <p>Email: pazperuong@gmail.com</p>
+          <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15305.451885566476!2d-71.5307593!3d-16.4571485!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6b15506b678c651!2sONG+PAZ+PERU!5e0!3m2!1ses-419!2spe!4v1481836115519" width="100%" height="228" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+        </div>
+              
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="footer2">
+    <div class="container">
+      <div class="row contacto2">
+        <div class="col-md-4 col-sm-4">
+          <h5>Follow us</h5>
+          <hr>
+          <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium voluptatibus deserunt quae unde esse quod nihil aperiam, odio iste quidem officia voluptate deleniti autem cum, ipsam qui earum tenetur, maxime.</p>
+          </div>
+          <div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-4">
+          <h5>Menú</h5>
+          <hr>
+          <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-6 footer_menu">
+              <p><a href="#"><i class="fa fa-chevron-right"></i> About</a></p>
+              <p><a href="#"><i class="fa fa-chevron-right"></i> Blog</a></p>
+              <p><a href="#"><i class="fa fa-chevron-right"></i> Contact</a></p>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-6 footer_menu">
+              <ul style="padding-left: 0px;">
+                <p><a href="#"><i class="fa fa-chevron-right"></i> Services</a></p>
+                <p><a href="#"><i class="fa fa-chevron-right"></i> About</a></p>
+                <p><a href="#"><i class="fa fa-chevron-right"></i> Portfolio</a></p>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-4">
+          <h5>Contact Info</h5>
+          <hr>
+          <div class="row">
+            <div class="col-md-2 col-sm-2 col-xs-1 text-center">
+                <p><i class="fa fa-phone"></i></p>
+                <p><i class="fa fa-envelope"></i></p>
+                <p><i class="fa fa-clock-o"></i></p>
+                <p><i class="fa fa-map-marker"></i></p>
+            </div>
+            <div class="col-md-10 col-sm-10 col-xs-11 comunic">
+                <p>(054) 436555</p>
+                <p><a class="correo" href="mailto:pazperuong@gmail.com" target="_blank">pazperuong@gmail.com</a></p>
+                <p>Lun-Sáb 8:00 - 18:00</p>
+                <p>Av. Salaverry S/N Urb. Lara
+                </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-final">
+      <div class="container">
+        <p class="text-center"> <small>©2016 - ONG PAZ PERÚ</small></p>
+      </div>
+  </div>
+</body>
+</html>

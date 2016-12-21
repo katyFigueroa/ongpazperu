@@ -1,0 +1,104 @@
+/**{outline: 1px solid red;}*/
+/*.affix {
+      top: 80px;
+  }*/
+  .affix {width: 292px; bottom: 0px;  top:75px;}   /*24%, width:292px;*/
+
+@media (max-width: 1199px){.affix {width: 245px; bottom: 0px;  top:75px;} }
+@media only screen and (min-width: 300px ) and (max-width: 991px){.affix {width: 188px; bottom: 0px;  top:75px;} }
+@media only screen and (min-width: 300px ) and (max-width: 761px){.affix {width: 190px; bottom: 0px;  top:75px;} }
+@media only screen and (min-width: 300px ) and (max-width: 740px){.affix {width: 180px; bottom: 0px;  top:75px;} }
+@media only screen and (min-width: 300px ) and (max-width: 713px){.affix {width: 175px; bottom: 0px;  top:75px;} }
+@media only screen and (min-width: 300px ) and (max-width: 695px){.affix {width: 170px; bottom: 0px;  top:75px;} }
+@media only screen and (min-width: 300px ) and (max-width: 685px){.affix {width: 167px; bottom: 0px;  top:75px;} }
+
+
+
+body{font-family:'Roboto', sans-serif;}
+.imagen-hero{
+	background-image: url("../img/programas/casa_isabel/casa-portada.jpg");
+	background-size: cover;
+	width: 100%;
+	height: 450px;
+	position: relative;
+  margin-top: 80px;
+}
+.imagen-hero .titulo{
+    font-size: 30px;
+    font-family:'Roboto', sans-serif;   
+    font-weight: 500;
+    text-shadow: 0 1px 1px #000;
+}
+.imagen-hero .block{
+    color:white;
+    background-color: rgba(0,0,0,0.6);
+    width: 400px; height: auto;
+    float: right;
+    margin-top: 140px;
+    padding: 20px;
+    text-align: center;
+}
+.content-info .submenu ._Title{padding-top: 19px;}
+.content-info .submenu #accordion h4{text-transform: uppercase; font-weight: 300;}
+.content-info .submenu #accordion h3{text-transform: uppercase; font-weight: 300; font-size: 14px;}
+.content-info .submenu #accordion .glyphicon { margin-right:10px; }
+.content-info .submenu #accordion .panel-body { padding:0px; }
+.content-info .submenu #accordion .panel-body .table {margin-bottom: 0px; }
+.content-info .submenu #accordion .panel-heading {background-color:rgb(50,57,70); color:white; border-radius: 0px;}
+.content-info .submenu #accordion .panel-collapse .panel-body .table_1{background-color:transparent; border:1px solid rgb(50,57,70); margin:3px 0px; border-radius:5px;}
+.content-info .submenu #accordion .panel-collapse .panel-body .table_1:hover{background-color:rgb(229,229,229); border: 1px solid gray;}
+.content-info .submenu #accordion .panel-body .table_1 h5 { padding-left: 15px; }
+.content-info .submenu #accordion .panel-body .table_1 h5 a{color: rgb(50,57,70); }
+
+
+
+.content-info .info-text{background-color: rgb(229,229,229); padding-bottom: 30px; padding-top: 10px;}
+.content-info .info-text .titulo{
+    background-color: rgb(50,57,70); padding: 12px 1em; color: white;
+    font-size: 30px; font-weight: 500; text-shadow: 0 1px 1px #000;}
+.content-info .info-text h4{font-size: 16px; font-weight: 600; color: rgb(40, 46, 58);}
+.content-info .info-text .gallery img{margin-bottom: 8px; width: 100%;}
+.content-info .info-text .casas .cuadro{background:#435663; color: white; padding: 15px; margin-bottom: 8px;box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);border-radius: 10px;}
+.content-info .info-text .casas .cuadro p{margin: 0px;}
+
+
+.content-info .info-text .talleres #accordion2 .nopadding{padding: 0;}
+.content-info .info-text .talleres #accordion2 .productos{margin-top: 0.5em;}
+.content-info .info-text .talleres #accordion2 .subtitulo{ background-color: rgb(251, 61, 61); color:white; border-left: 15px solid #fff; border-right: 15px solid#fff; border-top: 5px solid #fff;}
+.content-info .info-text .talleres #accordion2 .panel-default>.panel-heading{background-color: #435663; color:white;}
+.content-info .info-text .talleres #accordion2 .panel-default>.panel-heading .panel-title{color:white; font-weight: 100;font-size:15px; }
+.content-info .info-text .talleres #accordion2 .panel-default .panel-body .images{margin: auto;}
+.content-info .info-text .talleres #accordion2 .panel-default .panel-body .images img{width: 100%;}
+.content-info .info-text .talleres #accordion2 .panel-default .panel-body .images1 img{width: 100%; margin-bottom: 5px;}
+
+.content-info .talleres input{
+    width: 100%; margin-bottom: 10px; color: white; text-transform: uppercase; padding: 10px; border-radius: 10px;
+    border:1px solid rgba(251,65,65,0.8);background: rgba(251,65,65,0.9);}
+.content-info .info-text .talleres .enlaces{margin:0px; background: white; color: rgb(67,86,99); margin: 15px auto; color:white; padding: 4px 1em;}
+.content-info .info-text .talleres .enlaces h4{font-size: 17px; font-weight: 600;}
+.content-info .info-text .title_menu2{background-color: rgb(40,57,70); color:white; padding:10px; text-transform: uppercase; margin-top:5px; margin-bottom: 5px;}
+.side-menu {width: 100%;height:auto;background-color: #f8f8f8;border-right: 1px solid #e7e7e7;}
+.side-menu .navbar {border: none;}
+.side-menu .navbar-nav{margin: 0;}
+.side-menu .navbar-nav li:hover{background-color: transparent;}
+.side-menu .navbar-header {width: 100%;background-color:#0061aa;border-bottom: 1px solid #e7e7e7;}
+.side-menu .navbar-nav .active a { background-color: transparent;margin-right: -1px;border-right: 3px solid #0061aa;}
+.side-menu .navbar-nav li {display: block;width: 100%;background-color:#dedede;border-bottom: 1px solid #e7e7e7;border-left:4px solid #fff;}
+.side-menu .navbar-nav li a {padding: 10px;color:#0061aa;font-size:.9em;}
+.side-menu #dropdown {border: 0;margin-bottom: 0;border-radius: 0;background-color:white;box-shadow: none;}
+.side-menu .name-titulo:hover{background-color: rgb(40,57,70); color:white;}
+.side-menu #dropdown .caret {float: right;margin: 9px 5px 0;}
+.side-menu #dropdown > a {border-bottom: 1px solid #c3c3c3;}
+.side-menu #dropdown .panel-body {padding: 0;background-color: #e7e7e7;}
+.side-menu #dropdown .panel-body .navbar-nav {width: 100%;}
+.side-menu #dropdown .panel-body .navbar-nav li {padding-left: 15px;border-bottom: 1px solid #fff;}
+.side-menu #dropdown .panel-body .navbar-nav li:last-child {border-bottom: none;}
+.side-menu #dropdown .panel-body .panel > a {margin-left: -20px;padding-left: 35px;}
+.side-menu #dropdown .panel-body .panel-body {margin-left: -15px;}
+.side-menu #dropdown .panel-body .panel-body li {padding-left: 30px;}
+.side-menu #dropdown .panel-body .panel-body li:last-child {border-bottom: 1px solid #e7e7e7;}
+@media (max-width: 768px) {
+  .side-menu {position: relative; width: 100%;height: 0;border-right: 0;border-bottom: 1px solid #e7e7e7;}
+  .side-menu .brand-name-wrapper .navbar-brand {display: inline-block;}
+}
+@media only screen and (min-width: 300px ) and (max-width: 767px){ .menu2{visibility: visible;}}

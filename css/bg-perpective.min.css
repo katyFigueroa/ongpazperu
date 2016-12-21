@@ -1,0 +1,43 @@
+
+.mistrabajos,b{position:relative;overflow:hidden}
+.introduction,.mistrabajos,.text{text-align:center}
+@keyframes move{0%{top:0}20%{top:-50px}40%{top:-100px}60%{top:-150px}80%{top:-200px}}
+.mistrabajos{background-size:cover;padding:0em 0 0em;color:white;      /*(2,20,50,.9);*/
+	margin-bottom:0;border-bottom:none;background-color:rgba(0,0,0,0.9);
+	background-image:-webkit-radial-gradient(farthest-corner,rgba(0,0,0,.5),rgba(0,0,0,.95));
+	background-image:radial-gradient(farthest-corner,rgba(0,0,0,.5),rgba(0,0,0,0))}
+/*.mistrabajos .grid{padding:1rem 0}*/
+.following.bar,.mistrabajos{-webkit-transform-style:preserve-3d;
+	-moz-transform-style:preserve-3d;-o-transform-style:preserve-3d;
+	-ms-transform-style:preserve-3d;transform-style:preserve-3d;
+	-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);
+	transform:translate3d(0,0,0);-ms-transition:background-color 3s ease-in-out 2s;
+	-moz-transition:background-color 3s ease-in-out 2s;
+	-webkit-transition:background-color 3s ease-in-out 2s;
+	transition:background-color 3s ease-in-out 2s;-webkit-perspective:3000px;
+	-moz-perspective:3000px;-o-perspective:3000px;-ms-perspective:3000px;perspective:3000px}
+.pushed .following.bar,.pushed .mistrabajos{
+	-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);
+	transform:translate3d(0,0,0)}
+.colored.following.bar,.mistrabajos.colored{-webkit-animation-name:colors;
+	-moz-animation-name:colors;-o-animation-name:colors;animation-name:colors;
+	-webkit-animation-delay:0s;-moz-animation-delay:0s;-ms-animation-delay:0s;
+	-o-animation-delay:0s;animation-delay:0s;-webkit-animation-duration:120s;-moz-animation-duration:120s;
+	-ms-animation-duration:120s;-o-animation-duration:120s;animation-duration:120s;
+	-webkit-animation-fill-mode:both;-moz-animation-fill-mode:both;-ms-animation-fill-mode:both;-o-animation-fill-mode:both;animation-fill-mode:both;animation-timing-function:linear;-webkit-animation-timing-function:linear;-webkit-animation-iteration-count:infinite;-moz-animation-iteration-count:infinite;-ms-animation-iteration-count:infinite;-o-animation-iteration-count:infinite;animation-iteration-count:infinite}
+.mistrabajos:after{position:absolute;width:800%;height:420%;top:-60%;left:0;content:'';
+	background-image:url(../img/fondo-logos.png);-moz-transform-origin:50% 50%;-o-transform-origin:50% 50%;-ms-transform-origin:50% 50%;transform-origin:50% 50%;-webkit-transform-style:preserve-3d;-moz-transform-style:preserve-3d;-o-transform-style:preserve-3d;-ms-transform-style:preserve-3d;transform-style:preserve-3d;-webkit-animation-name:splash;-moz-animation-name:splash;-o-animation-name:splash;animation-name:splash;
+	-ms-transition:opacity 3s ease-in-out,transform 5s ease-in-out;-webkit-transition:opacity 3s ease-in-out,transform 5s ease-in-out;-moz-transition:opacity 3s ease-in-out,transform 5s ease-in-out;transition:opacity 3s ease-in-out,transform 5s ease-in-out;opacity:.1;
+	-webkit-animation-duration:20s;-moz-animation-duration:20s;-ms-animation-duration:20s;-o-animation-duration:20s;animation-duration:20s;-webkit-animation-fill-mode:both;-moz-animation-fill-mode:both;-ms-animation-fill-mode:both;-o-animation-fill-mode:both;animation-fill-mode:both;animation-timing-function:linear;-webkit-animation-timing-function:linear;-webkit-animation-iteration-count:infinite;
+	-moz-animation-iteration-count:infinite;-ms-animation-iteration-count:infinite;-o-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform:rotateX(50deg) rotateZ(0) rotateY(0) translateY(-14%) translateX(-14%) translateZ(370px);-moz-transform:rotateX(50deg) rotateZ(0) rotateY(0) translateY(-14%) translateX(-14%) translateZ(370px);transform:rotateX(50deg) rotateZ(0) rotateY(0) translateY(-14%) translateX(-14%) translateZ(370px);z-index:-20000}
+	.mistrabajos.zoomed{background-color:#444}.mistrabajos.zoomed:before{opacity:.1;-webkit-transform:rotateX(0) rotateZ(0) rotateY(0) translateZ(0);-moz-transform:rotateX(0) rotateZ(0) rotateY(0) translateZ(0);transform:rotateX(0) rotateZ(0) rotateY(0) translateZ(0)}
+	.mistrabajos.zoomed:after{opacity:0;-webkit-transform:rotateX(0) rotateZ(0) rotateY(0) translateY(-6%) translateZ(0);-moz-transform:rotateX(0) rotateZ(0) rotateY(0) translateY(-6%) translateZ(0);transform:rotateX(0) rotateZ(0) rotateY(0) translateY(-6%) translateZ(0)}@keyframes splash{0%{background-position:0 0}100%{background-position:0 -475px}}@-moz-keyframes splash{0%{background-position:0 0}100%{background-position:0 -475px}}
+	@-webkit-keyframes splash{0%{background-position:0 0}100%{background-position:0 -475px}}@-ms-keyframes splash{0%{background-position:0 0}100%{background-position:0 -475px}}@-o-keyframes splash{0%{background-position:0 0}100%{background-position:0 -475px}}@keyframes colors{0%{background-color:#00B5AD}12%{background-color:#3B83C0}25%{background-color:#E07B53}37%{background-color:#D9499A}50%{background-color:#564F8A}100%,62%{background-color:#F2C61F}75%{background-color:#D95C5C}87%{background-color:#5BBD72}}
+	@-moz-keyframes colors{0%{background-color:#00B5AD}12%{background-color:#3B83C0}25%{background-color:#E07B53}37%{background-color:#D9499A}50%{background-color:#564F8A}100%,62%{background-color:#F2C61F}75%{background-color:#D95C5C}87%{background-color:#5BBD72}}@-webkit-keyframes colors{0%{background-color:#00B5AD}12%{background-color:#3B83C0}25%{background-color:#E07B53}37%{background-color:#D9499A}50%{background-color:#564F8A}100%,62%{background-color:#F2C61F}75%{background-color:#D95C5C}87%{background-color:#5BBD72}}
+	@-ms-keyframes colors{0%{background-color:#00B5AD}12%{background-color:#3B83C0}25%{background-color:#E07B53}37%{background-color:#D9499A}50%{background-color:#564F8A}100%,62%{background-color:#F2C61F}75%{background-color:#D95C5C}87%{background-color:#5BBD72}}@-o-keyframes colors{0%{background-color:#00B5AD}12%{background-color:#3B83C0}25%{background-color:#E07B53}37%{background-color:#D9499A}50%{background-color:#564F8A}100%,62%{background-color:#F2C61F}75%{background-color:#D95C5C}87%{background-color:#5BBD72}}
+	.animated.following.bar.stopped:after,.mistrabajos.stopped:after{-webkit-animation-name:none;-moz-animation-name:none;-o-animation-name:none;animation-name:none}.mistrabajos.segment .typed-cursor{position:relative;top:-.05em;left:-.25em;opacity:1;-webkit-animation:blink .7s infinite;-moz-animation:blink .7s infinite;animation:blink .7s infinite}@keyframes blink{0%,100%{opacity:1}50%{opacity:0}}@-webkit-keyframes blink{0%,100%{opacity:1}50%{opacity:0}}@-moz-keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
+	.vertical.segment{box-shadow:none}.mistrabajos.segment h1{font-size:3em;color:rgba(255,255,255,.5);line-height:1.2;margin:0;padding-bottom:0;-moz-perspective:500px;-webkit-perspective:500px;perspective:500px;-moz-transform-style:preserve-3d;-webkit-transform-style:preserve-3d;transform-style:preserve-3d}.mistrabajos.segment h1>.library{visibility:hidden;display:block;font-size:1.75em;color:#FFF;font-weight:700}.mistrabajos.segment h1 b{display:inline-block;font-weight:300;color:#FFF}
+	.mistrabajos.segment h1 .text{display:inline-block;font-weight:300;margin-left:-.4em}
+	/*.mistrabajos h2,.ui.header{font-weight:400}.mistrabajos h2{margin:0 0 16px;font-size:1.75em;border-bottom:none;line-height:1}*/
+.mistrabajos p{font-size:.7em;margin:1em 0 1.5em;padding:0}
+

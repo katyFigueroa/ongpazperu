@@ -1,0 +1,254 @@
+/**{outline: 1px solid red;}*/
+.hero{
+    background-image: url(../img/programas/cetpro/cetpro-portada.jpg);
+    background-size: cover;width: 100%; height: 450px;
+    margin-top: 80px;
+}
+
+.nomargin{margin: 0;}
+.nopadding{padding: 0;}
+.padding-left{padding-left: 25px;}
+.padding-right{padding-right: 25px;}
+.padding{padding: 30px;}
+.inline-block{display: inline-block; margin: 5px;}
+.margin{margin: 10px auto;}
+.panel-default{width: 100%;}
+.contact .titulo-contact{background:rgb(67, 86, 99); padding: 2px 10px; margin: 15px auto;}
+.contact .titulo-contact h3{ color: white; text-transform: none; font-size: 20px; text-shadow: 0 1px 1px #000; margin-top: 10px;}
+.contact .address {padding: 5px;  background: #f5f5f5; margin: 5px 0px 15px;}
+.contact .address .fa{font-size: 30px; color: rgb(50,57,70);width: 20px;}
+.contact .address p{margin-bottom: 0px;}
+.formulario .form-control{margin-bottom: 7px;}
+.formulario .button{float: right; background: transparent;color:rgb(67, 86, 99); padding:2px 25px; border: 1px solid rgb(67, 86, 99); }
+.foto-carrera{
+    background-position: center;
+    background-size: cover;
+}
+.carrera1{background-image: url(../img/programas/cetpro/carrera1.jpg);}
+.carrera2{background-image: url(../img/programas/cetpro/carrera2.jpg);}
+.carrera3{background-image: url(../img/programas/cetpro/carrera3.jpg);}
+.carrera4{background-image: url(../img/programas/cetpro/carrera4.jpg);}
+.carrera5{background-image: url(../img/programas/cetpro/carrera5.jpg);}
+.carrera6{background-image: url(../img/programas/cetpro/carrera6.jpg);}
+/*---------------- CONTENIDOO ----------*/
+.titulo-general{background: rgb(67, 86, 99); color: #fff; padding: 20px; text-align: center;}
+.panel-default { border-color: #fff; }
+.panel-default>.panel-heading {color: #fff; background-color: rgb(67, 86, 99);}
+.titulo-programa{width: 100%; background: rgb(50,57,70); padding: 12px 1em; font-size: 30px; color: #fff; margin-bottom: 15px; text-shadow: 0 1px 1px #000; margin-top:0px;}
+#cetpro{padding: 30px 20px; background: rgb(229, 229, 229);}
+.titulo-blanco{background: #fff; padding: 4px 1em; margin: 15px auto 0px; color: rgb(50,57,70);}
+.titulo-blanco h4{font-size: 17px; font-weight: 600;}
+.direc-poli{padding: 5px; width: 70%; background: #f5f5f5; margin: 5px 20px; float: right;}
+.titulo-linea h4{font-size: 16px; font-weight: 600; color: rgb(40, 46, 58);}
+.estructura-cet{
+    padding: 5px;
+    margin: 10px auto; 
+    height: 190px;
+    max-width: 100%;
+    background-image: url(../img/programas/cetpro/cetpro1.jpg);
+    background-size: cover;
+    background-position: top;
+    border: 1px solid #fff;
+ /*----------- redondos-------*/
+
+}
+.board .nav-tabs {position: relative; margin-bottom: 0; box-sizing: border-box;}
+.board > div.board-inner > .nav-tabs {border: none;}
+.board .board-inner{margin-left: 4%;}
+p.narrow{width: 60%; margin: 10px auto;}
+.nav-tabs > li p{position: absolute; line-height: 15px; font-size: 50%; color: rgb(251, 65, 65);}
+span.round-tabs{
+    width: 70px;
+    height: 70px;
+    line-height: 75px;
+    display: inline-block;
+    border-radius: 100px;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    background: rgba(251, 65, 65,.8);
+}
+span.round-tabs:hover{background: transparent; color: rgb(251, 65, 65); border: 1px solid rgba(251,65,65,.9);}
+li.active span.round-tabs.one, li.active span.round-tabs.two, li.active span.round-tabs.three, li.active span.round-tabs.four, li.active span.round-tabs.five {
+    background: #fff !important;
+    border: 1px solid rgba(251,65,65,.9);
+    color: rgba(251,65,65,.9);
+}
+.nav-tabs > li {width: 16%;}
+.nav-tabs > li a{width: 70px; height: 70px; margin: 10px auto 40px; border-radius: 100%; padding: 0; color: #000;}
+.tab-pane{position: relative; padding-top: 10px;}
+.btn-outline-rounded{padding: 10px 40px; margin: 20px 0; border: 2px solid transparent; border-radius: 25px;}
+.contenido-carreras, .foto-carrera{ margin: 5px; height: 13.5em;}
+.contenido-carreras{background: rgba(251, 65, 65,.8); color: #fff; padding: 10px;}
+.carrera-blanco{ background: #fff; padding: 5px; color: rgb(67, 86, 99);}
+.infra-cet{ padding: 10px; background: rgb(67, 86, 99); color: #fff; margin: 10px auto; border-radius: 5px;}
+.tab-content hr{margin-top: 0px; margin-bottom: 10px;}
+
+.cetpro1{background-image: url(../img/programas/cetpro/manicure.jpg);}
+.cetpro2{background-image: url(../img/programas/cetpro/computo.jpg);}
+.cetpro3{background-image: url(../img/programas/cetpro/soldadura.jpg);}
+.cetpro4{background-image: url(../img/programas/cetpro/carpinteria.jpg);}
+.cetpro1, .cetpro2, .cetpro3, .cetpro4{
+    background-size: cover;
+    background-position: center;
+    height: 240px;
+    width: 100%;
+    border: 5px solid #fff; 
+}
+.snip1494 {
+  position: relative;
+  overflow: hidden;
+  color: #ffffff;
+  font-size: 16px;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+.snip1494 *,
+.snip1494 *:before,
+.snip1494 *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.snip1494 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.snip1494 figcaption:before,
+.snip1494 figcaption:after,
+.snip1494 figcaption div:before,
+.snip1494 figcaption div:after {
+  opacity: 0;
+  -webkit-transform: scale(0.05);
+  transform: scale(0.05);
+}
+.snip1494 figcaption:before,
+.snip1494 figcaption:after {
+  height: 50%;
+  width: 50%;
+  position: absolute;
+  content: '';
+  background-color: #080808;
+}
+.snip1494 figcaption:before {
+  top: 0;
+  left: 0;
+}
+.snip1494 figcaption:after {
+  bottom: 0;
+  right: 0;
+}
+.snip1494 figcaption div:before,
+.snip1494 figcaption div:after {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  content: '';
+  background-color: #000000;
+}
+.snip1494 figcaption div:before {
+  top: 0;
+  right: 0;
+}
+.snip1494 figcaption div:after {
+  bottom: 0;
+  left: 0;
+}
+.snip1494 i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 1.2em;
+  z-index: 1;
+  opacity: 0;
+}
+.snip1494 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.snip1494:hover i{
+  opacity: 0.7;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+.snip1494:hover figcaption:before,
+.snip1494:hover figcaption:after,
+.snip1494:hover figcaption div:before,
+.snip1494:hover figcaption div:after{
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  opacity: 0.5;
+}
+.snip1494:hover figcaption:before{
+  -webkit-transition-delay: 0;
+  transition-delay: 0;
+}
+.snip1494:hover figcaption:after{
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+.snip1494:hover figcaption div:before {
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+.snip1494:hover figcaption div:after{
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+
+
+
+@media (min-width: 200px) and (max-width: 991px){
+    .cetpro1, .cetpro2, .cetpro3, .cetpro4{margin-bottom: 7px; }
+}
+
+@media (min-width: 200px) and (max-width: 570px){
+    .board .board-inner{margin-left: 0%;}
+    .board-inner{margin-right: 105%;}
+    ul .nav-tabs{height: 500px; padding: 0; margin: 5px 20px 5px 0;}
+    .nav-tabs>li{margin: -2px 10px; float: none;}
+    .tab-content>.active {display: block; position: absolute; top: 0px; margin-left: 26%; right: 4%;}
+    span.round-tabs {font-size:100%; width: 50px; height: 50px; line-height: 50px;}
+    .nav-tabs > li a{width: 50px; height: 50px; margin-bottom: 40px;}
+    .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{height: 50px; width: 50px;}
+    .nav-tabs > li p{font-size: 13px;top: 110%;}
+    .contenido-carreras{font-size: 100%; height: 17em; line-height: 13px;}
+    .foto-carrera {height: 17.5em;}
+}
+@media (min-width: 200px) and (max-width: 445px){
+    .nav-tabs > li p{font-size: 11px;top: 110%;}
+}
+@media (min-width: 200px) and (max-width: 400px){
+    .nav-tabs > li p{visibility: hidden;}
+    .nav-tabs > li a{margin-bottom: 20px;}
+    .contenido-carreras{font-size: 80%; height: 15.8em; line-height: 13px;}
+    .foto-carrera {height: 12em;}
+}
+@media (min-width: 200px) and (max-width: 381px){
+    .contenido-carreras{font-size: 80%; height: 19em; line-height: 13px;}
+    .foto-carrera {height: 10em;}
+}
+@media (min-width: 200px) and (max-width: 359px){
+    .nav-tabs li{display:inline-block;}
+    .board-inner{margin-right: 0%;}
+    .tab-content>.active {display: block; position: relative; top: -0px; margin-left: 0%; right: 0%;}
+    .contenido-carreras{font-size: 90%; height: 18em; line-height: 13px;}
+    .foto-carrera {height: 10em;}
+    .nav-tabs > li a{margin-bottom: 0px;}
+    .board .board-inner{margin-left: 15%;}
+}
+@media (min-width: 200px) and (max-width: 300px){
+    .board .board-inner{margin-left: 7%;}
+}
