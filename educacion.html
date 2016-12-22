@@ -49,7 +49,6 @@
 </div>
 <!-- -------------FIN MENU--------------- -->
 <div class="imagen-hero">
-    <img src="img/programas/casa_isabel/casa-portada.jpg">
     <div class="container">
         <div class="row">
             <div class=" col-xs-12 col-md-12">
@@ -168,26 +167,17 @@ function posicionarMenu() {
 </script> -->
 
             <div class="col-md-9 col-sm-9 col-xs-12 info-text pull-right">
-                <div class="col-md-12 concepto text-justify">
+                <div class="col-md-12 concepto">
                     <h3 class="titulo">Casa Isabel</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p class="text-justify">Son hogares de acogida temporal para niñas, adolescentes y madres con niños, que sufren abandono, violencia familiar, psicológica  y/o sexual. Impulsamos en ellas a encontrarse a sí mismas y vivir en paz, con respeto y justicia.</p>
                     <h4>OBJETIVO</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat.</p>
+                    <p class="text-justify">Brindar un servicio de atención integral gratuito y asistencial a través de un equipo profesional especializado del programa para así impulsar una reinserción apropiada ante la sociedad.</p>
                     <H4>SERVICIOS QUE BRINDA</H4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>
+                        <li>Infraestructura segura y adecuada.</li>
+                        <li>Ambientes cómodos (dormitorios, sala de estudios, sala de juegos, comedor, entre otros).</li>
+                        <li>Asistencia, investigación y formación </li>
+                    </p>
                 </div>
                 <div class="col-md-12 gallery">
                     <div class="row">
@@ -211,14 +201,9 @@ function posicionarMenu() {
                         </div>
                     </div>
                 </div>
-                <br>
                 <div class="casas">
                     <div class="col-md-12">
                         <h4>NUESTROS HOGARES</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat.</p>
                     </div>
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2">
@@ -233,7 +218,6 @@ function posicionarMenu() {
                         </div>
                     </div>
                 </div>
-                <br>
                 <div class="talleres">
                     <div class="col-md-12">
                         <h4>TALLERES CREATIVOS</h4>
@@ -318,54 +302,57 @@ function posicionarMenu() {
                     </div>
 
                     <div class="col-md-4">
-                        <a class="boton" href="#"><input class="" type="button" name="button" value="Colabora con Nosotros"></a>
                         <div class="video">
                             <iframe width="100%" height="300" src="https://www.youtube.com/embed/rjqnpZW4F1A" frameborder="0" allowfullscreen></iframe>
                         </div>
                         <div class="row">
                             <div class="menu2 hidden-lg hidden-md hidden-sm col-xs-8">
                             <h4 class="text-center title_menu2">Programas Sociales</h4>
-                                <div class="side-menu">
-                                    <nav class="navbar navbar-default" role="navigation">
-                                        <div class="side-menu-container" style="position: relative;">
-                                            <ul class="nav">
-                                                <li class="panel panel-default" id="dropdown">
-                                                    <a class="name-titulo" data-toggle="collapse" href="#salud">SALUD <span class="caret"></span></a>
-                                                    <div id="salud" class="panel-collapse collapse">
-                                                        <div class="panel-body">
-                                                        <ul class="nav navbar-nav">
-                                                                <li><a href="#">Policlínico</a></li>
-                                                                <li><a href="#">Clínica Odontológica</a></li>
-                                                            </ul>
-                                                        </div>
+                                <div class=" row menu_responsive" id="accordion2 menu-up">
+                                    <div class="col-sm-12 col-md-12">
+                                        <div class="panel-group" id="_menuResponsive">
+                                            <div class="panel panel-default nav nav-pills nav-stacked admin-menu">
+                                                <div class="panel-heading title" data-toggle="collapse"  data-target-id="1" data-parent="#_menuResponsive" href="#uno">
+                                                    <h4 class="panel-title"> SALUD</h4>
+                                                </div>
+                                                <div id="uno" class="panel-collapse collapse in ">
+                                                    <div class="padding">
+                                                        <ul class="">
+                                                            <a href="policlinico.html"><li>Policlínico</li></a>
+                                                            <a href="odontológico.html"><li>Clínica Odontológica</li></a>
+                                                        </ul> 
                                                     </div>
-                                                </li>
-                                                <li class="panel panel-default" id="dropdown">
-                                                    <a class="name-titulo" data-toggle="collapse" href="#educacion">EDUCACIÓN <span class="caret"></span></a>
-                                                    <div id="educacion" class="panel-collapse collapse">
-                                                        <div class="panel-body">
-                                                        <ul class="nav navbar-nav">
-                                                                <li><a href="#">CETPRO José Olaya</a></li>
-                                                                <li><a href="#">Inicial</a></li>
-                                                            </ul>
-                                                        </div>
+                                                </div>
+                                            </div>
+                                            <div class="panel panel-default">
+                                                <div class="panel-heading title" data-toggle="collapse"  data-target-id="4" data-parent="#_menuResponsive" href="#dos">
+                                                    <h4 class="panel-title"> EDUCACIÓN </h4>
+                                                </div>
+                                                <div id="dos" class="panel-collapse collapse">
+                                                    <div class="padding">
+                                                        <ul class="">
+                                                            <a href="cetpro.html"><li>CETPRO José Olaya</li></a>
+                                                            <a href="inicial.html"><li>Inicial</li></a>
+                                                        </ul>
                                                     </div>
-                                                </li>
-                                                <li class="panel panel-default" id="dropdown" >
-                                                    <a class="name-titulo" data-toggle="collapse" href="#ayuda">AYUDA Y PROTECCIÓN <span class="caret"></span></a>
-                                                    <div id="ayuda" class="panel-collapse collapse">
-                                                        <div class="panel-body">
-                                                        <ul class="nav navbar-nav">
-                                                                <li><a href="#">Cuna</a></li>
-                                                                <li><a href="#">Casa Isabel</a></li>
-                                                                <li><a href="#">CIAM</a></li>
-                                                            </ul>
-                                                        </div>
+                                                </div>
+                                            </div>
+                                            <div class="panel panel-default">
+                                                <div class="panel-heading title" data-toggle="collapse" data-target-id="8" data-parent="#_menuResponsive" href="#tres">
+                                                    <h4 class="panel-title"> AYUDA Y PROTECCIÓN </h4>
+                                                </div>
+                                                <div id="tres" class="panel-collapse collapse">
+                                                    <div class="padding">
+                                                        <ul class="">
+                                                            <a href="cuna.html"><li>Cuna</li></a>
+                                                            <a href="educacion.html"><li>Casa Isabel</li></a>
+                                                            <a href="ciam.html"><li>CIAM</li></a>
+                                                        </ul>
                                                     </div>
-                                                </li>
-                                            </ul>
+                                                </div>
+                                            </div>
                                         </div>
-                                    </nav>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-xs-4 col-md-12 col-sm-12">

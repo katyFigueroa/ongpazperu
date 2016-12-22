@@ -8,7 +8,7 @@
 #inicial{padding-top: 30px; background: rgb(229, 229, 229); padding-bottom: 30px;}
 h4{font-size: 16px;font-weight: 600;color: rgb(40, 46, 58);}
 
-.hero{background-image: url(../img/programas/inicial/foto-portada2.jpg); background-size: cover; width: 100%; height: 450px;}
+.hero{background-image: url(../img/programas/inicial/foto-portada2.jpg); background-size: cover; background-position:center; width: 100%; height: 450px;}
 .servicios .servi{background: rgb(67, 86, 99); color: white;padding: 3px 10px; margin-bottom: 5px; border-radius: 5px;}
 .gallery .col-md-3{margin-top: 20px;}
 .gallery img{width: 100%; margin-bottom: 10px;}
@@ -24,7 +24,6 @@ h4{font-size: 16px;font-weight: 600;color: rgb(40, 46, 58);}
   .servicios .imagen{width: 100%;}
   .gallery .col-xs-3{width: 50%;}
 }
-
 
 
 .hoverDot {
@@ -93,106 +92,6 @@ h4{font-size: 16px;font-weight: 600;color: rgb(40, 46, 58);}
 
 
 
-.material-button-anim {position: relative; padding: 127px auto 27px; text-align: center; margin: 20px auto;}
-.material-button {
-    position: relative;
-    top: 0;
-    z-index: 1;
-    width: 100px;
-    height: 100px;
-    font-size: 1em;
-    color: #fff;
-    background: rgb(251, 65, 65);
-    border: none;
-    border-radius: 50%;
-    box-shadow: 0 3px 6px rgba(0,0,0,.275);
-    outline: none;
-}
-.material-button-toggle {z-index: 3; width: 100px; height: 100px; margin: 0 auto; background: rgb(21, 56, 116);}
-.option {position: relative; display: inline-block;}
-.option .option1,
-.option .option2,
-.option .option3,
-.option .option4,
-.option .option5{ -webkit-transition: all .175s; transition: all .175s;}
-.option .option1 { 
-  -webkit-transform: translateY(78px) translateZ(0);
-  transform:         translateY(78px) translateZ(0);
-}
-.option .option2{
-  -webkit-transform: translateY(-10px) translateZ(0);
-  transform:         translateY(-10px) translateZ(0);
-}
-.option .option3{
-  -webkit-transform: translateY(78px) translateZ(0);
-  transform:         translateY(78px) translateZ(0);
-}
-.option .option4{
-  -webkit-transform: translateY(-8px) translateX(-10px);
-  transform:         translateY(-8px) translateX(-10px);
-}
-.option .option5{
-  -webkit-transform: translateY(-8px) translateX(15px);
-  transform:         translateY(-8px) translateX(15px);
-}
-/*------------- ESCONDER -----------------*/
-.option.scale-on .option1 {
-  -webkit-transform: translate3d(105px,100px,0) scale(.8,.8);
-  transform:         translate3d(105px,100px,0) scale(.8,.8);
-}
-.option.scale-on .option2{
-  -webkit-transform: translate3d(0px,105px,0) scale(.8,.8);
-  transform:         translate3d(0px,105px,0) scale(.8,.8);
-}
-.option.scale-on .option3 {
-  -webkit-transform: translate3d(-105px,105px,0) scale(.8,.8);
-  transform:         translate3d(-105px,105px,0) scale(.8,.8);
-}
-.option.scale-on .option4 {
-  -webkit-transform: translate3d(52px,-100px,0) scale(.8,.8);
-  transform:         translate3d(52px,-100px,0) scale(.8,.8);
-}
-.option.scale-on .option5{
-  -webkit-transform: translate3d(-52px,-100px,0) scale(.8,.8);
-  transform:         translate3d(-52px,-100px,0) scale(.8,.8);
-}
-
-@keyframes toggleBtnAnim {
-    0% {-webkit-transform: scale(1,1);
-        transform:         scale(1,1); }
-    25% {-webkit-transform: scale(1.4,1.4);
-        transform:         scale(1.4,1.4); }
-    75% {-webkit-transform: scale(1.2,1.2);
-        transform:         scale(1.2,1.2); }
-    100% {-webkit-transform: scale(1.3,1.3);
-        transform:         scale(1.3,1.3); }
-}
-@-webkit-keyframes toggleBtnAnim {
-    0% {-webkit-transform: scale(1,1);
-        transform:         scale(1,1); }
-    25% {-webkit-transform: scale(1.4,1.4);
-        transform:         scale(1.4,1.4); }
-    75% {-webkit-transform: scale(1.2,1.2);
-        transform:         scale(1.2,1.2); }
-    100% {-webkit-transform: scale(1.3,1.3);
-        transform:         scale(1.3,1.3); }
-}
-@media (min-width: 400px) and (max-width: 459px){
-  .option .option1{transform: translateY(120px) translateX(-40px);}
-  .option .option2{transform: translateY(50px) translateX(-35px);}
-  .option .option3{transform:  translateY(48px) translateX(75px);}
-  .option .option4{transform:  translateY(5px) translateX(-10px);}
-  .option .option5{transform: translateY(5px) translateX(10px);}
-}
-@media( max-width : 633px ){
-  .material-button{width: 90px; height: 90px;}
-  .option .option1{transform: translateY(170px) translateX(-55px);}
-  .option .option2{transform: translateY(80px) translateX(-50px);}
-  .option .option3{transform: translateY(78px) translateX(100px);}
-}
-
-
-
 .gallery figure .foto1 {-webkit-filter: grayscale(0); filter: grayscale(0);-webkit-transition: .3s ease-in-out; transition: .3s ease-in-out;}
 .gallery figure:hover .foto1{-webkit-filter: grayscale(100%);filter: grayscale(100%);}
 .gallery figure .foto2 {-webkit-filter: grayscale(0); filter: grayscale(0);-webkit-transition: .3s ease-in-out; transition: .3s ease-in-out;}
@@ -213,9 +112,12 @@ h4{font-size: 16px;font-weight: 600;color: rgb(40, 46, 58);}
   .valores .hoverDot .icon-group {font-size: 80%;}
   .valores .hoverDot:hover .icon-group{font-size: 80%;}
 }
+@media (min-width: 270px) and (max-width: 500px){
+  .titulo-programa{font-size: 25px; text-align: center;}
+}
 @media (min-width: 270px) and (max-width: 370px){
   .valores .col-xs-6{width: 100%;}
-  .valores .hoverDot {width: 70%; padding-bottom: 70%;}
+  .valores .hoverDot {width: 70%; padding-bottom: 70%; margin-bottom: 5px;}
   .valores .hoverDot:hover .icon-group{padding: 12.7%;}
   .valores .col-xs-offset-3{margin-left: 0%;}
   .valores .hoverDot .icon-group {font-size: 90%;}

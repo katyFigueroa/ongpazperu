@@ -15,13 +15,14 @@
 
 
 body{font-family:'Roboto', sans-serif;}
-.imagen-hero img{
-	/*background-image: url("../img/programas/casa_isabel/casa-portada.jpg");*/
-	/*background-size: cover;*/
+.imagen-hero{
+	background-image: url("../img/programas/casa_isabel/casa-portada.jpg");
+	background-size: cover;
+  background-position: center;
 	width: 100%;
-/*	height: 450px;
-	position: relative;*/
-  margin-top: 85px;
+	height: 450px;
+	position: relative;
+  margin-top: 80px;
 }
 .imagen-hero .titulo{
     font-size: 30px;
@@ -71,34 +72,19 @@ body{font-family:'Roboto', sans-serif;}
 .content-info .info-text .talleres #accordion2 .panel-default .panel-body .images img{width: 100%;}
 .content-info .info-text .talleres #accordion2 .panel-default .panel-body .images1 img{width: 100%; margin-bottom: 5px;}
 
-.content-info .talleres input{
-    width: 100%; margin-bottom: 10px; color: white; text-transform: uppercase; padding: 10px; border-radius: 10px;
-    border:1px solid rgba(251,65,65,0.8);background: rgba(251,65,65,0.9);}
-.content-info .info-text .talleres .enlaces{margin:0px; background: white; color: rgb(67,86,99); margin: 15px auto; color:white; padding: 4px 1em;}
+.content-info .info-text .talleres .enlaces{background: white; color: rgb(67,86,99); margin: 10px auto; color:white; padding: 4px 1em;}
 .content-info .info-text .talleres .enlaces h4{font-size: 17px; font-weight: 600;}
-.content-info .info-text .title_menu2{background-color: rgb(40,57,70); color:white; padding:10px; text-transform: uppercase; margin-top:5px; margin-bottom: 5px;}
-.side-menu {width: 100%;height:auto;background-color: #f8f8f8;border-right: 1px solid #e7e7e7;}
-.side-menu .navbar {border: none;}
-.side-menu .navbar-nav{margin: 0;}
-.side-menu .navbar-nav li:hover{background-color: transparent;}
-.side-menu .navbar-header {width: 100%;background-color:#0061aa;border-bottom: 1px solid #e7e7e7;}
-.side-menu .navbar-nav .active a { background-color: transparent;margin-right: -1px;border-right: 3px solid #0061aa;}
-.side-menu .navbar-nav li {display: block;width: 100%;background-color:#dedede;border-bottom: 1px solid #e7e7e7;border-left:4px solid #fff;}
-.side-menu .navbar-nav li a {padding: 10px;color:#0061aa;font-size:.9em;}
-.side-menu #dropdown {border: 0;margin-bottom: 0;border-radius: 0;background-color:white;box-shadow: none;}
-.side-menu .name-titulo:hover{background-color: rgb(40,57,70); color:white;}
-.side-menu #dropdown .caret {float: right;margin: 9px 5px 0;}
-.side-menu #dropdown > a {border-bottom: 1px solid #c3c3c3;}
-.side-menu #dropdown .panel-body {padding: 0;background-color: #e7e7e7;}
-.side-menu #dropdown .panel-body .navbar-nav {width: 100%;}
-.side-menu #dropdown .panel-body .navbar-nav li {padding-left: 15px;border-bottom: 1px solid #fff;}
-.side-menu #dropdown .panel-body .navbar-nav li:last-child {border-bottom: none;}
-.side-menu #dropdown .panel-body .panel > a {margin-left: -20px;padding-left: 35px;}
-.side-menu #dropdown .panel-body .panel-body {margin-left: -15px;}
-.side-menu #dropdown .panel-body .panel-body li {padding-left: 30px;}
-.side-menu #dropdown .panel-body .panel-body li:last-child {border-bottom: 1px solid #e7e7e7;}
-@media (max-width: 768px) {
-  .side-menu {position: relative; width: 100%;height: 0;border-right: 0;border-bottom: 1px solid #e7e7e7;}
-  .side-menu .brand-name-wrapper .navbar-brand {display: inline-block;}
-}
+.content-info .info-text .title_menu2{background-color: rgb(50,57,70); color:white; padding:10px; text-transform: uppercase; margin-top:5px; margin-bottom: 5px; font-weight:100; font-size: 15px;}
+.menu2 {margin-top: 5px;}
+.menu2 .padding{padding: 0px;}
+.menu2 .padding ul{padding-left: 0px;}
+.menu2 .padding ul li{background: rgb(229,229,229); padding: 10px 15px; border: 1px solid gray; margin-bottom:3px;}
+.menu2 .padding ul a{color: rgb(50,57,70); text-decoration: none;}
+.menu2 .panel {background: transparent; margin-bottom: -10px; border-radius:0px;}
+.menu2 .panel .panel-heading{border-radius:0px; margin-bottom:3px;}
+.menu2 .menu_responsive .panel .title{background-color:rgb(50,57,70); color: white;}
+.menu2 .menu_responsive .panel .title h4{color: white; font-weight: 100; font-size:14px; }
+
+@media( max-width: 500px ){.content-info .info-text .titulo{font-size: 25px;} }
 @media only screen and (min-width: 300px ) and (max-width: 767px){ .menu2{visibility: visible;}}
+

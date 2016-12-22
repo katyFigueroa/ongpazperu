@@ -1,29 +1,12 @@
 /**{outline: 1px solid red;}*/
-/*.imagen-hero{
-	background-image: url("../img/programas/alimentaria/panaderia.jpg");
-	background-size: cover;
-	width: 100%;
-	height: 580px;
-	position: relative;
-}
-.imagen-hero .block{
-    color:white;
-    background-color: rgba(0,0,0,0.5);
-    width: 700px; height: auto;
-    margin-top: 250px;
-    margin-left: 240px;
-    padding: 20px;
-    position: absolute;
-    text-align: center;
-}*/
-
 
 body {font-size: 14px; font-size: 14px; font-size: 1.4rem; background: #f5f5f5; padding-top: 80px;}
 .nopaddingleft {padding-left: 0;}
 .nopaddingright {padding-right: 0;}
 .overflownone {overflow: hidden!important;}
 .information {background: rgb(40, 46, 58)/*#2a3d46*/; position: relative; height: 450px;}
-.information h3 {font-size: 25px; font-size: 2.8rem; font-weight: 500; color: white; padding: 0 15px;}
+.information h3 {font-size: 25px; font-size: 2em; font-weight: 500; color: white; padding: 0 15px;}
+.cuadro .box-int h4{font-size:17px; color: white; font-weight: 200;}
 .information hr {margin-bottom: 0px;}
 .information .information_menu {padding: 0;}
 .information .information_menu li { position: relative;}
@@ -114,11 +97,13 @@ body {font-size: 14px; font-size: 14px; font-size: 1.4rem; background: #f5f5f5; 
 .cuadro .carousel-inner .imagen2{
     background-image: url("../img/programas/alimentaria/pastel.jpg");
     background-size: cover;
+    background-position: center;
     width: 100%;
 }
 .cuadro .carousel-inner .imagen3{
     background-image: url("../img/programas/alimentaria/_pan.jpg");
     background-size: cover;
+    background-position: center;
     width: 100%;
 }
 .cuadro .box-int {
@@ -191,7 +176,7 @@ html,body, .carousel, .carousel-inner, .carousel-inner .item {height: 100%;}
 .section-information{background-color: rgb(229,229,229);padding: 10px 0em 2em;}
 .section-information img{width: 100%;}
 .section-information .fila{margin: 15px 0px 15px 0;}
-.section-information .images p{text-align: center; font-weight: bold;background-color: rgb(67, 86, 99);color: #fff; padding: 5px 0px;}
+.section-information .images p{text-align: center; font-weight:100;background-color: rgb(67, 86, 99);color: #fff; padding: 5px 0px;}
 .section-information .img-thumbnail{border-radius: 0px; margin: 20px 0 0 0; }
 .section-information .titulo-programa{background: rgb(50,57,70); padding: 12px 1em; font-size: 30px; color: #fff;
 margin-left: 15px; margin-right: 15px; text-shadow: 0 1px 1px #000;}
@@ -223,7 +208,34 @@ margin-left: 15px; margin-right: 15px; text-shadow: 0 1px 1px #000;}
     text-align: center;
     }
 }
-
+@media (max-width: 750px){
+    .cuadro .box-int {margin-bottom: 120px;}
+}
+@media (max-width: 400px){
+    .cuadro .box-int h3{ font-size: 1.8em; margin-bottom: 10px; }
+    .cuadro .box-int h4{font-size:15px;}
+}
+@media (max-width: 330px){
+    .cuadro .box-int {margin-bottom: 140px;}
+    .cuadro .box-int h3{ font-size: 1.6em; margin-bottom: 10px; }
+    .cuadro .box-int h4{font-size:14px;}
+}
+@media (max-width: 461px){
+    .cuadro .box-int {margin-bottom: 100px;}
+}
+@media (max-width: 290px){
+    .cuadro .box-int h3{ font-size: 1.5em; margin-bottom: 10px; }
+}
+@media (max-width: 450px){
+   .section-information .images .col-xs-3{width: 50%;}
+}
+@media (max-width: 490px){
+   #slider-alimentaria .media-carousel{padding-bottom: 0px; }
+   #slider-alimentaria{margin-bottom: -140px;}
+}
+@media (max-width: 500px){
+.section-information .titulo-programa{font-size: 25px; text-align: center;}
+}
 @media only screen and (min-width: 274px ) and (max-width: 1092px){
     .information .btn-emergency {font-size: 1em;}
     .information h3 {font-size: 2.5rem; font-weight: 500; color: white; padding: 0 15px; text-align: center;}
