@@ -15,13 +15,13 @@
 
 
 body{font-family:'Roboto', sans-serif;}
-.imagen-hero{
-	background-image: url("../img/programas/casa_isabel/casa-portada.jpg");
-	background-size: cover;
+.imagen-hero img{
+	/*background-image: url("../img/programas/casa_isabel/casa-portada.jpg");*/
+	/*background-size: cover;*/
 	width: 100%;
-	height: 450px;
-	position: relative;
-  margin-top: 80px;
+/*	height: 450px;
+	position: relative;*/
+  margin-top: 85px;
 }
 .imagen-hero .titulo{
     font-size: 30px;
