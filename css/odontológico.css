@@ -4,7 +4,7 @@ body{font-family: 'Roboto', sans-serif;}
 .hero {
 	background-image: url('../img/programas/clinica/clinica-portada2.jpg');
 	background-size: cover;
-	background-position: center;
+	background-position: 36%;
 	width: 100%;height: 450px;}
 h3{margin-top: 10px; font-size: 20px; text-shadow: 0 1px 1px #000;}
 h4{font-size: 16px; font-weight: 600; color: rgb(40, 46, 58);}

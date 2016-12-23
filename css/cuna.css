@@ -3,6 +3,7 @@
 .portada{
   background-image: url(../img/programas/cuna/portada_cuna.jpg);
   background-size: cover;
+  background-position: 55%;
   width: 100%;
   height: 450px;
   margin-top: 80px;
@@ -115,12 +116,15 @@ h4{ font-size: 16px; font-weight: 600;}
   .hoverDot .icon-group {font-size: 80%;}
   .hoverDot:hover .icon-group{font-size: 80%;}
 }
+@media (max-width: 500px){
+  .titulo-programa{font-size: 25px; text-align: center;}
+}
 @media (min-width: 270px) and (max-width: 370px){
   .gallery .col-xs-6{width: 100%;}
   .gallery .padding-right {padding-left:0px;}
   .gallery .padding-left {padding-right: 0px;}
   .servicios .col-xs-6{width: 100%;}
-  .hoverDot {width: 70%; padding-bottom: 70%;}
+  .hoverDot {width: 70%; padding-bottom: 70%; margin-bottom: 5px;}
   .hoverDot:hover .icon-group{padding: 12.7%;}
   .servicios .col-xs-offset-3{margin-left: 0%;}
   .hoverDot .icon-group {font-size: 90%;}

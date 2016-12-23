@@ -12,19 +12,19 @@ body{padding-top: 0px;}
     color:white;
     background-color: rgba(0,0,0,0.5);
     width:57%; height: auto;
-    margin-top: 200px;
-    margin-left: 21%;
-    padding: 20px;
+    margin-top: 160px;
+    margin-left: 21.5%;
+    padding: 10px;
     text-align: center;
 }
-.imagen-hero h2 {
+.imagen-hero h3 {
     font-size: 2em;
     line-height: 1;
     text-transform: uppercase;
     font-family: font-family:'Roboto', sans-serif;
     margin-bottom: 20px;
 }
-.imagen-hero h4{font-size:17px;}
+.imagen-hero h4{font-size:17px; font-weight: 200;}
 .section .contenedor{background-color: ;padding: 2em 4em 1em 4em;}
 .section .fa-leaf{font-size: 50px;}
 .section-content{background-color:rgb(229,229,229); color: #000; padding-top: 30px; padding-bottom: 10px;}
@@ -35,22 +35,15 @@ body{padding-top: 0px;}
 .section-content h4{background-color:#205724;color: white; padding: 0.5em 0; font-weight: 100; font-size: 16px;}
 
 
-@media only screen and (min-width: 250px ) and (max-width: 1199px){}
-@media only screen and (min-width: 250px ) and (max-width: 991px){}
-@media only screen and (min-width: 250px ) and (max-width: 750px){
-    .imagen-hero .block{ margin-top: 190px; }
-    .section .fa-leaf{font-size: 50px; margin-top: 35px;}
-}
-@media only screen and (min-width: 250px ) and (max-width: 650px){
-    .imagen-hero h2 {font-size: 1.8em;}
-    .imagen-hero h4{font-size:15px;}
-}
-@media (min-width: 250px) and (max-width: 500px){
-  .subtitu{font-size: 25px; text-align: center;}
-}
-@media only screen and (min-width: 250px ) and (max-width: 550px){}
-@media only screen and (min-width: 250px ) and (max-width: 550px){
-    .imagen-hero .block{margin-left:18%; width: 65%; height: auto;}
-    .imagen-hero h2 {font-size: 1.5em;}
-    .imagen-hero h4{font-size:15px;}
+@media (max-width: 750px){.imagen-hero .block{ margin-top: 190px; } .section .fa-leaf{font-size: 50px; margin-top: 35px;} }
+@media (max-width: 500px){.subtitu{font-size: 25px;} }
+@media (max-width: 596px){.imagen-hero .block{ margin-top: 130px; margin-left: 21.5%;} }
+@media (max-width: 750px){.imagen-hero .block{ margin-top: 150px; margin-left: 21.5%;} }
+@media (max-width: 461px){.imagen-hero .block{ margin-top: 130px;} }
+@media (max-width: 400px){.imagen-hero h3 {font-size: 1.8em;} .imagen-hero h4{font-size:15px;} }
+@media (max-width: 330px){.imagen-hero h3 {font-size: 1.6em;} .imagen-hero h4{font-size:14px;} }
+@media (max-width: 290px){
+    .imagen-hero h3 {font-size: 1.5em;}
+    .section-content h4{font-size: 15px;}
+    .section-content .col-xs-6{width: 100%;}
 }

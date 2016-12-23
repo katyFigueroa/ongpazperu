@@ -5,7 +5,8 @@
 .mistrabajos{background-size:cover;padding:0em 0 0em;color:white;      /*(2,20,50,.9);*/
 	margin-bottom:0;border-bottom:none;background-color:rgba(0,0,0,0.9);
 	background-image:-webkit-radial-gradient(farthest-corner,rgba(0,0,0,.5),rgba(0,0,0,.95));
-	background-image:radial-gradient(farthest-corner,rgba(0,0,0,.5),rgba(0,0,0,0))}
+	/*background-image:radial-gradient(farthest-corner,rgba(0,0,0,.5),rgba(0,0,0,0))*/     }
+	
 /*.mistrabajos .grid{padding:1rem 0}*/
 .following.bar,.mistrabajos{-webkit-transform-style:preserve-3d;
 	-moz-transform-style:preserve-3d;-o-transform-style:preserve-3d;
@@ -39,5 +40,7 @@
 	.vertical.segment{box-shadow:none}.mistrabajos.segment h1{font-size:3em;color:rgba(255,255,255,.5);line-height:1.2;margin:0;padding-bottom:0;-moz-perspective:500px;-webkit-perspective:500px;perspective:500px;-moz-transform-style:preserve-3d;-webkit-transform-style:preserve-3d;transform-style:preserve-3d}.mistrabajos.segment h1>.library{visibility:hidden;display:block;font-size:1.75em;color:#FFF;font-weight:700}.mistrabajos.segment h1 b{display:inline-block;font-weight:300;color:#FFF}
 	.mistrabajos.segment h1 .text{display:inline-block;font-weight:300;margin-left:-.4em}
 	/*.mistrabajos h2,.ui.header{font-weight:400}.mistrabajos h2{margin:0 0 16px;font-size:1.75em;border-bottom:none;line-height:1}*/
-.mistrabajos p{font-size:.7em;margin:1em 0 1.5em;padding:0}
+
+
+/*.mistrabajos p{font-size:.7em;margin:1em 0 1.5em;padding:0}*/
 
