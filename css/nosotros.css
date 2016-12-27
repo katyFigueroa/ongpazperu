@@ -1,4 +1,4 @@
-*{outline: 1px solid red;}*/
+/**{outline: 1px solid red;}*/*/
 body{font-family:'Roboto', sans-serif;}
 .imagen-hero{
 	background-image: url("../img/personal-nosotros.jpg");
@@ -118,3 +118,40 @@ body{font-family:'Roboto', sans-serif;}
   .accordian ul:hover li {width: 60px;}
   .accordian ul li:hover {width: 640px;}
 }
+
+
+
+
+.nosotros .nav-tabs { border-bottom: 2px solid #DDD; }
+.nosotros.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover { border-width: 0; }
+.nosotros .nav-tabs > li > a { border: none; color: #ffffff;background: rgb(67,86,99); }
+.nosotros .nav-tabs > li.active > a, .nav-tabs > li > a:hover { border: none;  color:rgb(67,86,99) !important; background: #fff; }
+.nosotros .nav-tabs > li > a::after { content: ""; background:rgb(67,86,99); height: 2px; position: absolute; width: 100%; left: 0px; bottom: -1px; transition: all 250ms ease 0s; transform: scale(0); }
+.nosotros .nav-tabs > li.active > a::after, .nav-tabs > li:hover > a::after { transform: scale(1); }
+.nosotros .tab-nav > li > a::after { background: rgb(67,86,99) none repeat scroll 0% 0%; color: #fff; }
+.nosotros .tab-pane { padding: 15px 0; }
+.nosotros .tab-content{padding:20px; background: rgb(229,229,229);}
+.nosotros .nav-tabs > li  {width:25%; text-align:center;}
+.nosotros .tab-content .tab-pane .gallery img {width:100%;}
+.nosotros .card {background: #FFF none repeat scroll 0% 0%; margin-bottom: 30px; }
+.nosotros .nav-tabs .somos .icon{font-size: 60px; color: rgb(67,86,99); padding: 30px;}
+@media all and (max-width:991px){
+.nosotros .tab-content .tab-pane .gallery img {margin-bottom: 10px;}
+}
+@media all and (max-width:724px){
+.nosotros .nav-tabs > li > a > span {font-size: 13px;} 
+.nosotros .nav-tabs > li > a {padding: 5px 5px;}
+}
+@media all and (max-width:500px){
+  .nosotros .tab-content .tab-pane .gallery .col-xs-6{width:100%;}
+}
+@media all and (max-width:385px){
+  .nosotros .nav-tabs > li > a > span {font-size: 12px;}
+}
+@media all and (max-width:325px){
+  .nosotros .nav-tabs > li > a > span {display: none;}
+  .nosotros .nav-tabs > li > a { padding:0px;}
+  .nosotros .nav-tabs > li i{font-size: 25px; padding-top: 15px;}
+}
+
+
