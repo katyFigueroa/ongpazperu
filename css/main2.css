@@ -215,7 +215,7 @@ font-family: 'AvenirLTStd-Medium', sans-serif;
             @include transform(rotate(225deg));
         }
 
-/*--------------PROYECTOSSS----------*/
+/*--------------PROGRAMASS----------*/
 .proyects2{background-color: rgb(229,229,229); margin-top: 140px;}
 .proyects2 .esconder-mostrar {padding: 3em 0em 3em 0em;}
 .snip1566 {position: relative; display: inline-block; margin-bottom: 5px; max-width: 190px; width: 100%; color: rgb(50,57,70); font-size: 16px;
@@ -247,7 +247,7 @@ font-family: 'AvenirLTStd-Medium', sans-serif;
 .block6{background-image: url(../img/06-alimentaria.jpg);}
 .block7{background-image: url(../img/social.jpg);}
 .block8{background-image: url(../img/08-cultivos.jpg);}
-.proyects2 .block button {padding: 7px 18px;background:rgba(251,65,65,.6);color: white; border: none; margin-top:40%; font-size:14px; border-radius: 5px; }
+/*.proyects2 .block button {padding: 7px 18px;background:rgba(251,65,65,.6);color: white; border: none; margin-top:40%; font-size:14px; border-radius: 5px; }*/
 .proyects2 .fondo-block{padding: 10px 10px;}
 
 
@@ -258,10 +258,6 @@ font-family: 'AvenirLTStd-Medium', sans-serif;
 .section-about input{margin: 50px 0px 10px; color: rgb(251,65,65); text-transform: uppercase; padding: 5px 40px; border:1px solid rgb(251,65,65);background: transparent;}
 /*---------PUBLICATIONS----------*/
 .section-publications {padding: 2em 0em 3.5em; background: rgb(229,229,229);}
-/*.section-publications img{width: 100%;}*/
-/*.section-publications .fondo{background: rgb(229,229,229); padding:15px; height: auto;}
-.section-publications .fondo p{padding-top:10px;}
-.section-publications h4{color: rgb(21,56,116);}*/
 .section-publications hr{margin-top: 0px; margin-bottom: 0px;}
 .section-publications .btn {background: rgba(251,65,65,.6); color: white;}
 .section-publications a{color: rgba(251,65,65,.6); text-decoration: none;}
@@ -298,6 +294,7 @@ font-family: 'AvenirLTStd-Medium', sans-serif;
    color: #fff; font-size: 11px;
   background-image: url('../img/programas/imagen-footer.jpg');
   background-size: cover;
+  background-position: center;
 
 }
 .section-footer .opacity{background: rgba(50,57,70,0.8); padding: 30px 0; color: #fff;}
