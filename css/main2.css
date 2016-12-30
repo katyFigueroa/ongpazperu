@@ -106,13 +106,13 @@ font-family: 'AvenirLTStd-Medium', sans-serif;
 #slider {padding: 0px; margin: 0px}
 #slider li {padding: 0px; list-style: none; position: absolute;}
 #carousel-example-generic {height: 100vh;}
-.cuadro .carousel-inner .imagen1{background-image: url('../img/slider-1.jpg'); background-size: cover; width: 100%;}
-.cuadro .carousel-inner .imagen2{background-image: url("../img/foto2 (2).JPG"); background-size: cover; width: 100%;}
-.cuadro .carousel-inner .imagen3{background-image: url("../img/slider-3.jpg"); background-size: cover; width: 100%;}
+.cuadro .carousel-inner .imagen1{background-image: url('../img/slider-1.jpg'); background-size: cover;background-position:35%; width: 100%;}
+.cuadro .carousel-inner .imagen2{background-image: url("../img/foto2 (2).JPG"); background-size: cover;background-position:center; width: 100%;}
+.cuadro .carousel-inner .imagen3{background-image: url("../img/slider-3.jpg"); background-size: cover;background-position:center; width: 100%;}
 .cuadro .carousel-inner .imgOverlay {position: absolute; top: 0; width: 100%; height: 100%; background-color: rgba(6, 28, 38, 0.3);}
 .cuadro .box-int {
     color:white;
-    background-color: transparent;   /* rgba(0,0,0,0.5)*/
+    background-color: transparent;
     padding: 19px;
     margin-bottom: 240px;  left: 25%; right: 25%;
 }
@@ -155,21 +155,13 @@ font-family: 'AvenirLTStd-Medium', sans-serif;
     100% {-webkit-transform: scale(1.3);}
 }
 @-webkit-keyframes opendoor {
-    from {
-        -webkit-transform: perspective(1000px) rotateY(90deg);
-        -webkit-transform-origin: 0% 50%;
-    }
-    to {
-        -webkit-transform: perspective(1000px) rotateY(0deg);
-        -webkit-transform-origin: 0% 50%;
-    }
+    from { -webkit-transform: perspective(1000px) rotateY(90deg); -webkit-transform-origin: 0% 50%;}
+    to {-webkit-transform: perspective(1000px) rotateY(0deg); -webkit-transform-origin: 0% 50%;}
 }
 @-webkit-keyframes closedoor {
     from {opacity:1; -webkit-transform-origin: 0% 50%;}
     to {opacity:0; -webkit-transform-origin: 0% 50%;}
 }
-
-
 
 /*----------cuadros---------*/
  #themeSlider .cuadros{margin-top: -240px;}
@@ -190,6 +182,7 @@ font-family: 'AvenirLTStd-Medium', sans-serif;
     border-top-right-radius: 4px;}
 .content button a{color: white;}
 .content p{padding:30px 15px 40px; color: white;}
+#drop-up .title-asesoramiento{padding: 16.5px 10px; }
 #drop-up h3{ 
         text-shadow: 0 1px 1px #000;
         color:white; 
@@ -248,8 +241,7 @@ font-family: 'AvenirLTStd-Medium', sans-serif;
 .block7{background-image: url(../img/social.jpg);}
 .block8{background-image: url(../img/08-cultivos.jpg);}
 /*.proyects2 .block button {padding: 7px 18px;background:rgba(251,65,65,.6);color: white; border: none; margin-top:40%; font-size:14px; border-radius: 5px; }*/
-.proyects2 .fondo-block{padding: 10px 10px;}
-
+.proyects2 .fondo-block{padding: 0px 10px;}
 
 /*-------ABOUTT-------------*/
 .section-about{background-color: rgb(50,57,70); padding: 2em 0em 3.5em;}
@@ -262,7 +254,7 @@ font-family: 'AvenirLTStd-Medium', sans-serif;
 .section-publications .btn {background: rgba(251,65,65,.6); color: white;}
 .section-publications a{color: rgba(251,65,65,.6); text-decoration: none;}
 .section-publications .label{background-color: rgb(50,57,70); font-weight: 100;}
-.section-publications input{margin: 30px 0px 10px; color:rgb(21,56,116); text-transform: uppercase; padding:5px 55px; border:1px solid rgb(21,56,116);background: transparent;}
+.section-publications input{margin: 30px 0px 10px; color:rgb(21,56,116); text-transform: uppercase; padding:5px 46px; border:1px solid rgb(21,56,116);background: transparent;}
 /*------------auspiciadores_carousel 22-------*/
 .section-aliados{ width: 100%;color: white;padding: 2em 0em 3.5em;}
 .section-aliados h3{font-size:1.7em; text-transform:none; margin-bottom:20px; color:rgb(50,57,70); text-shadow: 0 1px 1px #000;} 
@@ -289,13 +281,11 @@ font-family: 'AvenirLTStd-Medium', sans-serif;
 .media-carousel .carousel-indicators .active{background: #333333;}
 .media-carousel img{width: 180px;height: 80px;}
 /*-----------Footer----------- */
-
 .section-footer{
    color: #fff; font-size: 11px;
   background-image: url('../img/programas/imagen-footer.jpg');
   background-size: cover;
   background-position: center;
-
 }
 .section-footer .opacity{background: rgba(50,57,70,0.8); padding: 30px 0; color: #fff;}
 .section-footer .img-footer{padding-bottom: 20px; width: 50%; margin: auto;}
@@ -315,12 +305,7 @@ font-family: 'AvenirLTStd-Medium', sans-serif;
   color: white;
   width: 30px; text-align: center;
 }
-.section-footer hr{
-  color: rgba(255,255,255,0.2);
-  width: 100%;
-  margin: 0 0 15px 0;
-}
-
+.section-footer hr{color: rgba(255,255,255,0.2); width: 100%; margin: 0 0 15px 0;}
 /*------footer finalll---*/
 .footer-final{background-color: rgb(50,57,70); color: white; padding:0.5em;}
 .footer-final p{margin-bottom: 0px;}
@@ -332,33 +317,39 @@ font-family: 'AvenirLTStd-Medium', sans-serif;
   #myCarousel .filas{position: relative; margin-top: 15px;}
   .section-info-header .all_fondo{margin: 10px 0px 5px 0px;}
 }
-@media only screen and (min-width: 274px ) and (max-width: 390px){
+@media (max-width: 390px){
   #navbar .Logotype {margin-left: 50px;}
   #navbar .navbar-default .navbar-header .Logotype{width: 200px;}
 }
-@media (max-width: 385px){
-  .section-footer .opacity .col-xs-6{width: 100%;}
+@media (max-width: 385px){.section-footer .opacity .col-xs-6{width: 100%;} }
+@media (max-width: 375px){#navbar .Logotype {margin-left: 0px;} }
+@media only screen and (min-width: 992px ) and (max-width: 1199px){#drop-up .title-capacitacion{padding:16.5px 10px; } }
+@media only screen and (min-width: 721px ) and (max-width: 767px){#drop-up .title-asesoramiento{padding: 25px 10px; } }
+@media only screen and (min-width: 424px ) and (max-width: 547px){#drop-up .title-capacitacion{padding:16.5px 10px; } }
+@media only screen and (min-width: 424px ) and (max-width: 489px){#drop-up .title-alimentaria{padding:16.5px 10px; } }
+@media (max-width: 423px){
+  #drop-up .col-xs-6{width: 100%;}
+  #drop-up .title-asesoramiento{padding: 25px 10px; }
 }
-@media only screen and (min-width: 274px ) and (max-width: 375px){
-  #navbar .Logotype {margin-left: 0px;}
-}
+@media (max-width: 368px){#drop-up .title-asesoramiento{padding: 16.5px 10px; } }
 @media only screen and (min-width: 274px ) and (max-width: 1000px){#themeSlider{margin-top:85px;} }
-@media only screen and (min-width: 274px ) and (max-width: 1199px){.snip1566{height: 165px;} }
-@media only screen and (min-width: 274px ) and (max-width: 991px){ .snip1566{height: 150px;} }
+@media only screen and (min-width: 274px ) and (max-width: 1199px){.snip1566{height: 175px;} }
+@media only screen and (min-width: 274px ) and (max-width: 991px){ .snip1566{height: 160px;} }
 @media only screen and (min-width: 274px ) and (max-width: 767px){ .snip1566{height: 190px;} }
-@media only screen and (min-width: 274px ) and (max-width: 475px){ .snip1566{height: 185px;} }
-@media only screen and (min-width: 274px ) and (max-width: 460px){ .snip1566{height: 176px;} }
-@media only screen and (min-width: 274px ) and (max-width: 440px){ .snip1566{height: 167px;} }
-@media only screen and (min-width: 274px ) and (max-width: 420px){ .snip1566{height: 157px;} }
-@media only screen and (min-width: 274px ) and (max-width: 400px){ .snip1566{height: 147px;} }
-@media only screen and (min-width: 274px ) and (max-width: 390px){ .snip1566{height: 142px;} }
-@media only screen and (min-width: 274px ) and (max-width: 375px){ .snip1566{height: 135px;} .snip1566 i{font-size: 2.5em;} .snip1566 h5{font-size:13px;}  }
-@media only screen and (min-width: 274px ) and (max-width: 355px){ .snip1566{height: 125px;} }
-@media only screen and (min-width: 274px ) and (max-width: 340px){ .snip1566{height: 116px;} }
-@media only screen and (min-width: 274px ) and (max-width: 320px){ 
-  .snip1566{height: 190px;} .proyects2 .col-xs-6{width:100%;} .snip1566 i{font-size: 3em;} .snip1566 h5{font-size:15px;}
+@media only screen and (min-width: 274px ) and (max-width: 475px){ .snip1566{height: 190px;} }
+@media only screen and (min-width: 274px ) and (max-width: 460px){ .snip1566{height: 187px;} }
+@media only screen and (min-width: 274px ) and (max-width: 450px){ .snip1566{height: 181px;} }
+@media (max-width: 440px){ .snip1566{height: 177px;} body h2{font-size:1.7em;}   }
+@media only screen and (min-width: 274px ) and (max-width: 420px){ .snip1566{height: 167px;} }
+@media only screen and (min-width: 274px ) and (max-width: 400px){ .snip1566{height: 157px;} }
+@media only screen and (min-width: 274px ) and (max-width: 390px){ .snip1566{height: 152px;} }
+@media only screen and (min-width: 274px ) and (max-width: 375px){ .snip1566{height: 145px;} .snip1566 i{font-size: 2.5em;} .snip1566 h5{font-size:13px;}  }
+@media only screen and (min-width: 274px ) and (max-width: 355px){ .snip1566{height: 135px;} }
+@media only screen and (min-width: 274px ) and (max-width: 340px){ .snip1566{height: 126px;} }
+@media (max-width: 320px){ 
+   .snip1566{max-width:150px; height: 150px;} .proyects2 .col-xs-6{width:100%;} 
+   .snip1566 i{font-size: 3em;} .snip1566 h5{font-size:15px;}
 }
-
 @media only screen and (min-width: 274px ) and (max-width: 767px){
   #drop-up{margin-top: 80px;}
   .drop-up-item{min-height: 80px; top: 170px;}
