@@ -107,7 +107,7 @@ font-family: 'AvenirLTStd-Medium', sans-serif;
 #slider li {padding: 0px; list-style: none; position: absolute;}
 #carousel-example-generic {height: 100vh;}
 .cuadro .carousel-inner .imagen1{background-image: url('../img/slider-1.jpg'); background-size: cover;background-position:35%; width: 100%;}
-.cuadro .carousel-inner .imagen2{background-image: url("../img/foto2 (2).JPG"); background-size: cover;background-position:center; width: 100%;}
+.cuadro .carousel-inner .imagen2{background-image: url("../img/slider_4.jpg"); background-size: cover;background-position:center; width: 100%;}
 .cuadro .carousel-inner .imagen3{background-image: url("../img/slider-3.jpg"); background-size: cover;background-position:center; width: 100%;}
 .cuadro .carousel-inner .imgOverlay {position: absolute; top: 0; width: 100%; height: 100%; background-color: rgba(6, 28, 38, 0.3);}
 .cuadro .box-int {
@@ -116,8 +116,9 @@ font-family: 'AvenirLTStd-Medium', sans-serif;
     padding: 19px;
     margin-bottom: 240px;  left: 25%; right: 25%;
 }
-.cuadro .box-int h3{ font-size: 2em;line-height: 1;text-transform: uppercase;margin-bottom: 20px; }
-.cuadro .box-int h4{font-size:17px; color: white; font-weight: 500;}
+.cuadro .box-int h3{ font-size: 3em;line-height: 1;margin-bottom: 20px; }
+.cuadro .box-int h3 strong{ text-transform: uppercase; }
+.cuadro .box-int h4{font-size:20px; color: white; font-weight: 500;}
 .carousel-indicators {bottom: 0px;}
 .carousel-fade .carousel-inner .item {-webkit-transition-property: opacity;transition-property: opacity;}
 .carousel-fade .carousel-inner .item,
@@ -166,11 +167,11 @@ font-family: 'AvenirLTStd-Medium', sans-serif;
 /*----------cuadros---------*/
  #themeSlider .cuadros{margin-top: -240px;}
 .drop-up-item{ float: left; width: 100%; min-height: 100px; position:relative; top: 150px;}
-.drop-up-item ._1{background-image: url(http://www.revistafusion.com/2008/junio/ong.jpg); background-size:cover;width:100%;}
-.drop-up-item ._2{background-image: url(http://www.voluntariadoconongs.com/wp-content/uploads/2014/08/voluntariado-en-honduras-foto-2.jpg);background-size:cover;width:100%;}
-.drop-up-item ._3{background-image: url(https://sumbawapertanian.files.wordpress.com/2014/07/sam_0281.jpg?w=300&h=225);background-size:cover;width:100%;}
-.drop-up-item ._4{background-image: url(http://estaticos01.elmundo.es/elmundo/imagenes/2008/09/17/1221666002_0.jpg);background-size:cover;width:100%;}
-.drop-up-item .oscuro, .oscuro2, .oscuro3, .oscuro4{background-color: rgba(0,0,0,.6); width: 100%;height: 100%;}
+.drop-up-item ._1{background-image: url('../img/foto-cuadro1.jpg'); background-size:cover;width:100%;}
+.drop-up-item ._2{background-image: url('../img/foto-cuadro2.jpg');background-size:cover;width:100%;}
+.drop-up-item ._3{background-image: url('../img/foto-cuadro3.jpg');background-size:cover;width:100%;}
+.drop-up-item ._4{background-image: url('../img/foto-cuadro4.jpg');background-size:cover;width:100%;}
+.drop-up-item .oscuro, .oscuro2, .oscuro3, .oscuro4{background-color: rgba(0,0,0,.5); width: 100%;height: 100%;}
 .content{
     overflow: hidden;
     display: block;
@@ -181,7 +182,7 @@ font-family: 'AvenirLTStd-Medium', sans-serif;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;}
 .content button a{color: white;}
-.content p{padding:30px 15px 40px; color: white;}
+.content p{padding:30px 15px 30px; color: white;}
 #drop-up .title-asesoramiento{padding: 16.5px 10px; }
 #drop-up h3{ 
         text-shadow: 0 1px 1px #000;

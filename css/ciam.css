@@ -2,6 +2,22 @@
 background-size: cover;background-position:center; width: 100%; height: 450px; margin-top: 85px;}
 .portada .hoverAll{background: rgba(6,28,38,.2); width:100%; height:100%;}
 
+/*-----------SUB MENU--*/
+.content-info .submenu ._Title{border: none;}
+.content-info .submenu #accordion .spacy{background-color: rgb(229,229,229); height:30px;width:100%;}
+.content-info .submenu #accordion h4{text-transform: uppercase; font-weight: 300; text-shadow: 0 1px 1px #000; font-size:16px;}
+.content-info .submenu #accordion h3{text-transform: none; font-weight: 100; font-size: 14px; padding-left: 15px;}
+.content-info .submenu #accordion .glyphicon { margin-right:10px; }
+.content-info .submenu #accordion .panel {border-radius: 0px;}
+.content-info .submenu #accordion .panel-body { padding:0px; }
+.content-info .submenu #accordion .panel-body .table {margin-bottom: 0px; }
+.content-info .submenu #accordion .panel-heading {background-color:rgb(50,57,70); color:white; border-radius: 0px;}
+.content-info .submenu #accordion .panel-heading .fa {width:16px; margin-left:-20px; }
+.content-info .submenu #accordion .panel-collapse .panel-body .table_1{background-color:transparent; border:1px solid rgb(50,57,70); margin:3px 0px; }
+.content-info .submenu #accordion .panel-collapse .panel-body .table_1:hover{background-color:rgb(229,229,229); border: 1px solid rgb(50,57,70); border-radius:5px;}
+.content-info .submenu #accordion .panel-body .table_1 h5 { padding-left: 15px; }
+.content-info .submenu #accordion .panel-body .table_1 h5 a{color: rgb(50,57,70); text-decoration: none; }
+/*--------CONTENIDOOO------*/
 .nomargin{margin: 0;}
 .nopadding{padding: 0;}
 .padding-left{padding-left: 25px}
@@ -17,7 +33,6 @@ h4{font-size: 16px; font-weight: 600;margin: 10px auto;}
 /*---------------- CONTENIDOO ----------*/
 .titulo-general{background: rgb(50, 57, 70); color: #fff; padding: 20px;}
 .panel-default>.panel-heading {color: #fff; background-color: rgb(67,86,99);}
-.panel-group{margin-top: 15px;}
 .titulo-programa{width: 100%; background: rgb(50,57,70); padding: 12px 1em; font-size: 30px; color: #fff; 
 	margin-bottom: 15px; text-shadow:0 1px 1px #000; margin-top: 0px;}
 

@@ -6,7 +6,22 @@
     margin-top: 80px;
 }
 .hero .hoverAll{background: rgba(6,28,38,.2); width:100%; height:100%;}
-
+/*------------------SUB MENU-----------*/
+.section-container .submenu ._Title{border: none;}
+.section-container .submenu #accordion .spacy{background-color: rgb(229,229,229); height:30px;width:100%;}
+.section-container .submenu #accordion h4{text-transform: uppercase; font-weight: 300; text-shadow: 0 1px 1px #000; font-size:16px;}
+.section-container .submenu #accordion h3{text-transform: none; font-weight: 100; font-size: 14px; padding-left: 15px;}
+.section-container .submenu #accordion .glyphicon { margin-right:10px; }
+.section-container .submenu #accordion .panel {border-radius: 0px;}
+.section-container .submenu #accordion .panel-body { padding:0px; }
+.section-container .submenu #accordion .panel-body .table {margin-bottom: 0px; }
+.section-container .submenu #accordion .panel-heading {background-color:rgb(50,57,70); color:white; border-radius: 0px;}
+.section-container .submenu #accordion .panel-heading .fa {width:16px; margin-left:-20px; }
+.section-container .submenu #accordion .panel-collapse .panel-body .table_1{background-color:transparent; border:1px solid rgb(50,57,70); margin:3px 0px; }
+.section-container .submenu #accordion .panel-collapse .panel-body .table_1:hover{background-color:rgb(229,229,229); border: 1px solid rgb(50,57,70); border-radius:5px;}
+.section-container .submenu #accordion .panel-body .table_1 h5 { padding-left: 15px; }
+.section-container .submenu #accordion .panel-body .table_1 h5 a{color: rgb(50,57,70); text-decoration: none; }
+/*----------CONTENT INFOO------*/
 .nomargin{margin: 0;}
 .nopadding{padding: 0;}
 .padding-left{padding-left: 25px;}
@@ -221,19 +236,10 @@ width : 40px; margin-top: 55px; color: gray; font-size: 35px;}
 .slider-cetpro .media-carousel .carousel-indicators .active{background: #333333;}
 .slider-cetpro .media-carousel img{width: 230px;height: 140px}
 
-#textil{border: 4px solid #fff; background: white;}
-#textil .carousel{padding: 0;}
-#textil .media-carousel{padding: 0.5em 3em;}
-#textil .media-carousel .thumbnail{margin-bottom: 0px;}
- #textil .media-carousel .carousel-control.left {background-image: none; background:transparent; border:none;
-width : 40px; margin-top: 55px; color: gray; font-size: 35px;}
- #textil .media-carousel .carousel-control.right { background-image: none; background:transparent; border:none;
-width : 40px; margin-top: 55px; color: gray; font-size: 35px;}
- #textil .media-carousel .carousel-indicators {right: 50%;top: auto;bottom: 0px;}
- #textil .media-carousel .carousel-indicators .active{background: #333333;}
-#textil .media-carousel img{width: 230px;height: 150px}
-
-
+#textil .carousel {margin-bottom: 0;padding: 0.5em 3em;}
+#textil .carousel img{height: 140px;}
+#textil .carousel-control { height: 40px; width: 40px; background: transparent;border: none; color: gray; font-size: 35px;margin-top: 55px;}
+#textil .carousel-control.right { float: right;}
 
 @media (min-width: 200px) and (max-width: 991px){
     .cetpro1, .cetpro2, .cetpro3, .cetpro4{margin-bottom: 7px; }

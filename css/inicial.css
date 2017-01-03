@@ -1,7 +1,20 @@
 /**{outline: 1px solid red;}*/
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
-
+/*------------submenuu--*/
+.section-container .submenu ._Title{border: none;}
+.section-container .submenu #accordion .spacy{background-color: rgb(229,229,229); height:30px;width:100%;}
+.section-container .submenu #accordion h4{text-transform: uppercase; font-weight: 300; text-shadow: 0 1px 1px #000; font-size:16px; color: white;}
+.section-container .submenu #accordion h3{text-transform: none; font-weight: 100; font-size: 14px; padding-left: 15px;}
+.section-container .submenu #accordion .glyphicon { margin-right:10px; }
+.section-container .submenu #accordion .panel {border-radius: 0px;}
+.section-container .submenu #accordion .panel-body { padding:0px; }
+.section-container .submenu #accordion .panel-body .table {margin-bottom: 0px; }
+.section-container .submenu #accordion .panel-heading {background-color:rgb(50,57,70); color:white; border-radius: 0px;}
+.section-container .submenu #accordion .panel-heading .fa {width:16px; margin-left:-20px; }
+.section-container .submenu #accordion .panel-collapse .panel-body .table_1{background-color:transparent; border:1px solid rgb(50,57,70); margin:3px 0px; }
+.section-container .submenu #accordion .panel-collapse .panel-body .table_1:hover{background-color:rgb(229,229,229); border: 1px solid rgb(50,57,70); border-radius:5px;}
+.section-container .submenu #accordion .panel-body .table_1 h5 { padding-left: 15px; }
+.section-container .submenu #accordion .panel-body .table_1 h5 a{color: rgb(50,57,70); text-decoration: none; }
 /*---------------- CONTENIDOO ----------*/
 .titulo-programa{background: rgb(50,57,70); padding: 12px 1em; font-size: 30px; color: #fff; margin-bottom: 15px; text-shadow: 0 1px 1px #000; margin-top: 0px;}
 #inicial{padding-top: 30px; background: rgb(229, 229, 229); padding-bottom: 30px;}

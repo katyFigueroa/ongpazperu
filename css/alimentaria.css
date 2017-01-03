@@ -135,12 +135,9 @@ body {font-size: 14px; font-size: 14px; font-size: 1.4rem; background: #f5f5f5; 
     transform: translate3d(0, 0, 0);
 }
 .carousel-fade .carousel-control { z-index: 2;}
-.carousel-fade .carousel-control .glyphicon-chevron-right{margin-right: 25px;}
-.carousel-fade .carousel-control .glyphicon-chevron-left{margin-left: 10px;}
+.carousel-fade .carousel-control .glyphicon-chevron-right{margin-right: 25px; font-size: 20px;}
+.carousel-fade .carousel-control .glyphicon-chevron-left{margin-left: 10px; font-size: 20px;}
 html,body, .carousel, .carousel-inner, .carousel-inner .item {height: 100%;}
-/*.item:nth-child(1) { background: #74C390;}
-.item:nth-child(2) { background: #51BCE8;}
-.item:nth-child(3) {background: #E46653;}*/
 @-webkit-keyframes animate-stripes {
     0% {background-position: 0 0;}
     100% {background-position: 60px 0;}
@@ -169,6 +166,23 @@ html,body, .carousel, .carousel-inner, .carousel-inner .item {height: 100%;}
 }
 
 
+/*-----------SUB-MENU-----------------*/
+.content-info .submenu ._Title{border: none; border-radius: 0px;}
+.content-info .submenu #accordion .spacy{background-color: rgb(229,229,229); height:30px;width:100%;}
+.content-info .submenu #accordion h4{text-transform: uppercase; font-weight: 300; color: white; text-shadow: 0 1px 1px #000; font-size:16px;}
+.content-info .submenu #accordion .glyphicon { margin-right:10px; }
+.content-info .submenu #accordion .panel-body { padding:0px; }
+.content-info .submenu .panel-group .panel+.panel{margin-top: 0px;}
+.content-info .submenu #accordion .panel-body .table {margin-bottom: 0px; }
+.content-info .submenu #accordion .panel-heading {background-color:rgb(50,57,70); border-radius: 0px;}
+.content-info .submenu #accordion .panel-body .fa {width:16px; margin-left:-20px; color: white; }
+.content-info .submenu #accordion .panel-body .table_1{background-color:rgb(50,57,70); border:1px solid transparent; margin:5px 0px; }
+.content-info .submenu #accordion .panel-body .table_1:hover .fa{color: rgb(50,57,70);}
+.content-info .submenu #accordion .panel-body .table_1:hover {background-color:rgb(229,229,229); border: 1px solid rgb(50,57,70); border-radius:5px;}
+.content-info .submenu #accordion .panel-body .table_1:hover a{color: rgb(50,57,70); text-decoration: none; font-weight: 500;}
+.content-info .submenu #accordion .panel-body .table_1 h5 { padding-left: 30px; text-transform:none;}
+.content-info .submenu #accordion .panel-body .table_1 h5 a{color: white;font-weight:100; }
+/*---------contenidoooo---------------*/
 .section-information h3{ font-size: 2.8rem;}
 .section-information{background-color: rgb(229,229,229);padding: 10px 0em 2em;}
 .section-information img{width: 100%;}
@@ -177,8 +191,7 @@ html,body, .carousel, .carousel-inner, .carousel-inner .item {height: 100%;}
 .section-information .img-thumbnail{border-radius: 0px; margin: 20px 0 0 0; }
 .section-information .titulo-programa{background: rgb(50,57,70); padding: 12px 1em; font-size: 30px; color: #fff;
 margin-left: 15px; margin-right: 15px; text-shadow: 0 1px 1px #000;}
-
-
+/*-------SLIDERRRR-----------------*/
 #slider-alimentaria #media .thumbnail{margin-bottom: 0px;}
 #slider-alimentaria .carousel{padding: 0;}
 #slider-alimentaria .media-carousel{padding: 1em 3em 1em 3em; }

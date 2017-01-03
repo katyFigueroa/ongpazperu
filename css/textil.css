@@ -57,6 +57,8 @@ body{font-family:'Roboto', sans-serif;}
     transform: translate3d(0, 0, 0);
 }
 .carousel-fade .carousel-control {z-index: 2;}
+.carousel-fade .carousel-control .glyphicon-chevron-right{ font-size: 20px;}
+.carousel-fade .carousel-control .glyphicon-chevron-left{ font-size: 20px;}
 .carousel, .carousel-inner, .carousel-inner .item {height: 100%;}
 @-webkit-keyframes animate-stripes {
     0% {background-position: 0 0;}

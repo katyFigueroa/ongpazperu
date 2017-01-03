@@ -19,6 +19,21 @@ h4{font-size: 16px; font-weight: 600; color: rgb(40, 46, 58);}
 .inline-block{padding-left: 0px;}
 .inline-block img{margin-bottom: 10px;}
 .margin{ margin: 10px auto;}
+/*-------submenu----------*/
+.section-container .submenu ._Title{border: none;}
+.section-container .submenu #accordion .spacy{background-color: rgb(229,229,229); height:30px;width:100%;}
+.section-container .submenu #accordion h4{text-transform: uppercase; font-weight: 300; text-shadow: 0 1px 1px #000; font-size:16px; color: white;}
+.section-container .submenu #accordion h3{text-transform: none; font-weight: 100; font-size: 14px; padding-left: 15px; text-shadow: none;}
+.section-container .submenu #accordion .glyphicon { margin-right:10px; }
+.section-container .submenu #accordion .panel {border-radius: 0px;}
+.section-container .submenu #accordion .panel-body { padding:0px; }
+.section-container .submenu #accordion .panel-body .table {margin-bottom: 0px; }
+.section-container .submenu #accordion .panel-heading {background-color:rgb(50,57,70); color:white; border-radius: 0px;}
+.section-container .submenu #accordion .panel-heading .fa {width:16px; margin-left:-20px; }
+.section-container .submenu #accordion .panel-collapse .panel-body .table_1{background-color:transparent; border:1px solid rgb(50,57,70); margin:3px 0px; }
+.section-container .submenu #accordion .panel-collapse .panel-body .table_1:hover{background-color:rgb(229,229,229); border: 1px solid rgb(50,57,70); border-radius:5px;}
+.section-container .submenu #accordion .panel-body .table_1 h5 { padding-left: 15px; }
+.section-container .submenu #accordion .panel-body .table_1 h5 a{color: rgb(50,57,70); text-decoration: none; }
 /*---------------- CONTENIDOO ----------*/
 .titulo-general{background: rgb(67, 86, 99); color: #fff; padding: 20px;text-align: center;}
 .titulo-programa{background: rgb(50,57,70); padding: 12px 1em; font-size: 30px; color: #fff; margin-bottom: 15px; width:100%; text-shadow: 0 1px 1px #000; margin-top:0px;}

@@ -25,6 +25,23 @@ body{padding-top: 0px;}
     font-family: font-family:'Roboto', sans-serif;
     margin-bottom: 20px;
 }
+/*-----------SUB-MENU-----------------*/
+.content-info .submenu ._Title{border: none; border-radius: 0px;}
+.content-info .submenu #accordion .spacy{background-color: rgb(229,229,229); height:30px;width:100%;}
+.content-info .submenu #accordion h4{text-transform: uppercase; font-weight: 300; color: white; text-shadow: 0 1px 1px #000; font-size:16px;}
+.content-info .submenu #accordion .glyphicon { margin-right:10px; }
+.content-info .submenu #accordion .panel-body { padding:0px; }
+.content-info .submenu .panel-group .panel+.panel{margin-top: 0px;}
+.content-info .submenu #accordion .panel-body .table {margin-bottom: 0px; }
+.content-info .submenu #accordion .panel-heading {background-color:rgb(50,57,70); border-radius: 0px;}
+.content-info .submenu #accordion .panel-body .fa {width:16px; margin-left:-20px; color: white; }
+.content-info .submenu #accordion .panel-body .table_1{background-color:rgb(50,57,70); border:1px solid transparent; margin:5px 0px; }
+.content-info .submenu #accordion .panel-body .table_1:hover .fa{color: rgb(50,57,70);}
+.content-info .submenu #accordion .panel-body .table_1:hover {background-color:rgb(229,229,229); border: 1px solid rgb(50,57,70); border-radius:5px;}
+.content-info .submenu #accordion .panel-body .table_1:hover a{color: rgb(50,57,70); text-decoration: none; font-weight: 500;}
+.content-info .submenu #accordion .panel-body .table_1 h5 { padding-left: 30px; text-transform:none;}
+.content-info .submenu #accordion .panel-body .table_1 h5 a{color: white;font-weight:100; }
+/*-------------CONTENIDOOO-------------------*/
 .imagen-hero h4{font-size:17px; font-weight: 200;}
 .section .contenedor{background-color: ;padding: 2em 4em 1em 4em;}
 .section .fa-leaf{font-size: 50px;}
@@ -34,7 +51,6 @@ body{padding-top: 0px;}
 .section-content .text{padding: 1em 2em 2em 2em; margin-bottom: 0px;}
 .section-content .fila{padding: 15px 0 20px 0;}
 .section-content h4{background-color:#205724;color: white; padding: 0.5em 0; font-weight: 100; font-size: 16px;}
-
 
 @media (max-width: 750px){.imagen-hero .block{ margin-top: 190px; } .section .fa-leaf{font-size: 50px; margin-top: 35px;} }
 @media (max-width: 500px){.subtitu{font-size: 25px;} }
