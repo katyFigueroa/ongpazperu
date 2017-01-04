@@ -283,7 +283,7 @@ font-family: 'AvenirLTStd-Medium', sans-serif;
 .media-carousel img{width: 180px;height: 80px;}
 /*-----------Footer----------- */
 .section-footer{
-   color: #fff; font-size: 11px;
+   color: #fff; font-size: 12px;
   background-image: url('../img/programas/imagen-footer.jpg');
   background-size: cover;
   background-position: center;
@@ -292,7 +292,7 @@ font-family: 'AvenirLTStd-Medium', sans-serif;
 .section-footer .img-footer{padding-bottom: 20px; width: 50%; margin: auto;}
 .section-footer i{ width: 16px; color:white; margin: auto;}
 .section-footer .fa-chevron-right{font-size: 10px;}
-.section-footer .column{ font-size: 11px;}
+.section-footer .column{ font-size: 12px;}
 .section-footer h5{text-transform: uppercase; font-size: 12px;}
 .section-footer li a{text-decoration: none; color: #fff;}
 .section-footer .footer-red a{text-decoration: none; color: #fff;}

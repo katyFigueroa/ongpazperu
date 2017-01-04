@@ -13,10 +13,14 @@
     <link rel="stylesheet" type="text/css" href="css/font.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
     <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/jquery-1.12.3.js"></script>
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
     <script src="js/collapse.js"></script>
 </head>
 <body>
-
 <!-- --------MENU--------------- -->
 <div id="navbar" style="font-family: 'Roboto', sans-serif; font-size:14px;">    
   <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -42,16 +46,78 @@
         </nav>
 </div>
 <!-- -------------FIN MENU--------------- -->
-
-
 <div class="portada"><div class="hoverAll"></div></div>
 <div class="content-info">
     <div class="container">
         <div class="row ">
-            <div class="col-md-3 col-sm-3 hidden-xs pull-left"  style="padding-left: 0px;">   
+            <div class="col-md-3 col-sm-3 hidden-xs pull-left"  style="padding-left: 0px;">
+                <div class="submenu" >
+                    <div class="panel-group"  id="accordion"> 
+                        <div class="spacy"></div>
+                        <div class="panel _Title">
+                            <div class="panel-heading text-center">
+                                <h4 class="title" style="font-weight: 500;"><span class=""></span>PROGRAMAS SOCIALES</h4>
+                            </div>
+                        </div>
+                        <div class="panel ">
+                            <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                <h3 class="panel-title"><span class="fa fa-medkit"></span> Programa de Salud Integral</h3>
+                            </div>
+                            <div id="collapseOne" class="panel-collapse collapse in">
+                                <div class="panel-body">
+                                    <div class="table">
+                                        <div class="table_1">
+                                            <h5><a href="policlinico.html">Policlínico</a></h5>
+                                        </div>
+                                        <div class="table_1">
+                                            <h5><a href="odontológico.html">Clínica Odontológica</a></h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel ">
+                            <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                                <h3 class="panel-title"><span class="fa fa-book"></span> Programa de Educación Integral</h3>
+                            </div>
+                            <div id="collapseTwo" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <div class="table">
+                                        <div class="table_1">
+                                            <h5><a href="cetpro.html">Cetpro José Olaya</a> </h5> 
+                                        </div>
+                                        <div class="table_1">
+                                            <h5><a href="inicial.html">Inicial</a> </h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel ">
+                            <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                                <h3 class="panel-title"><span class="fa fa-child"></span> Programa de Defensa y Promoción de los derechos de los niños, jóvenes, mujeres y adulto mayor</h3>
+                            </div>
+                            <div id="collapseThree" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <div class="table">
+                                        <div class="table_1">
+                                            <h5><a href="cuna.html">Cuna</a> </h5>
+                                        </div>
+                                        <div class="table_1">
+                                            <h5><a href="educacion.html">Casa Isabel</a> </h5>
+                                        </div>
+                                        <div class="table_1">
+                                            <h5><a href="ciam.html">CIAM</a> </h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            
-            <div class="col-md-9 col-sm-9 col-xs-12 admin-content nopadding" id="cuna">
+
+            <div class="col-md-9 col-sm-9 col-xs-12 admin-content " id="cuna">
                 <div class="col-md-12 contenido-programas">
                         <h3 class="titulo-programa">CUNA - Socabaya</h3>
                         <div class="contenido-programa margin text-justify">
@@ -121,11 +187,10 @@
                             </div>
                         </div>
                 </div>
-            </div>    
+            </div>
         </div>
     </div>
 </div>
-
 <div class="section-footer">
     <div class="opacity">
       <div class="container">
@@ -133,10 +198,10 @@
           <div class="img-footer hidden-xs"><img src="img/programas/captura1.png" class="img-responsive" ></div>
           <div class="menu text-center" >
               <ul class=" list-inline list-unstyled">
-                <li><a href="#">Inicio</a></li> | 
-                <li><a href="#">Nosotros</a></li> |
-                <li><a href="#">Programas</a></li> |
-                <li><a href="#">Contacto</a></li>
+                <li><a href="index.html">Inicio</a></li> | 
+                <li><a href="nosotros.html">Nosotros</a></li> |
+                <li><a href="programas.html">Programas</a></li> |
+                <li><a href="contacto.html">Contacto</a></li>
               </ul>
           </div>
           <div class="footer-red text-center">
@@ -149,22 +214,22 @@
           <h5>Programas Sociales</h5>
           <hr>
           <ul class="list-unstyled">
-            <li><a href="#"><i class="fa fa-chevron-right"></i> Cuna</a></li>
-            <li><a href="#"><i class="fa fa-chevron-right"></i> CIAM</a></li>
-            <li><a href="#"><i class="fa fa-chevron-right"></i> CETPRO</a></li>
-            <li><a href="#"><i class="fa fa-chevron-right"></i> Policlinico</a></li>
-            <li><a href="#"><i class="fa fa-chevron-right"></i> Casa Isabel</a></li>
-            <li><a href="#"><i class="fa fa-chevron-right"></i> Clínica Odontológica</a></li>
+            <li><a href="cuna.html"><i class="fa fa-chevron-right"></i> Cuna</a></li>
+            <li><a href="ciam.html"><i class="fa fa-chevron-right"></i> CIAM</a></li>
+            <li><a href="cetpro.html"><i class="fa fa-chevron-right"></i> CETPRO</a></li>
+            <li><a href="policlinico.html"><i class="fa fa-chevron-right"></i> Policlinico</a></li>
+            <li><a href="educacón.html"><i class="fa fa-chevron-right"></i> Casa Isabel</a></li>
+            <li><a href="odontológico.html"><i class="fa fa-chevron-right"></i> Clínica Odontológica</a></li>
           </ul>
         </div>
         <div class="col-md-3 col-sm-3 col-xs-6 column">
           <h5>Programas Productivos</h5>
           <hr>
           <ul class="list-unstyled">
-            <li><a href="#"><i class="fa fa-chevron-right"></i> Industria Textil</a></li>
-            <li><a href="#"><i class="fa fa-chevron-right"></i> Industria Alimentaria</a></li>
-            <li><a href="#"><i class="fa fa-chevron-right"></i> Cultivo Sostenible</a></li>
-            <li><a href="#"><i class="fa fa-chevron-right"></i> Gestion de Proyectos</a></li>
+            <li><a href="textil.html"><i class="fa fa-chevron-right"></i> Industria Textil</a></li>
+            <li><a href="alimentaria.html"><i class="fa fa-chevron-right"></i> Industria Alimentaria</a></li>
+            <li><a href="cultivos.html"><i class="fa fa-chevron-right"></i> Cultivo Sostenible</a></li>
+            <li><a href="gestion.html"><i class="fa fa-chevron-right"></i> Gestion de Proyectos</a></li>
           </ul>
         </div>
         <div class="col-md-3 col-sm-3 col-xs-12 column">
@@ -187,6 +252,7 @@
         <p class="text-center"> <small>©2016 - ONG PAZ PERÚ</small></p>
     </div>
 </div>
+
 
 </body>
 </html>
