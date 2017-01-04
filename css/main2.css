@@ -251,17 +251,19 @@ font-family: 'AvenirLTStd-Medium', sans-serif;
 .section-about input{margin: 50px 0px 10px; color: rgb(251,65,65); text-transform: uppercase; padding: 5px 40px; border:1px solid rgb(251,65,65);background: transparent;}
 /*---------PUBLICATIONS----------*/
 .section-publications {padding: 2em 0em 3.5em; background: rgb(229,229,229);}
-.section-publications hr{margin-top: 0px; margin-bottom: 0px;}
+.section-publications img{margin: 15px;}
+.section-publications hr{margin: 15px 0px;}
 .section-publications .btn {background: rgba(251,65,65,.6); color: white;}
 .section-publications a{color: rgba(251,65,65,.6); text-decoration: none;}
 .section-publications .label{background-color: rgb(50,57,70); font-weight: 100;}
-.section-publications input{margin: 30px 0px 10px; color:rgb(21,56,116); text-transform: uppercase; padding:5px 46px; border:1px solid rgb(21,56,116);background: transparent;}
+.section-publications input{margin: 40px 0px 10px; color:rgb(21,56,116); text-transform: uppercase; padding:5px 46px; border:1px solid rgb(21,56,116);background: transparent;}
 /*------------auspiciadores_carousel 22-------*/
 .section-aliados{ width: 100%;color: white;padding: 2em 0em 3.5em;}
 .section-aliados h3{font-size:1.7em; text-transform:none; margin-bottom:20px; color:rgb(50,57,70); text-shadow: 0 1px 1px #000;} 
-.section-aliados #media ._fondo img{width: 100%; border-radius: 15px;}
-.carousel{padding: 0;}
-.media-carousel{padding: 0em 5em 0em 5em;}
+.section-aliados #media ._fondo img{filter: grayscale(98%); transition: grayscale 0.5s; width: 100%; border-radius: 15px;}
+.section-aliados #media ._fondo img:hover {filter: grayscale(0);}
+.section-aliados #media ._fondo {padding: 15px 0px;}
+/*.carousel{padding: 0;}
 .media-carousel .carousel-control.left {
   background-image: none;
   background: none repeat scroll 0 0 #222222;
@@ -279,8 +281,8 @@ font-family: 'AvenirLTStd-Medium', sans-serif;
   width : 37px;
   margin-top: 20px;}
 .media-carousel .carousel-indicators {right: 50%;top: auto;bottom: 0px;}
-.media-carousel .carousel-indicators .active{background: #333333;}
-.media-carousel img{width: 180px;height: 80px;}
+.media-carousel .carousel-indicators .active{background: #333333;}*/
+/*.media-carousel img{width: 180px;height: 80px;}*/
 /*-----------Footer----------- */
 .section-footer{
    color: #fff; font-size: 12px;
@@ -372,11 +374,11 @@ font-family: 'AvenirLTStd-Medium', sans-serif;
   #drop-up h3{background:rgba(251,65,65, 0.8);}
   #navbar .navbar-collapse .programas{margin-bottom: 3px;}
   #navbar .navbar-fixed-top{padding-bottom: 35px;}
-  .section-aliados #media ._fondo img{ margin-bottom: 5px;}
+  /*.section-aliados #media ._fondo img{ margin-bottom: 5px;}*/
   .section-aliados .media-carousel .carousel-control.left { margin-left: 2%; margin-top: 60px;}
   .section-aliados .media-carousel .carousel-control.right { margin-right: 2%; margin-top: 60px;}
   .section-aliados .logos{visibility: hidden;}
-  .section-aliados .media-carousel{margin-bottom: -900px;}
+  /*.section-aliados .media-carousel{margin-bottom: -900px;}*/
   .section-footer .img-footer{width:20%;}
   .section-footer {font-size: 13px;}
 }
@@ -386,10 +388,25 @@ font-family: 'AvenirLTStd-Medium', sans-serif;
   #navbar .navbar-fixed-top{padding-bottom: 10px;}
   #themeSlider{margin-top:60px;}
 }
-@media only screen and (min-width: 274px ) and (max-width: 490px){
+/*@media only screen and (min-width: 274px ) and (max-width: 490px){
   .section-aliados .media-carousel{visibility: hidden; margin-bottom:0px; margin-top:-170px;}
   .section-aliados .logos{visibility: visible;}
   .section-aliados .logos img{ width: 28%; display: inline-block; margin-bottom:2px; border-radius: 5px;}
+}*/
+@media (max-width: 490px){
+  .section-aliados .fila .col-xs-3{width: 33.3%;}
+  /*.section-aliados .fila img{ width: 25%;}*/
+  /*.section-aliados #media ._fondo img{width: 80%; margin:auto;}
+  .section-aliados #media ._fondo {padding: 10px 0px;}*/
+}
+@media only screen and (min-width: 768px ) and (max-width: 991px){
+  .section-publications img{width: 100%; margin-left: 0px; margin-right: 0px;}
+}
+@media (max-width: 340px){
+  .section-publications img{width: 100%; margin-left: 0px; margin-right: 0px;}
+}
+@media (max-width: 350px){
+  .section-aliados .fila .col-xs-3{width: 50%;}
 }
 @media only screen and (min-width: 274px ) and (max-width: 485px){
   .section-about h4{ font-size: 16px; }
