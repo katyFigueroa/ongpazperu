@@ -83,7 +83,7 @@ font-family: 'AvenirLTStd-Medium', sans-serif;
 .carousel-control .fa-chevron-left,
 .carousel-control .fa-chevron-right {
   position: absolute;
-  top: 55%;
+  top: 50%;
   right: 0;
   z-index: 5;
   display: inline-block;
@@ -114,7 +114,7 @@ font-family: 'AvenirLTStd-Medium', sans-serif;
     color:white;
     background-color: transparent;
     padding: 19px;
-    margin-bottom: 240px;  left: 25%; right: 25%;
+    margin-bottom: 200px;  left: 20%; right: 20%;
 }
 .cuadro .box-int h3{ font-size: 3em;line-height: 1;margin-bottom: 20px; }
 .cuadro .box-int h3 strong{ text-transform: uppercase; }
@@ -312,6 +312,20 @@ font-family: 'AvenirLTStd-Medium', sans-serif;
 .footer-final p{margin-bottom: 0px;}
 
 
+@media (max-width: 850px){
+  .cuadro .box-int h3{ font-size: 2.5em; }
+  .cuadro .box-int h4{font-size:18px;}
+} 
+@media (max-width: 664px){
+  .cuadro .box-int { margin-bottom: 180px;  left: 15%; right: 15%;}
+}
+@media (max-width: 500px){
+  .cuadro .box-int h3{ font-size: 2.2em; }
+  .cuadro .box-int h4{font-size:16px;}
+  .cuadro .box-int { margin-bottom: 180px;  left: 10%; right: 10%;}
+  .carousel-control .icon-prev, .carousel-control .icon-next, .carousel-control .fa-chevron-left, .carousel-control .fa-chevron-right {
+  background-color: transparent; border:none;font-size: 15px; margin-right: -30px; margin-left:-30px; }
+}
 @media (max-width: 750px){
   #navbar .navbar-fixed-top{padding-bottom: 35px;}
   #navbar .Logotype {width: 210px;}
