@@ -38,10 +38,10 @@
             </div>
             <div class="collapse navbar-collapse" id="navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.html" class="title_menu">INICIO</a></li> <!-- <li class="line hidden-xs">|</li> -->
-                    <li><a href="nosotros.html" class="title_menu" >NOSOTROS </a></li> <!-- <li class="line hidden-xs">|</li>
- -->                <li class="programas"><a href="programas.html" class=" title_menu" >PROGRAMAS</a></li> <!-- <li class="line hidden-xs">|</li> -->
-                    <li class="active"><a href="contacto.html" class="title_menu">CONTÁCTANOS</a></li>
+                    <li class="active"><a href="index.html" class="title_menu">INICIO</a></li>
+                    <li><a href="nosotros.html" class="title_menu" >NOSOTROS </a></li> 
+                    <li class="programas"><a href="programas.html" class=" title_menu" >PROGRAMAS</a></li>
+                    <li ><a href="contacto.html" class="title_menu">CONTÁCTANOS</a></li>
                 </ul>
             </div>
       </div>
@@ -54,7 +54,7 @@ jQuery(document).ready(function($) {
     var scrollPos = $(window).scrollTop(),
         navbar = $('.navbar-default');
 
-    if (scrollPos > 300) {
+    if (scrollPos > 50) {
       navbar.addClass('change-color');
     } else {
       navbar.removeClass('change-color');
@@ -253,25 +253,27 @@ jQuery(document).ready(function($) {
   </div>
 </div>
 
-<div class="section-about mistrabajos">
-  <div class="container">
-    <div class="row">
-      <h2 class="text-center" style="color: rgb(251,65,65);">ACERCA DE NOSOTROS</h2>
-      <div class="col-md-10 col-md-offset-1">
-        <div class="row text-center">
-          <div class="col-md-4 col-sm-4 col-xs-4">
-            <p class="number">+20</p>
-            <h4 class="text-center">20% ipsum dolor sit amet, <strong>CONSECTTUR</strong></h4>
+<div class="section-about">
+  <div class="overlay">
+    <div class="container">
+      <div class="row">
+        <h2 class="text-center" style="color: #fff;">ACERCA DE NOSOTROS</h2>
+        <div class="col-md-10 col-md-offset-1">
+          <div class="row text-center">
+            <div class="col-md-4 col-sm-4 col-xs-4">
+              <p class="number">+20</p>
+              <h4 class="text-center">20% ipsum dolor sit amet, <strong>CONSECTTUR</strong></h4>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-4">
+              <p class="number">30%</p>
+              <h4 class="text-center">20% ipsum dolor <strong>SIT AMET</strong>, consectetur</h4>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-4">
+              <p class="number">+50</p>
+              <h4 class="text-center"><strong>20% IMPSUM </strong>dolor sit amet, consectetur</h4>
+            </div>
+            <a class="button" href="nosotros.html"><input class="" type="button" name="button" value="Conoce más de Nosotros"></a>
           </div>
-          <div class="col-md-4 col-sm-4 col-xs-4">
-            <p class="number">30%</p>
-            <h4 class="text-center">20% ipsum dolor <strong>SIT AMET</strong>, consectetur</h4>
-          </div>
-          <div class="col-md-4 col-sm-4 col-xs-4">
-            <p class="number">+50</p>
-            <h4 class="text-center"><strong>20% IMPSUM </strong>dolor sit amet, consectetur</h4>
-          </div>
-          <a class="button" href="nosotros.html"><input class="" type="button" name="button" value="Conoce más de Nosotros"></a>
         </div>
       </div>
     </div>
@@ -283,31 +285,33 @@ jQuery(document).ready(function($) {
         <h2 class="text-center" style="color: rgb(50,57,70);">NUESTRAS PUBLICACIONES</h2>
         <div class="row">
           <div class="col-md-4">
-            <div class="row text-center">
-              <div class="col-md-12">
-                <h4><strong><a href="#">Title of the post</a></strong></h4>
+            <div class="nota">
+              <div class="row text-center">
+                <div class="col-md-12">
+                  <h4><strong><a href="#">Title of the post</a></strong></h4>
+                </div>
               </div>
-            </div>
-            <div class="row">
-              <div class="col-md-12 col-sm-3 col-xs-12 text-center">
-                <a href="#">
-                    <img src="img/post_2.jpg" alt="" >
-                </a>
-              </div>
-              <div class="col-md-12 col-sm-9 col-xs-12">      
-                <p>
-                  Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea.<br>
-                  Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea
-                </p>
-                <p><a class="btn" href="#">Read more</a></p>
-                <p>
-                  <i class="icon-user"></i> by <a href="#">ONG Paz Perú</a> 
-                  | <i class="icon-calendar"></i> Sept 16th, 2012
-                  | <i class="icon-tags"></i> Tags : <a href="#"><span class="label label-info">Title</span></a> 
-                  <a href="#"><span class="label label-info">Noticia</span></a> 
-                  <a href="#"><span class="label label-info">Title</span></a> 
-                  <a href="#"><span class="label label-info">Noticia</span></a>
-                </p>
+              <div class="row">
+                <div class="col-md-12 col-sm-3 col-xs-12 text-center">
+                  <a href="#">
+                      <img src="img/post-1.jpg" alt="" >
+                  </a>
+                </div>
+                <div class="col-md-12 col-sm-9 col-xs-12">      
+                  <p>
+                    Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea.<br>
+                    Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea
+                  </p>
+                  <p><a class="btn" href="#">Read more</a></p>
+                  <p>
+                    <i class="icon-user"></i> by <a href="#">ONG Paz Perú</a> 
+                    | <i class="icon-calendar"></i> Sept 16th, 2012
+                    | <i class="icon-tags"></i> Tags : <a href="#"><span class="label label-info">Title</span></a> 
+                    <a href="#"><span class="label label-info">Noticia</span></a> 
+                    <a href="#"><span class="label label-info">Title</span></a> 
+                    <a href="#"><span class="label label-info">Noticia</span></a>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -315,61 +319,65 @@ jQuery(document).ready(function($) {
         <hr class="hidden-lg hidden-md">
         <!-- <div class="row"> -->
           <div class="col-md-4">
-            <div class="row text-center">
-              <div class="col-md-12">
-                <h4><strong><a href="#">Title of the post</a></strong></h4>
+            <div class="nota">
+              <div class="row text-center">
+                <div class="col-md-12">
+                  <h4><strong><a href="#">Title of the post</a></strong></h4>
+                </div>
               </div>
-            </div>
-            <div class="row">
-              <div class="col-md-12 col-sm-3 col-xs-12 text-center">
-                <a href="#">
-                    <img src="img/post_1.jpg" alt="">
-                </a>
-              </div>
-              <div class="col-md-12 col-sm-9 col-xs-12">      
-                <p>
-                  Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea.<br>
-                  Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea
-                </p>
-                <p><a class="btn" href="#">Read more</a></p>
-                <p>
-                  <i class="icon-user"></i> by <a href="#">ONG Paz Perú</a> 
-                  | <i class="icon-calendar"></i> Sept 16th, 2012
-                  | <i class="icon-tags"></i> Tags : <a href="#"><span class="label label-info">Title</span></a> 
-                  <a href="#"><span class="label label-info">Noticia</span></a> 
-                  <a href="#"><span class="label label-info">Title</span></a> 
-                  <a href="#"><span class="label label-info">Noticia</span></a>
-                </p>
+              <div class="row">
+                <div class="col-md-12 col-sm-3 col-xs-12 text-center">
+                  <a href="#">
+                      <img src="img/post-2.jpg" alt="">
+                  </a>
+                </div>
+                <div class="col-md-12 col-sm-9 col-xs-12">      
+                  <p>
+                    Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea.<br>
+                    Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea
+                  </p>
+                  <p><a class="btn" href="#">Read more</a></p>
+                  <p>
+                    <i class="icon-user"></i> by <a href="#">ONG Paz Perú</a> 
+                    | <i class="icon-calendar"></i> Sept 16th, 2012
+                    | <i class="icon-tags"></i> Tags : <a href="#"><span class="label label-info">Title</span></a> 
+                    <a href="#"><span class="label label-info">Noticia</span></a> 
+                    <a href="#"><span class="label label-info">Title</span></a> 
+                    <a href="#"><span class="label label-info">Noticia</span></a>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
           <hr class="hidden-lg hidden-md">
           <div class="col-md-4">
-            <div class="row text-center">
-              <div class="col-md-12">
-                <h4><strong><a href="#">Title of the post</a></strong></h4>
+            <div class="nota">
+              <div class="row text-center">
+                <div class="col-md-12">
+                  <h4><strong><a href="#">Title of the post</a></strong></h4>
+                </div>
               </div>
-            </div>
-            <div class="row">
-              <div class="col-md-12 col-sm-3 col-xs-12 text-center">
-                <a href="#">
-                    <img src="img/post_1.jpg" alt="">
-                </a>
-              </div>
-              <div class="col-md-12 col-sm-9 col-xs-12">      
-                <p>
-                  Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea.<br>
-                  Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea
-                </p>
-                <p><a class="btn" href="#">Read more</a></p>
-                <p>
-                  <i class="icon-user"></i> by <a href="#">ONG Paz Perú</a> 
-                  | <i class="icon-calendar"></i> Sept 16th, 2012
-                  | <i class="icon-tags"></i> Tags : <a href="#"><span class="label label-info">Title</span></a> 
-                  <a href="#"><span class="label label-info">Noticia</span></a> 
-                  <a href="#"><span class="label label-info">Title</span></a> 
-                  <a href="#"><span class="label label-info">Noticia</span></a>
-                </p>
+              <div class="row">
+                <div class="col-md-12 col-sm-3 col-xs-12 text-center">
+                  <a href="#">
+                      <img src="img/post-3.jpg" alt="">
+                  </a>
+                </div>
+                <div class="col-md-12 col-sm-9 col-xs-12">      
+                  <p>
+                    Lorem ipsum dolor sit amet, id nec conceptam conclusionemque. Et eam tation option. Utinam salutatus ex eum. Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea.<br>
+                    Ne mea dicit tibique facilisi, ea mei omittam explicari conclusionemque, ad nobis propriae quaerendum sea
+                  </p>
+                  <p><a class="btn" href="#">Read more</a></p>
+                  <p>
+                    <i class="icon-user"></i> by <a href="#">ONG Paz Perú</a> 
+                    | <i class="icon-calendar"></i> Sept 16th, 2012
+                    | <i class="icon-tags"></i> Tags : <a href="#"><span class="label label-info">Title</span></a> 
+                    <a href="#"><span class="label label-info">Noticia</span></a> 
+                    <a href="#"><span class="label label-info">Title</span></a> 
+                    <a href="#"><span class="label label-info">Noticia</span></a>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
