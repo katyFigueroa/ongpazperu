@@ -11,6 +11,15 @@
     <link rel="stylesheet" href="css/capacitacion-allternativa.css">
     <link rel="stylesheet" type="text/css" href="css/font.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+
+    <script type="text/javascript" src="js/jquery-1.12.3.js"></script>
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+
 </head>
 <body>
 
@@ -43,169 +52,367 @@
 <div class="section-info">
     <div class="container">
         <div class="row">
-            <div class="col-lg-3 col-md-3">
+            <div class="col-lg-3 col-md-3 col-sm-3 hidden-xs">
             </div>
-            <div class="col-lg-9 col-md-9 capacitacion-info">
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 capacitacion-info">
                 <h3 class="titulo">Programa de Capacitaciones Alternativas</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    <ul style="padding-left: 20px;">
-                        <li>Talleres Express</li>
-                        <li>Talleres full time</li>
-                        <li>Talleres college - fam</li>
-                    </ul>
+                <p>Este programa es un proyecto creado con la finalidad de prevenir las malas prácticas sociales, conflictos y violencia en la sociedad, creando así programas educacionales donde nuestros alumnos desarrollan sus habilidades y competencias para su crecimiento personal y/o profesional e iniciarlos en una guia vocacional.
                 </p>
+                <h4>¿A QUIÉN VA DIRIGIDO?</h4>
+                <p>Este programa está dirigido a niños, jóvenes y adultos de ambos sexos.</p>
+                <h4>MODALIDAD</h4>
+                <ul style="padding-left: 20px;">
+                    <li>Talleres Express</li>
+                    <li>Talleres full time</li>
+                    <li>Talleres college - fam</li>
+                </ul>
+                <h4>INCLUYE:</h4>
+                <p>Certificación del Ministerio de Educación</p>
+                <h4>TALLERES:</h4>
                 <div class="talleres">
                     <div class="row">
-                        <div class="col-md-4">
-                            <div class="taller-manualidades">
+                        <div class="col-md-4 col-sm-6 col-xs-6">
+                            <div class="taller taller-manualidades">
                                 <figure>
-                                    <img src="img/programas/capacitacion-alt/taller-manualidades.jpg">
+                                    <img src="img/programas/capacitacion-alt/tall-manualidades.jpg">
                                     <figcaption>
-                                      <div class="description">
-                                        <i class="fa fa-envira"></i> 
-                                        Descripcion de la foto de muestra para ver mas detalle
+                                      <div class="description"> 
+                                        Este taller promueve la creatividad, la cultura productiva y la capacidad emprendedora de la persona.
                                       </div>
                                       <p class="title">Manualidades</p>
                                       <ul class="iconos">
-                                        <li><a href=""><i class="fa fa-github"></i></a></li>
-                                        <li><a href=""><i class="fa fa-whatsapp"></i></a></li>
-                                        <li><a href=""><i class="fa fa-facebook-official"></i></a></li> 
+                                        <li><a href="#one" data-toggle="modal"><i class="fa fa-plus"></i></a></li>
                                       </ul>
                                     </figcaption>
-                                  </figure>
+                                </figure>
+                                <div class="modal fade" id="one" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header modal-header-primary">
+                                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                                <h3><i class="fa fa-diamond"></i> Taller de Manualidades</h3>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>Este taller brinda las herramientas para promover la creatividad, la cultura productiva y la capacidad emprendedora de contribuir con el desarrollo integral de la persona a lo largo de toda la vida.</p>
+                                                <h5><strong>OBJETIVO</strong></h5>
+                                                <p>Fortalecer las facultades creadoras del participante reforzando sus habilidades para enfrentar y solucionar los problemas que se le presenten, haciendo uso de las herramientas que le proporciona el medio en que se desenvuelve.</p>
+                                                <h5><strong>ACTIVIDADES QUE DESARROLLAN</strong></h5>
+                                                    <ul style="padding-left: 20px;">
+                                                        <li>Manualidades con cerámia en frío.</li>
+                                                        <li>Bisutería, macrame, cartonaje creativo y tecnopor.</li>
+                                                        <li>Flores en porcelana fina.</li>
+                                                        <li>Pintura en madera y tela.</li>
+                                                        <li>Bordado con cinta, bordado yugoslavo y español.</li>
+                                                        <li>Goma eva.</li>
+                                                        <li>Arte con material reciclado.</li>
+                                                        <li>Manualidades adornos navideños y eventos especiales.</li>
+                                                        
+                                                    </ul>
+                                                <div class="gallery">
+                                                    <div class="col-md-4 col-sm-4 col-xs-6"><img src="img/programas/capacitacion-alt/manualidad-1.jpg"></div>
+                                                    <div class="col-md-4 col-sm-4 col-xs-6"><img src="img/programas/capacitacion-alt/manualidad-2.jpg"></div>
+                                                    <div class="col-md-4 col-sm-4 hidden-xs"><img src="img/programas/capacitacion-alt/manualidad-3.jpg"></div>
+                                                </div>
+                                                <h5><strong>INSCRIPCIONES</strong></h5>
+                                                <hr>
+                                                <p>
+                                                    <strong>Dirección:</strong>Av. Salaverry S/N Lara - Socabaya <br>
+                                                    <strong>Teléfono:</strong> (054) 436565 / RPC:959375374 / RPM:977281031 <br>
+                                                    <strong>Correo electrónico:</strong> capacitacionalternativa@pazperuong.org
+                                                </p>         
+                                            </div>
+                                            <div class="modal-footer">
+                                                 <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="taller-gastronomia">
+                        <div class="col-md-4 col-sm-6 col-xs-6">
+                            <div class="taller taller-gastronomia">
                                 <figure>
-                                    <img src="img/programas/capacitacion-alt/taller-gastronomia.jpg">
+                                    <img src="img/programas/capacitacion-alt/tall-reposteria2.jpg">
                                     <figcaption>
-                                      <div class="description">
-                                        <i class="fa fa-envira"></i> 
-                                        Descripcion de la foto de muestra para ver mas detalle
+                                      <div class="description"> 
+                                        Te permite conocer, preparar, crear, innovar y disfrutar de las tradiciones culinarias y dominar los secretos de la pasteleria.
                                       </div>
                                       <p class="title">Gastronomía y Repostería</p>
                                       <ul class="iconos">
-                                        <li><a href=""><i class="fa fa-github"></i></a></li>
-                                        <li><a href=""><i class="fa fa-whatsapp"></i></a></li>
-                                        <li><a href=""><i class="fa fa-facebook-official"></i></a></li>  
+                                        <li><a href="#two" data-toggle="modal"><i class="fa fa-plus"></i></a></li>  
                                       </ul>
                                     </figcaption>
                                 </figure>
+                                <div class="modal fade" id="two" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header modal-header-primary">
+                                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                                <h3><i class="fa fa-cutlery"></i> Taller de Gastronomía y Repostería</h3>
+                                            </div>
+                                            <div class="modal-body">
+                                                Este taller brinda una formación culinaria, a través de técnicas necesarias para nuestros alumnos, innovando e incentivando la cultura gastronómica y respostería. 
+                                                <h5><strong>OBJETIVO</strong></h5>
+                                                Lograr que los alumnos innoven con propuestas gastronómicas e ideas de panadería.
+                                                <h5><strong>ACTIVIDADES QUE DESARROLLAN</strong></h5>
+                                                    <ul style="padding-left: 20px;">
+                                                        <li> Crear combinaciones o aportar tu creatividad al servicio de platos clásicos.</li>
+                                                        <li> Integrar y liderar equipos en el área de cocina.</li>
+                                                        <li> Diseñar propuestas de cocina.</li>
+                                                        <li> Crear o elaborar postres de diferentes tipos.</li>
+                                                    </ul>
+                                                <h5><strong>TALLERES</strong></h5>
+                                                <ul style="padding-left: 20px;">
+                                                    <li>Talleres de cocina y repostería para niños.</li>
+                                                    <li>Talleres de cocina y repostería para jóvenes y adultos.</li>
+                                                </ul>
+                                                <div class="gallery">
+                                                    <div class="col-md-4 col-sm-4 col-xs-6"><img src="img/programas/capacitacion-alt/cocina-1.jpg"></div>
+                                                    <div class="col-md-4 col-sm-4 hidden-xs"><img src="img/programas/capacitacion-alt/cocina-2.jpg"></div>
+                                                    <div class="col-md-4 col-sm-4 col-xs-6"><img src="img/programas/capacitacion-alt/cocina-3.jpg"></div>
+                                                </div>
+                                                <h5><strong>INSCRIPCIONES</strong></h5>
+                                                <hr>
+                                                <p>
+                                                    <strong>Dirección:</strong>Av. Salaverry S/N Lara - Socabaya <br>
+                                                    <strong>Teléfono:</strong> (054) 436565 / RPC:959375374 / RPM:977281031 <br>
+                                                    <strong>Correo electrónico:</strong> capacitacionalternativa@pazperuong.org
+                                                </p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                 <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="taller-agricultura">
+                        <div class="col-md-4 col-sm-6 col-xs-6">
+                            <div class="taller taller-agricultura">
                                 <figure>
-                                    <img src="img/programas/capacitacion-alt/taller-agricultura.jpg">
+                                    <img src="img/programas/capacitacion-alt/tall-agricultura.jpg">
                                     <figcaption>
                                       <div class="description">
-                                        <i class="fa fa-envira"></i> 
-                                        Descripcion de la foto de muestra para ver mas detalle
+                                        Este taler te permite identificar las causas y consecuencias del deterioro ambiental y la producción ecológica.
                                       </div>
                                       <p class="title">Agricultura orgánica</p>
                                       <ul class="iconos">
-                                        <li><a href=""><i class="fa fa-github"></i></a></li>
-                                        <li><a href=""><i class="fa fa-whatsapp"></i></a></li>
-                                        <li><a href=""><i class="fa fa-facebook-official"></i></a></li> 
+                                        <li><a href="#three" data-toggle="modal"><i class="fa fa-plus"></i></a></li>
                                       </ul>
                                     </figcaption>
-                                </figure> 
+                                </figure>
+                                <div class="modal fade" id="three" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header modal-header-primary">
+                                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                                <h3><i class="fa fa-envira"></i> Taller de Agricultura orgánica</h3>
+                                            </div>
+                                            <div class="modal-body">
+                                                <h5><strong>OBJETIVO</strong></h5>
+                                                Proveer una experiencia práctica-teórica a los participantes para que tengan confianza en la creación y manejo de sus propios huertos biointensivos.
+                                                Todos aquellos que tienen interés en cultivar sus propios alimentos en pequeños espacios y a la vez, cuidar el suelo.
+                                                <h5><strong>TEMAS A DESARROLLAR</strong></h5>
+                                                    <ul style="padding-left: 20px;">
+                                                        <li>Agricultura Biointensiva, consevación.</li>
+                                                        <li>Componentes de Agricultura Biointensiva</li>
+                                                        <li>La preparación del suelo (Herramientas, procedimientos y razones).</li>
+                                                        <li>La composta (Ventajas, materiales, uso de cultivos y manejo).</li>
+                                                        <li>Incorporación de cultivos eficientes (Características, definición).</li>
+                                                        <li>Sistema Integral</li>
+                                                        <li>Ejercicios prácticos</li>
+                                                    </ul>
+                                                <div class="gallery">
+                                                    <div class="col-md-4 col-sm-4 col-xs-6"><img src="img/programas/capacitacion-alt/agricultura-1.jpg"></div>
+                                                    <div class="col-md-4 col-sm-4 col-xs-6"><img src="img/programas/capacitacion-alt/agricultura-2.jpg"></div>
+                                                    <div class="col-md-4 col-sm-4 hidden-xs"><img src="img/programas/capacitacion-alt/agricultura-3.jpg"></div>
+                                                </div>
+                                                <h5><strong>INSCRIPCIONES</strong></h5>
+                                                <hr>
+                                                <p>
+                                                    <strong>Dirección:</strong>Av. Salaverry S/N Lara - Socabaya <br>
+                                                    <strong>Teléfono:</strong> (054) 436565 / RPC:959375374 / RPM:977281031 <br>
+                                                    <strong>Correo electrónico:</strong> capacitacionalternativa@pazperuong.org
+                                                </p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                 <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> 
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="taller-computacion">
+                        <div class="col-md-4 col-sm-6 col-xs-6">
+                            <div class="taller taller-computacion">
                                 <figure>
-                                    <img src="img/programas/capacitacion-alt/taller-computacion.jpg">
+                                    <img src="img/programas/capacitacion-alt/tall-computacion.jpg">
                                     <figcaption>
                                       <div class="description">
-                                        <i class="fa fa-envira"></i> 
-                                        Descripcion de la foto de muestra para ver mas detalle
+                                        Te permite descubrir el mundo informático, manejando y gestionando información.
                                       </div>
                                       <p class="title">Computación e Informática</p>
                                       <ul class="iconos">
-                                        <li><a href=""><i class="fa fa-github"></i></a></li>
-                                        <li><a href=""><i class="fa fa-whatsapp"></i></a></li>
-                                        <li><a href=""><i class="fa fa-facebook-official"></i></a></li> 
+                                        <li><a href="#four" data-toggle="modal"><i class="fa fa-plus"></i></a></li> 
                                       </ul>
                                     </figcaption>
                                 </figure>
+                                <div class="modal fade" id="four" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header modal-header-primary">
+                                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                                <h3><i class="fa fa-laptop"></i> Taller de Computación e Informática</h3>
+                                            </div>
+                                            <div class="modal-body">
+                                                Hello World!
+                                            </div>
+                                            <div class="modal-footer">
+                                                 <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="taller-cosmetologia">
+                        <div class="col-md-4 col-sm-6 col-xs-6">
+                            <div class="taller taller-cosmetologia">
                                 <figure>
-                                    <img src="img/programas/capacitacion-alt/taller-cosmetologia.jpg">
+                                    <img src="img/programas/capacitacion-alt/tall-cosmetologia.jpg">
                                     <figcaption>
                                       <div class="description">
-                                        <i class="fa fa-envira"></i> 
                                         Descripcion de la foto de muestra para ver mas detalle
+                                        Te brinda altos conocimientos en Cosmetología y Cosmiatria con una buena metodología y aprendizaje.
                                       </div>
                                       <p class="title">Cosmetología</p>
                                       <ul class="iconos">
-                                        <li><a href=""><i class="fa fa-github"></i></a></li>
-                                        <li><a href=""><i class="fa fa-whatsapp"></i></a></li>
-                                        <li><a href=""><i class="fa fa-facebook-official"></i></a></li> 
+                                        <li><a href="#five" data-toggle="modal"><i class="fa fa-plus"></i></a></li> 
                                       </ul>
                                     </figcaption>
                                 </figure>
+                                <div class="modal fade" id="five" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header modal-header-primary">
+                                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                                <h3><i class="fa fa-scissors"></i> Taller de Cosmetología</h3>
+                                            </div>
+                                            <div class="modal-body">
+                                                <h5><strong>OBJETIVO</strong></h5>
+                                                Lograr que las jóvenes aprendan el arte de la cosmetología mediante técnicas de belleza y desarrollen habilidades durante el proceso.
+                                                <h5><strong>ACTIVIDADES A DESARROLLAR</strong></h5>
+                                                    <ul style="padding-left: 20px;">
+                                                        <li>Corte y cepillado de cabello</li>
+                                                        <li>Limpieza Facial</li>
+                                                        <li>Maquillaje</li>
+                                                        <li>Peinados (Estilos De Trenzas)</li>
+                                                        <li>Manicure, pedicure </li>
+                                                        <li>Estilos De Decoración De Uñas</li>
+                                                    </ul>       
+                                            </div>
+                                            <div class="modal-footer">
+                                                 <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="taller-textil">
+                        <div class="col-md-4 col-sm-6 col-xs-6">
+                            <div class="taller taller-textil">
                                 <figure>
-                                    <img src="img/programas/capacitacion-alt/taller-textiil.jpg">
+                                    <img src="img/programas/capacitacion-alt/tall-textil.jpg">
                                     <figcaption>
                                       <div class="description">
-                                        <i class="fa fa-envira"></i> 
                                         Descripcion de la foto de muestra para ver mas detalle
                                       </div>
                                       <p class="title">Diseño, patronaje y confección textil</p>
                                       <ul class="iconos">
-                                        <li><a href=""><i class="fa fa-github"></i></a></li>
-                                        <li><a href=""><i class="fa fa-whatsapp"></i></a></li>
-                                        <li><a href=""><i class="fa fa-facebook-official"></i></a></li> 
+                                        <li><a href="#six" data-toggle="modal"><i class="fa fa-plus"></i></a></li> 
                                       </ul>
                                     </figcaption>
                                 </figure>
+                                <div class="modal fade" id="six" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header modal-header-primary">
+                                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                                <h3><i class="fa fa-industry"></i> Taller de Diseño, patronaje y confección textil</h3>
+                                            </div>
+                                            <div class="modal-body">
+                                                Hello World!
+                                            </div>
+                                            <div class="modal-footer">
+                                                 <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="taller-masaje">
+                        <div class="col-md-4 col-sm-6 col-xs-6">
+                            <div class="taller taller-masaje">
                                 <figure>
-                                    <img src="img/programas/capacitacion-alt/taller-masaje.jpg">
+                                    <img src="img/programas/capacitacion-alt/tall-masajes.jpg">
                                     <figcaption>
                                       <div class="description">
-                                        <i class="fa fa-envira"></i> 
                                         Descripcion de la foto de muestra para ver mas detalle
                                       </div>
                                       <p class="title">Técnicas de masaje</p>
                                       <ul class="iconos">
-                                        <li><a href=""><i class="fa fa-github"></i></a></li>
-                                        <li><a href=""><i class="fa fa-whatsapp"></i></a></li>
-                                        <li><a href=""><i class="fa fa-facebook-official"></i></a></li> 
+                                        <li><a href="#seven" data-toggle="modal"><i class="fa fa-plus"></i></a></li> 
                                       </ul>
                                     </figcaption>
                                 </figure>
+                                <div class="modal fade" id="seven" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header modal-header-primary">
+                                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                                <h3><i class="fa fa-male"></i> Taller de Técnicas de masaje</h3>
+                                            </div>
+                                            <div class="modal-body">
+                                                Hello World!
+                                            </div>
+                                            <div class="modal-footer">
+                                                 <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="taller-danza">
+                        <div class="col-md-4 col-sm-6 col-xs-6">
+                            <div class="taller taller-danza">
                                 <figure>
-                                    <img src="img/programas/capacitacion-alt/taller-danza.jpg">
+                                    <img src="img/programas/capacitacion-alt/tall-danza.jpg">
                                     <figcaption>
                                       <div class="description">
-                                        <i class="fa fa-envira"></i> 
                                         Descripcion de la foto de muestra para ver mas detalle
                                       </div>
                                       <p class="title">Danza Moderna</p>
                                       <ul class="iconos">
-                                        <li><a href=""><i class="fa fa-github"></i></a></li>
-                                        <li><a href=""><i class="fa fa-whatsapp"></i></a></li>
-                                        <li><a href=""><i class="fa fa-facebook-official"></i></a></li> 
+                                        <li><a href="#eight" data-toggle="modal"><i class="fa fa-plus"></i></a></li> 
                                       </ul>
                                     </figcaption>
                                 </figure>
+                                <div class="modal fade" id="eight" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header modal-header-primary">
+                                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                                <h3><i class="fa fa-users"></i> Taller de Danza Moderna</h3>
+                                            </div>
+                                            <div class="modal-body">
+                                                Hello World!
+                                            </div>
+                                            <div class="modal-footer">
+                                                 <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
