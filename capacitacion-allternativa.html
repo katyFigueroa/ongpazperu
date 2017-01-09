@@ -48,12 +48,48 @@
   </nav>
 </div> 
 <!-- -------------fin menu---------- -->
-<div class="portada"></div>
+<div class="portada">
+    <div class="hoverAll">
+        <!-- <div class="container"></div> -->
+        <div class="box-in text-center" >
+            <h4>Programa para niños, jóvenes y adultos</h4>
+            <img src="img/programas/capacitacion-alt/fila-logos.png">
+        </div>
+    </div>
+</div>
 <div class="section-info">
     <div class="container">
         <div class="row">
-            <div class="col-lg-3 col-md-3 col-sm-3 hidden-xs">
+            <div class="col-lg-3 col-md-3 col-sm-3 hidden-xs ">
+               <!--  <div class="sidenav affix" >The black background helps you to see how the sidenav switch between position: absolute and fixed (out of its parent .navholder)</div> -->
             </div>
+<style type="text/css">
+.navholder {position: relative; top: 100px; background-color: #000;}
+.sidenav {background-color: #fdd; width: 220px; height: 100px;}
+.affix {position: fixed !important; top: 50px; width: 220px;}
+@media screen and (min-width: 992px) {
+  .sidenav,.affix { width: 293px;}
+}
+@media screen and (min-width: 1200px) {
+  .sidenav,.affix { width: 360px;}
+}
+.affix-bottom {position: absolute;}
+}
+
+</style>
+<script type="text/javascript">
+var bottomReferenceBox = $('.reference-box');
+
+//calculate the bottom position
+var bottomOffLine = $(document).height() - bottomReferenceBox.offset().top - bottomReferenceBox.outerHeight();
+
+$('.affix').affix({
+  offset: {
+    top: 100,
+    bottom: bottomOffLine
+  }
+})
+</script>
             <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 capacitacion-info">
                 <h3 class="titulo">Programa de Capacitaciones Alternativas</h3>
                 <p>Este programa es un proyecto creado con la finalidad de prevenir las malas prácticas sociales, conflictos y violencia en la sociedad, creando así programas educacionales donde nuestros alumnos desarrollan sus habilidades y competencias para su crecimiento personal y/o profesional e iniciarlos en una guia vocacional.
@@ -136,7 +172,7 @@
                                     <img src="img/programas/capacitacion-alt/tall-reposteria2.jpg">
                                     <figcaption>
                                       <div class="description"> 
-                                        Te permite conocer, preparar, crear, innovar y disfrutar de las tradiciones culinarias y dominar los secretos de la pasteleria.
+                                        Te permite conocer, innovar y disfrutar de las tradiciones culinarias y dominar los secretos de la pasteleria.
                                       </div>
                                       <p class="title">Gastronomía y Repostería</p>
                                       <ul class="iconos">
@@ -194,7 +230,7 @@
                                     <img src="img/programas/capacitacion-alt/tall-agricultura.jpg">
                                     <figcaption>
                                       <div class="description">
-                                        Este taler te permite identificar las causas y consecuencias del deterioro ambiental y la producción ecológica.
+                                        Te permite identificar las causas y consecuencias del deterioro ambiental y la producción ecológica.
                                       </div>
                                       <p class="title">Agricultura orgánica</p>
                                       <ul class="iconos">
@@ -299,7 +335,7 @@
                                     <img src="img/programas/capacitacion-alt/tall-cosmetologia.jpg">
                                     <figcaption>
                                       <div class="description">
-                                        Te brinda altos conocimientos en Cosmetología y Cosmiatria con una buena metodología y aprendizaje.
+                                        Te brinda altos conocimientos en Cosmetología y Cosmiatria con una buena metodología.
                                       </div>
                                       <p class="title">Cosmetología</p>
                                       <ul class="iconos">
@@ -464,7 +500,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 col-sm-6 col-xs-6">
+                        <div class="col-md-4 col-sm-6 col-xs-6 ">
                             <div class="taller taller-danza">
                                 <figure>
                                     <img src="img/programas/capacitacion-alt/tall-danza.jpg">
@@ -524,6 +560,13 @@
                         </div>
                     </div>
                 </div>
+                <h4>INFORMES E INSCRIPCIONES</h4>
+                <hr class="line">
+                <p>
+                    <strong>Dirección:</strong>Av. Salaverry S/N Lara - Socabaya <br>
+                    <strong>Teléfono:</strong> (054) 436565 / RPC:959375374 / RPM:977281031 <br>
+                    <strong>Correo electrónico:</strong> capacitacionalternativa@pazperuong.org
+                </p>
             </div>
         </div>
 

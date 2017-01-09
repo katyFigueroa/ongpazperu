@@ -116,7 +116,7 @@ font-family: 'AvenirLTStd-Medium', sans-serif;
     padding: 19px;
     margin-bottom: 200px;  left: 20%; right: 20%;
 }
-.cuadro .box-int h3{ font-size: 3em;line-height: 1;margin-bottom: 20px; color: rgba(251,65,65,.8); font-weight: bold;}
+.cuadro .box-int h3{ font-size: 2.5em;line-height: 1;margin-bottom: 20px; color: white; font-weight: bold;}
 .cuadro .box-int h3 strong{ text-transform: uppercase; }
 .cuadro .box-int h4{font-size:20px; color: white; font-weight: 500;}
 .carousel-indicators {bottom: 0px;}
