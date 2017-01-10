@@ -24,7 +24,7 @@
 <body>
 
 <!-- --------MENU--------------- -->
-<div id="navbar" style="font-family: 'Roboto', sans-serif; font-size:14px;">    
+<!-- <div id="navbar" style="font-family: 'Roboto', sans-serif; font-size:14px;">    
   <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
             <div class="navbar-header">
@@ -46,7 +46,117 @@
             </div>
       </div>
   </nav>
-</div> 
+</div> --> 
+<script type="text/javascript">
+    
+            $(document).ready(function() {
+                //responsive menu toggle
+                $("#menutoggle").click(function() {
+                    $('.xs-menu').toggleClass('displaynone');
+
+                    });
+                //add active class on menu
+                $('ul li').click(function(e) {
+                    e.preventDefault();
+                    $('li').removeClass('active');
+                    $(this).addClass('active');
+                });
+            //drop down menu    
+                    $(".drop-down").hover(function() {
+                        $('.mega-menu').addClass('display-on');
+                    });
+                    $(".drop-down").mouseleave(function() {
+                        $('.mega-menu').removeClass('display-on');
+                    });
+            
+            });
+
+     
+</script>
+<div class="menu-fix">
+    <div class="navbar-fixed-top">
+        <div class="container">
+            <div class="xs-menu-cont">
+                <a id="menutoggle"><i class="fa fa-align-justify"></i> </a>
+                <nav class="xs-menu displaynone">
+                    <ul>
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <nav class="menu">
+                <ul style="padding-left: 0px; padding-top: 17px;">
+                    <li><a href="#" style="padding: 0;"><img src="img/logo_horizontal.png"></a></li>
+                    <li class="active" style="float: right;"><a href="#">INICIO</a></li>
+                    <li class="drop-down" style="float: right;">
+                        <a href="#">PROGRAMAS</a>
+                        <div class="mega-menu fadeIn animated">
+                            <div class="mm-6column">
+                                <span class="left-images">
+                                    <img  src="http://4.bp.blogspot.com/-faF-AemPFUM/U4ryP7pQRsI/AAAAAAAAEvA/fZ-hskCSln4/s1600/Magento%2Bthemes.jpg">
+                                    <p>Most Popular Styles </p>
+                                </span>
+                                <span class="categories-list">
+                                    <ul>
+                                        <span>Computer</span>
+                                        <li>Desktops</li>
+                                        <li>Laptops</li>
+                                        <li>Tablets</li>
+                                        <li>Monitors</li>
+                                        <li>Networking Printers</li>
+                                        <li>Scanners</li>
+                                        <li>Jumpers & Cardigans</li>
+                                        <li><a class="mm-view-more" href="#">View more →</a></li>
+                                    </ul>
+                                </span>
+                            </div>
+                            <div class="mm-3column">
+                                <span class="categories-list">
+                                    <ul>
+                                        <span>TV & Video</span>
+                                        <li>LED TVs
+                                        <li>Plasma TVs
+                                        <li>3D TVs
+                                        <li>DVD & Blu-ray Players
+                                        <li>Home Theater Systems
+                                        <li>Cell Phones
+                                        <li>Apple iPhone
+                                        <li><a class="mm-view-more" href="#">View more →</a></li>
+                                    </ul>
+                                </span>                         
+                            </div>
+                            <div class="mm-3column">
+                                <span class="categories-list">
+                                    <ul>
+                                        <span>Car Electronics</span>
+                                        <li>GPS & Navigation</li>
+                                        <li>In-Dash Stereos</li>
+                                        <li>Speakers</li>
+                                        <li>Subwoofers</li>
+                                        <li>Amplifiers</li>
+                                        <li>MP3 Players</li>
+                                        <li>iPods</li>
+                                        <li><a class="mm-view-more" href="#">View more →</a></li>
+                                    </ul>
+                                </span>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li style="float: right;"><a href="#">NOSOTROS</a></li>
+                    <li style="float: right;"> <a href="#">CONTÁCTANOS</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+
+
 <!-- -------------fin menu---------- -->
 <div class="portada">
     <div class="hoverAll">
@@ -60,36 +170,7 @@
 <div class="section-info">
     <div class="container">
         <div class="row">
-            <div class="col-lg-3 col-md-3 col-sm-3 hidden-xs ">
-               <!--  <div class="sidenav affix" >The black background helps you to see how the sidenav switch between position: absolute and fixed (out of its parent .navholder)</div> -->
-            </div>
-<style type="text/css">
-.navholder {position: relative; top: 100px; background-color: #000;}
-.sidenav {background-color: #fdd; width: 220px; height: 100px;}
-.affix {position: fixed !important; top: 50px; width: 220px;}
-@media screen and (min-width: 992px) {
-  .sidenav,.affix { width: 293px;}
-}
-@media screen and (min-width: 1200px) {
-  .sidenav,.affix { width: 360px;}
-}
-.affix-bottom {position: absolute;}
-}
-
-</style>
-<script type="text/javascript">
-var bottomReferenceBox = $('.reference-box');
-
-//calculate the bottom position
-var bottomOffLine = $(document).height() - bottomReferenceBox.offset().top - bottomReferenceBox.outerHeight();
-
-$('.affix').affix({
-  offset: {
-    top: 100,
-    bottom: bottomOffLine
-  }
-})
-</script>
+            <div class="col-md-3 col-sm-3 col-xs-3"></div>
             <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 capacitacion-info">
                 <h3 class="titulo">Programa de Capacitaciones Alternativas</h3>
                 <p>Este programa es un proyecto creado con la finalidad de prevenir las malas prácticas sociales, conflictos y violencia en la sociedad, creando así programas educacionales donde nuestros alumnos desarrollan sus habilidades y competencias para su crecimiento personal y/o profesional e iniciarlos en una guia vocacional.
@@ -163,7 +244,6 @@ $('.affix').affix({
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-6 col-xs-6">
@@ -569,11 +649,26 @@ $('.affix').affix({
                 </p>
             </div>
         </div>
-
     </div>
 </div>
+<style type="text/css">
+.application {border-top: 1px solid #c1e1ec;}
+.affix-top { position: relative;}
+.affix { top: 70px;}
+.affix, 
+.affix-bottom {width: 19.45%;}
+.affix-bottom {position: absolute;}
+</style>
+<script type="text/javascript">
+    $('#sub').affix({
+    offset: {     
+      top: $('#sub').offset().top,
+      bottom: ($('footer').outerHeight(true) + $('.application').outerHeight(true)) + 50
+    }
+});
 
-<div class="section-footer">
+</script>
+<div class="section-footer application">
     <div class="opacity">
       <div class="container">
         <div class="col-md-3 col-sm-3 ">
@@ -629,11 +724,15 @@ $('.affix').affix({
       </div>
     </div>
 </div>
+<footer>
 <div class="footer-final">
     <div class="container">
       <p class="text-center"> <small>©2016 - ONG PAZ PERÚ</small></p>
     </div>
 </div>
+</footer>
 
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 </body>
 </html>

@@ -26,7 +26,7 @@ body{padding-top: 0px;}
     margin-bottom: 20px;
 }
 /*-----------SUB-MENU-----------------*/
-.content-info .submenu ._Title{border: none; border-radius: 0px;}
+/*.content-info .submenu ._Title{border: none; border-radius: 0px;}
 .content-info .submenu #accordion .spacy{background-color: rgb(229,229,229); height:30px;width:100%;}
 .content-info .submenu #accordion h4{text-transform: uppercase; font-weight: 300; color: white; text-shadow: 0 1px 1px #000; font-size:16px;}
 .content-info .submenu #accordion .glyphicon { margin-right:10px; }
@@ -40,7 +40,7 @@ body{padding-top: 0px;}
 .content-info .submenu #accordion .panel-body .table_1:hover {background-color:rgb(229,229,229); border: 1px solid rgb(50,57,70); border-radius:5px;}
 .content-info .submenu #accordion .panel-body .table_1:hover a{color: rgb(50,57,70); text-decoration: none; font-weight: 500;}
 .content-info .submenu #accordion .panel-body .table_1 h5 { padding-left: 30px; text-transform:none;}
-.content-info .submenu #accordion .panel-body .table_1 h5 a{color: white;font-weight:100; }
+.content-info .submenu #accordion .panel-body .table_1 h5 a{color: white;font-weight:100; }*/
 /*-------------CONTENIDOOO-------------------*/
 .imagen-hero h4{font-size:17px; font-weight: 200;}
 .section .contenedor{background-color: ;padding: 2em 4em 1em 4em;}
