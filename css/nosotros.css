@@ -2,7 +2,6 @@
 body{font-family:'Roboto', sans-serif;}
 .imagen-hero{
   /*background-image: url("../img/personal-nosotros.jpg");*/
-  /*background-image: url("../img/nosotros/foto-portada.jpg");*/
 	background-image: url("../img/nosotros/PORTADA_NOSOTROS.jpg");
 	background-size: cover;
   background-position: top center;
