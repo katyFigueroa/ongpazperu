@@ -1,6 +1,6 @@
 /**{outline: 1px solid red;}*/
 
-.navbar-fixed-top{background-color: white; width: 100%;}
+/*.navbar-fixed-top{background-color: white; width: 100%;}
 
 .menu-fix .container:after, .container:before {content: "" clear : both;}
 .menu-fix nav.menu {background: white; position: relative; min-height: 45px; height: 100%;}
@@ -27,9 +27,9 @@
 .menu-fix .mega-menu {background: none repeat scroll 0 0 #888; 
   left: 0;margin-top: 3px; position: absolute; width: 100%; padding:15px; display:none; transition-duration: 0.9s;  }
 .menu-fix #menutoggle i {color: #fff; font-size: 33px; margin: 0; padding: 0;}
-
+*/
 /*--column--*/
-.menu-fix .mm-6column:after, .mm-6column:before, .mm-3column:after, .mm-3column:before{ content:""; display:table; clear:both;}
+/*.menu-fix .mm-6column:after, .mm-6column:before, .mm-3column:after, .mm-3column:before{ content:""; display:table; clear:both;}
 .menu-fix .mm-6column, .mm-3column {float: left; position: relative;}
 .menu-fix .mm-6column { width: 50%;}
 .menu-fix .mm-3column {width: 25%;}
@@ -57,9 +57,9 @@
 }
 .menu-fix .display-on{display:block; transition-duration: 0.9s;}
 .menu-fix .drop-down > a:after{content:"\f103"; color:#fff; font-style: normal; margin-left: 5px;
-}
+}*/
 /*Animation--*/
-.menu-fix .animated {
+/*.menu-fix .animated {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
@@ -82,20 +82,16 @@
   .xs-menu li a { padding:0px;}
   .xs-menu-cont{display:block ;}
  }
-
-
-
-
+*/
 
 .portada{
-	background-image: url('../img/programas/capacitacion-alt/foto-portada1.jpg');
+	background-image: url('../img/programas/capacitacion-alt/portada-capa.jpg');
 	background-size: cover;
-	background-position: center;
+	background-position: top center;
 	width: 100%;
 	height: 450px;
 	margin-top: 80px;
 }
-.portada .hoverAll{background: rgba(6,28,38,.2); width:100%; height:100%;}
 .portada h4{
 	text-align: center;
     font-weight: 500;
@@ -106,32 +102,14 @@
 .portada img{ width: 40%; padding: 5px;}
 .portada .box-in {
 	padding: 20px; 
-	background: linear-gradient( 0deg, rgba(67,86,99,.5), rgba(255,255,255,.3));
- 	height: auto; width:100%; top: 67.8%; position: relative; }
+	background: linear-gradient( 0deg, rgba(67,86,99,.7), rgba(255,255,255,.5));
+ 	height: auto; width:100%; top: 67.5%; position: relative; }
 
 
 .section-info .capacitacion-info {background-color: rgb(229,229,229); padding: 30px;}
 .section-info .capacitacion-info .titulo{background-color: rgb(50,57,70); padding: 12px 1em; color: white; margin:0 0 15px 0;
 	font-size: 30px; font-weight: 500; text-shadow: 0 1px 1px #000;}
 .section-info .capacitacion-info h4{font-size: 16px; font-weight: 600; color: rgb(40, 46, 58);}
-/*-----------SUB-MENU-----------------*/
-.section-info .submenu {padding-top: 30px;}
-.section-info .submenu ._Title{border: none; border-radius: 0px;}
-/*.section-info .submenu #accordion .spacy{background-color: rgb(229,229,229); height:30px;width:100%;}*/
-.section-info .submenu #accordion h4{text-transform: uppercase; font-weight: 300; color: white; text-shadow: 0 1px 1px #000; font-size:16px;}
-.section-info .submenu #accordion .glyphicon { margin-right:10px; }
-.section-info .submenu #accordion .panel-body { padding:0px; }
-.section-info .submenu .panel-group .panel+.panel{margin-top: 0px;}
-.section-info .submenu #accordion .panel-body .table {margin-bottom: 0px; }
-.section-info .submenu #accordion .panel-heading {background-color:rgb(50,57,70); border-radius: 0px;}
-.section-info .submenu #accordion .panel-body .fa {width:16px; margin-left:-20px; color: white; }
-.section-info .submenu #accordion .panel-body .table_1{background-color:rgb(50,57,70); border:1px solid transparent; margin:5px 0px; }
-.section-info .submenu #accordion .panel-body .table_1:hover .fa{color: rgb(50,57,70);}
-.section-info .submenu #accordion .panel-body .table_1:hover {background-color:rgb(229,229,229); border: 1px solid rgb(50,57,70); border-radius:5px;}
-.section-info .submenu #accordion .panel-body .table_1:hover a{color: rgb(50,57,70); text-decoration: none; font-weight: 500;}
-.section-info .submenu #accordion .panel-body .table_1 h5 { padding-left: 30px; text-transform:none;}
-.section-info .submenu #accordion .panel-body .table_1 h5 a{color: white;font-weight:100; }
-
 
 figure {
   -webkit-transition: all 200ms;
@@ -246,6 +224,9 @@ figure img {width: 100%; position: absolute;-webkit-transition: all 500ms; trans
 @media only screen and (min-width: 421px ) and (max-width: 520px){
 	.description {font-size: 12px; padding: 3px; width: 90%; left: 5%;}
 }
+@media (max-width: 500px){
+  .section-info .capacitacion-info .titulo{font-size: 25px; text-align: center;}
+}
 @media only screen and (min-width: 200px ) and (max-width: 289px){
 	.description {font-size: 13px; padding: 3px; width: 90%; left: 5%;}
 }
@@ -254,3 +235,34 @@ figure img {width: 100%; position: absolute;-webkit-transition: all 500ms; trans
 	.section-info .capacitacion-info .talleres .col-xs-6{width: 100%;}
 	.section-info .capacitacion-info .talleres .taller .gallery img{margin-bottom:10px; }
 }
+
+/*------------responsive large------*/
+@media only screen and (min-width: 1441px ) and (max-width: 2600px){
+  .portada{ height: 550px;}
+  .portada h4{font-size: 40px;}
+  .portada .box-in { top: 60.5%; }
+}
+@media only screen and (max-width: 2540px){.portada .box-in {top: 60.8%;} }
+@media only screen and (max-width: 1950px) {.portada .box-in {top: 65.7%;} }
+@media only screen and (max-width: 1600px) {.portada .box-in {top: 68.4%;} }
+@media only screen and (max-width: 1440px) {.portada .box-in {top: 66.9%;} }
+@media only screen and (max-width: 1366px) {.portada .box-in {top: 65.9%;} .portada img{ width: 45%;} }
+@media only screen and (max-width: 1024px) {.portada .box-in {top: 68.5%;} .portada img{ width: 50%;} .portada h4{font-size: 25px;} }
+@media only screen and (max-width: 768px) {.portada .box-in {top: 70%;} .portada img{ width: 60%;} }
+@media only screen and (max-width: 450px) {.portada .box-in {top: 65%;} .portada img{ width: 100%;} }
+@media only screen and (max-width: 425px) {.portada .box-in {top: 66.9%;} .portada img{ width: 100%;} .portada h4{font-size: 23px; }
+@media only screen and (max-width: 375px) {.portada .box-in {top: 68%;} }
+@media only screen and (max-width: 320px) {.portada .box-in {top: 69%;} }
+
+/*@media only screen and (min-width: 2560px) { body {  font-size: 30.38px; } }
+  @media only screen and (max-width: 1950px) { body {  font-size: 22.97px; } } 
+  @media only screen and (max-width: 1600px) { body { font-size: 18.92px; } } 
+  @media only screen and (max-width: 1440px) { body {  font-size: 17.07px; } } 
+  @media only screen and (max-width: 1366px) { body { font-size: 16px; } } 
+  @media only screen and (max-width: 768px) { body { font-size: 12.57px; } } 
+  @media only screen and (max-width: 1024px) { body {  font-size: 12.14px; } } 
+  @media only screen and (max-width: 768px) { body { font-size: 9px; } }
+  @media only screen and (max-width: 450px) { body {  } }
+  @media only screen and (max-width: 320px) { body {  } }
+*/
+
