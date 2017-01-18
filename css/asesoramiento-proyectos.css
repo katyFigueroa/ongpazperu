@@ -12,6 +12,34 @@ body{font-family: 'Roboto', sans-serif;}
     background-position: right;
     margin-top: 80px;
 }
+/*-------submenu----------*/
+.section-info .submenu #accordion{background: transparent; margin-bottom: 0;}
+.section-info .submenu ._Title{border: none;}
+.section-info .submenu #accordion .spacy{background-color: rgb(229,229,229); height:30px;width:100%;}
+.section-info .submenu #accordion h4{text-transform: uppercase; font-weight: 300; text-shadow: 0 1px 1px #000; font-size:15px; color: #fff;}
+.section-info .submenu #accordion h3{text-transform: none; font-size: 14px; padding-left: 15px; text-shadow: none; font-weight:bold; }
+.section-info .submenu #accordion .glyphicon { margin-right:10px; }
+.section-info .submenu #accordion .panel {border-radius: 0px; background: transparent; margin-top: 0px;}
+.section-info .submenu #accordion .panel-mg-top{margin-top: 5px;}
+.section-info .submenu #accordion .panel-body { padding:0px; margin:0 30px;}
+.section-info .submenu #accordion .panel-body .table_1 h5 i { font-size:12px;}
+.section-info .submenu #accordion .panel-body-bottom {margin-bottom: 5px;}
+.section-info .submenu #accordion .panel-body .table {margin-bottom: 0px; }
+.section-info .submenu #accordion .panel-heading { border-radius: 0px; background:rgb(50,57,70);}
+.section-info .submenu #accordion .panel-heading .fa {width:16px; margin-left:-20px; }
+.section-info .submenu #accordion .panel-collapse .panel-body .table_1 h5{ color: #fff; background:transparent;
+border-bottom:1px dashed #000; margin:3px 0px; padding: 5px 0;}
+.section-info .submenu #accordion .panel-collapse .panel-body .table_1 .bottom{border-bottom:0px; }
+.section-info .submenu #accordion .panel-collapse .panel-body .table_1 a:hover{color: rgb(251,65,65); }
+.section-info .submenu #accordion .panel-body .table_1 h5 { padding-left: 15px; }
+.section-info .submenu #accordion .panel-body .table_1 h5 a{color: #00000c; text-decoration: none;}
+.section-info .submenu #accordion .tipo-programa{border-left: none; border-right: none; border-top: none; 
+border-radius: 2px; color: rgb(50,57,70); background: #f5f5f5; box-shadow: inset -1px -1px 4px 0px rgb(50,57,70);}
+.section-info .submenu #accordion .mg-bottom{margin-bottom: 5px;}
+.section-info .submenu #accordion .panel-hover a{text-decoration: none;}
+.section-info .submenu #accordion .panel-hover:hover{background-color: rgba(251,65,65,.7); box-shadow: none;}
+.section-info .submenu #accordion .panel-hover:hover h3{color:#fff; text-shadow: 0 0px 1px rgba(251,65,65,.9); }
+/*-----------CONTENT-------*/
 .content-info{ background: rgb(229,229,229); padding: 30px;}
 .sub-titulo{ color: rgb(50,57,70);padding: 5px 15px;}
 .sub-titulo h5{font-weight: 700; text-shadow: 0 1px 1px #fff; font-size: 16px;}	

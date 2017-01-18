@@ -1,89 +1,5 @@
 /**{outline: 1px solid red;}*/
 
-/*.navbar-fixed-top{background-color: white; width: 100%;}
-
-.menu-fix .container:after, .container:before {content: "" clear : both;}
-.menu-fix nav.menu {background: white; position: relative; min-height: 45px; height: 100%;}
-.menu-fix .menu > ul > li {list-style: none; display: inline-block; color: #fff; line-height: 45px;}
-.menu-fix .menu > ul li a, .xs-menu li a {text-decoration: none; color: #000;   display:block; padding: 0px 24px;}
-.menu-fix .menu > ul li a:hover {background:rgb(251,65,65); color: white;   transition-duration: 0.3s; -moz-transition-duration: 0.3s; -webkit-transition-duration: 0.3s;}
-.menu-fix .active{ background:rgb(251,65,65) !important;}
-.menu-fix .active a{ color:white !important;}
-.menu-fix .displaynone{display: none;}
-.menu-fix .xs-menu-cont{ display:none;}
-.menu-fix .xs-menu-cont > a {
-  background: none repeat scroll 0 0 #ff7f50;
-  border-radius: 3px;
-  padding: 3px 6px;
-  display: block;
-  border-bottom:1px solid #E67248;
-    box-shadow: 0 1px 2px #e67248;
-    -webkit-box-shadow: 0 1px 2px #e67248;
-    -moz-box-shadow: 0 1px 2px #e67248;
-}
-.menu-fix .xs-menu-cont > a:hover{cursor: pointer;} 
-.menu-fix .xs-menu li {color: #fff;padding: 14px 30px; border-bottom: 1px solid #ccc; background: #FF7F50;}
-.menu-fix .xs-menu  a{text-decoration:none;}
-.menu-fix .mega-menu {background: none repeat scroll 0 0 #888; 
-  left: 0;margin-top: 3px; position: absolute; width: 100%; padding:15px; display:none; transition-duration: 0.9s;  }
-.menu-fix #menutoggle i {color: #fff; font-size: 33px; margin: 0; padding: 0;}
-*/
-/*--column--*/
-/*.menu-fix .mm-6column:after, .mm-6column:before, .mm-3column:after, .mm-3column:before{ content:""; display:table; clear:both;}
-.menu-fix .mm-6column, .mm-3column {float: left; position: relative;}
-.menu-fix .mm-6column { width: 50%;}
-.menu-fix .mm-3column {width: 25%;}
-.menu-fix .responsive-img {display: block; max-width: 100%;}
-.menu-fix .left-images{ margin-right:25px;}
-.menu-fix .left-images, .left-categories-list { float: left;}
-.menu-fix .categories-list li {display: block; line-height: normal; margin: 0; padding: 5px 0;}
-.menu-fix .categories-list li :hover{background:inherit !important;}
-.menu-fix .left-images > p {
-    background: none repeat scroll 0 0 #ff7f50;
-    display: block;
-    font-size: 18px;
-    line-height: normal;
-    margin: 0;
-    padding: 5px 14px;
-}
-.menu-fix .categories-list span { font-size: 18px; padding-bottom: 5px; text-transform: uppercase;}
-.menu-fix .mm-view-more{
-  background: none repeat scroll 0 0 #ff7f50;
-    color: #fff;
-    display: inline !important;
-    line-height: normal;
-    padding: 5px 8px !important;
-  margin-top:10px;
-}
-.menu-fix .display-on{display:block; transition-duration: 0.9s;}
-.menu-fix .drop-down > a:after{content:"\f103"; color:#fff; font-style: normal; margin-left: 5px;
-}*/
-/*Animation--*/
-/*.menu-fix .animated {
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-}
-@-webkit-keyframes fadeIn {
-  0% {opacity: 0;}
-  100% {opacity: 1;}
-}
-@keyframes fadeIn {
-  0% {opacity: 0;}
-  100% {opacity: 1;}
-}
-.menu-fix .fadeIn {
-  -webkit-animation-name: fadeIn;
-  animation-name: fadeIn;
-}
- @media (max-width: 767px) {
-  .menu {display:none;}
-  .xs-menu li a { padding:0px;}
-  .xs-menu-cont{display:block ;}
- }
-*/
-
 .portada{
 	background-image: url('../img/programas/capacitacion-alt/port-capa.jpg');
 	background-size: cover;
@@ -105,7 +21,34 @@
 	background: linear-gradient( 0deg, rgba(67,86,99,.7), rgba(255,255,255,.5));
  	height: auto; width:100%; top: 67.5%; position: relative; }
 
-
+/*-------submenu----------*/
+.section-info .submenu #accordion{background: transparent; margin-bottom: 0;}
+.section-info .submenu ._Title{border: none;}
+.section-info .submenu #accordion .spacy{background-color: rgb(229,229,229); height:30px;width:100%;}
+.section-info .submenu #accordion h4{text-transform: uppercase; font-weight: 300; text-shadow: 0 1px 1px #000; font-size:15px; color: #fff;}
+.section-info .submenu #accordion h3{text-transform: none; font-size: 14px; padding-left: 15px; text-shadow: none; font-weight:bold; }
+.section-info .submenu #accordion .glyphicon { margin-right:10px; }
+.section-info .submenu #accordion .panel {border-radius: 0px; background: transparent; margin-top: 0px;}
+.section-info .submenu #accordion .panel-mg-top{margin-top: 5px;}
+.section-info .submenu #accordion .panel-body { padding:0px; margin:0 30px;}
+.section-info .submenu #accordion .panel-body .table_1 h5 i { font-size:12px;}
+.section-info .submenu #accordion .panel-body-bottom {margin-bottom: 5px;}
+.section-info .submenu #accordion .panel-body .table {margin-bottom: 0px; }
+.section-info .submenu #accordion .panel-heading { border-radius: 0px; background:rgb(50,57,70);}
+.section-info .submenu #accordion .panel-heading .fa {width:16px; margin-left:-20px; }
+.section-info .submenu #accordion .panel-collapse .panel-body .table_1 h5{ color: #fff; background:transparent;
+border-bottom:1px dashed #000; margin:3px 0px; padding: 5px 0;}
+.section-info .submenu #accordion .panel-collapse .panel-body .table_1 .bottom{border-bottom:0px; }
+.section-info .submenu #accordion .panel-collapse .panel-body .table_1 a:hover{color: rgb(251,65,65); }
+.section-info .submenu #accordion .panel-body .table_1 h5 { padding-left: 15px; }
+.section-info .submenu #accordion .panel-body .table_1 h5 a{color: #00000c; text-decoration: none;}
+.section-info .submenu #accordion .tipo-programa{border-left: none; border-right: none; border-top: none; 
+border-radius: 2px; color: rgb(50,57,70); background: #f5f5f5; box-shadow: inset -1px -1px 4px 0px rgb(50,57,70);}
+.section-info .submenu #accordion .mg-bottom{margin-bottom: 5px;}
+.section-info .submenu #accordion .panel-hover a{text-decoration: none;}
+.section-info .submenu #accordion .panel-hover:hover{background-color: rgba(251,65,65,.7); box-shadow: none;}
+.section-info .submenu #accordion .panel-hover:hover h3{color:#fff; text-shadow: 0 0px 1px rgba(251,65,65,.9); }
+/*---------contente-------------*/
 .section-info .capacitacion-info {background-color: rgb(229,229,229); padding: 30px;}
 .section-info .capacitacion-info .titulo{background-color: rgb(50,57,70); padding: 12px 1em; color: white; margin:0 0 15px 0;
 	font-size: 30px; font-weight: 500; text-shadow: 0 1px 1px #000;}

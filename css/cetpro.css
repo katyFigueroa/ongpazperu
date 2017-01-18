@@ -7,21 +7,35 @@
     margin-top: 80px;
 }
 /*.hero .hoverAll{background: rgba(6,28,38,.2); width:100%; height:100%;}*/
-/*------------------SUB MENU-----------*/
+/*-------submenu----------*/
+.section-container .submenu #accordion{background: transparent; margin-bottom: 0;}
 .section-container .submenu ._Title{border: none;}
 .section-container .submenu #accordion .spacy{background-color: rgb(229,229,229); height:30px;width:100%;}
-.section-container .submenu #accordion h4{text-transform: uppercase; font-weight: 300; text-shadow: 0 1px 1px #000; font-size:16px;}
-.section-container .submenu #accordion h3{text-transform: none; font-weight: 100; font-size: 14px; padding-left: 15px;}
+.section-container .submenu #accordion h4{text-transform: uppercase; font-weight: 300; text-shadow: 0 1px 1px #000; font-size:15px; color: #fff;}
+.section-container .submenu #accordion h3{text-transform: none; font-size: 14px; padding-left: 15px; text-shadow: none; font-weight:bold; }
 .section-container .submenu #accordion .glyphicon { margin-right:10px; }
-.section-container .submenu #accordion .panel {border-radius: 0px;}
-.section-container .submenu #accordion .panel-body { padding:0px; }
+.section-container .submenu #accordion .panel {border-radius: 0px; background: transparent; margin-top: 0px;}
+.section-container .submenu #accordion .panel-mg-top{margin-top: 5px;}
+.section-container .submenu #accordion .panel-body { padding:0px; margin:0 30px;}
+.section-container .submenu #accordion .panel-body .table_1 h5 i { font-size:12px;}
+.section-container .submenu #accordion .panel-body-bottom {margin-bottom: 5px;}
 .section-container .submenu #accordion .panel-body .table {margin-bottom: 0px; }
-.section-container .submenu #accordion .panel-heading {background-color:rgb(50,57,70); color:white; border-radius: 0px;}
+.section-container .submenu #accordion .panel-heading { border-radius: 0px; background:rgb(50,57,70);}
 .section-container .submenu #accordion .panel-heading .fa {width:16px; margin-left:-20px; }
-.section-container .submenu #accordion .panel-collapse .panel-body .table_1{background-color:transparent; border:1px solid rgb(50,57,70); margin:3px 0px; }
-.section-container .submenu #accordion .panel-collapse .panel-body .table_1:hover{background-color:rgb(229,229,229); border: 1px solid rgb(50,57,70); border-radius:5px;}
+.section-container .submenu #accordion .panel-collapse .panel-body .table_1 h5{ color: #fff; background:transparent;
+border-bottom:1px dashed #000; margin:3px 0px; padding: 5px 0;}
+.section-container .submenu #accordion .panel-collapse .panel-body .table_1 .bottom{border-bottom:0px; }
+.section-container .submenu #accordion .panel-collapse .panel-body .table_1 a:hover{color: rgb(251,65,65); }
 .section-container .submenu #accordion .panel-body .table_1 h5 { padding-left: 15px; }
-.section-container .submenu #accordion .panel-body .table_1 h5 a{color: rgb(50,57,70); text-decoration: none; }
+.section-container .submenu #accordion .panel-body .table_1 h5 a{color: #00000c; text-decoration: none;}
+.section-container .submenu #accordion .tipo-programa{border-left: none; border-right: none; border-top: none; 
+border-radius: 2px; color: rgb(50,57,70); background: #f5f5f5; box-shadow: inset -1px -1px 4px 0px rgb(50,57,70);}
+.section-container .submenu #accordion .mg-bottom{margin-bottom: 5px;}
+.section-info .submenu #accordion .panel-hover a{text-decoration: none;}
+.section-container .submenu #accordion .panel-hover:hover{background-color: rgba(251,65,65,.7); box-shadow: none;}
+.section-container .submenu #accordion .panel-hover:hover h3{color:#fff; text-shadow: 0 0px 1px rgba(251,65,65,.9); }
+
+
 /*----------CONTENT INFOO------*/
 .nomargin{margin: 0;}
 .nopadding{padding: 0;}
@@ -31,13 +45,14 @@
 .inline-block{display: inline-block; margin: 5px;}
 .margin{margin: 10px auto;}
 .panel-default{width: 100%;}
-.contact .titulo-contact{background:rgb(67, 86, 99); padding: 2px 10px; margin: 15px auto;}
+.contact .titulo-contact{background:rgb(67, 86, 99); padding: 2px 10px; margin: 15px auto 10px;}
 .contact .titulo-contact h3{ color: white; text-transform: none; font-size: 20px; text-shadow: 0 1px 1px #000; margin-top: 10px;}
-.contact .address {padding: 5px;  background: #f5f5f5; margin: 5px 0px 15px;}
+.contact .address {padding: 10px 5px;  background: #f5f5f5; margin: 15px 0px 15px;}
 .contact .address .fa{font-size: 30px; color: rgb(50,57,70);width: 20px;}
 .contact .address p{margin-bottom: 0px;}
 .formulario .form-control{margin-bottom: 7px;}
-.formulario .button{float: right; background: transparent;color:rgb(67, 86, 99); padding:2px 25px; border: 1px solid rgb(67, 86, 99); }
+.formulario .button{float: right; background: transparent;color:rgb(67, 86, 99); padding:4px 45px; border: 1px solid rgb(67, 86, 99); }
+.formulario .button:hover{background: rgb(67,86,99); color: white; border: 1px solid white;}
 .foto-carrera{
     background-position: center;
     background-size: cover;
@@ -53,9 +68,7 @@
 .panel-default { border-color: #fff; }
 .panel-default>.panel-heading {color: #fff; background-color: rgb(67, 86, 99);}
 .titulo-programa{width: 100%; background: rgb(50,57,70); padding: 12px 1em; font-size: 30px; color: #fff; margin-bottom: 15px; text-shadow: 0 1px 1px #000; margin-top:0px;}
-#cetpro{padding: 30px 20px; background: rgb(229, 229, 229);}
-.titulo-blanco{background: #fff; padding: 4px 1em; margin: 15px auto 0px; color: rgb(50,57,70);}
-.titulo-blanco h4{font-size: 17px; font-weight: 600;}
+#cetpro{padding: 30px 20px 40px; background: rgb(229, 229, 229);}
 .direc-poli{padding: 5px; width: 70%; background: #f5f5f5; margin: 5px 20px; float: right;}
 .titulo-linea h4{font-size: 16px; font-weight: 600; color: rgb(40, 46, 58);}
 .estructura-cet{
@@ -271,6 +284,7 @@ width : 40px; margin-top: 55px; color: gray; font-size: 35px;}
     .contenido-carreras{font-size: 80%; height: 15.8em; line-height: 13px;}
     .foto-carrera {height: 12em;}
 }
+@media(max-width: 380px){#cetpro .contenido-programa .gallery .col-xs-6{width: 100%;}}
 @media (min-width: 200px) and (max-width: 381px){
     .contenido-carreras{font-size: 80%; height: 19em; line-height: 13px;}
     .foto-carrera {height: 10em;}

@@ -1,18 +1,4 @@
 /**{outline: 1px solid red;}*/
-/*.affix {
-      top: 80px;
-  }*/
-  .affix {width: 292px; bottom: 0px;  top:75px;}   /*24%, width:292px;*/
-
-@media (max-width: 1199px){.affix {width: 245px; bottom: 0px;  top:75px;} }
-@media only screen and (min-width: 300px ) and (max-width: 991px){.affix {width: 188px; bottom: 0px;  top:75px;} }
-@media only screen and (min-width: 300px ) and (max-width: 761px){.affix {width: 190px; bottom: 0px;  top:75px;} }
-@media only screen and (min-width: 300px ) and (max-width: 740px){.affix {width: 180px; bottom: 0px;  top:75px;} }
-@media only screen and (min-width: 300px ) and (max-width: 713px){.affix {width: 175px; bottom: 0px;  top:75px;} }
-@media only screen and (min-width: 300px ) and (max-width: 695px){.affix {width: 170px; bottom: 0px;  top:75px;} }
-@media only screen and (min-width: 300px ) and (max-width: 685px){.affix {width: 167px; bottom: 0px;  top:75px;} }
-
-
 
 body{font-family:'Roboto', sans-serif;}
 .imagen-hero{
@@ -41,31 +27,41 @@ body{font-family:'Roboto', sans-serif;}
     padding: 20px;
     text-align: center;
 }
+
+/*-------submenu----------*/
+.content-info .submenu #accordion{background: transparent; margin-bottom: 0;}
 .content-info .submenu ._Title{border: none;}
 .content-info .submenu #accordion .spacy{background-color: rgb(229,229,229); height:30px;width:100%;}
-.content-info .submenu #accordion h4{text-transform: uppercase; font-weight: 300; text-shadow: 0 1px 1px #000; font-size:16px;}
-.content-info .submenu #accordion h3{text-transform: none; font-weight: 100; font-size: 14px; padding-left: 15px;}
+.content-info .submenu #accordion h4{text-transform: uppercase; font-weight: 300; text-shadow: 0 1px 1px #000; font-size:15px; color: #fff;}
+.content-info .submenu #accordion h3{text-transform: none; font-size: 14px; padding-left: 15px; text-shadow: none; font-weight:bold; }
 .content-info .submenu #accordion .glyphicon { margin-right:10px; }
-.content-info .submenu #accordion .panel {border-radius: 0px;}
-.content-info .submenu #accordion .panel-body { padding:0px; }
+.content-info .submenu #accordion .panel {border-radius: 0px; background: transparent; margin-top: 0px;}
+.content-info .submenu #accordion .panel-mg-top{margin-top: 5px;}
+.content-info .submenu #accordion .panel-body { padding:0px; margin:0 30px;}
+.content-info .submenu #accordion .panel-body .table_1 h5 i { font-size:12px;}
+.content-info .submenu #accordion .panel-body-bottom {margin-bottom: 5px;}
 .content-info .submenu #accordion .panel-body .table {margin-bottom: 0px; }
-.content-info .submenu #accordion .panel-heading {background-color:rgb(50,57,70); color:white; border-radius: 0px;}
+.content-info .submenu #accordion .panel-heading { border-radius: 0px; background:rgb(50,57,70);}
 .content-info .submenu #accordion .panel-heading .fa {width:16px; margin-left:-20px; }
-.content-info .submenu #accordion .panel-collapse .panel-body .table_1{background-color:transparent; border:1px solid rgb(50,57,70); margin:3px 0px; }
-.content-info .submenu #accordion .panel-collapse .panel-body .table_1:hover{background-color:rgb(229,229,229); border: 1px solid rgb(50,57,70); border-radius:5px;}
+.content-info .submenu #accordion .panel-collapse .panel-body .table_1 h5{ color: #fff; background:transparent;
+border-bottom:1px dashed #000; margin:3px 0px; padding: 5px 0;}
+.content-info .submenu #accordion .panel-collapse .panel-body .table_1 .bottom{border-bottom:0px; }
+.content-info .submenu #accordion .panel-collapse .panel-body .table_1 a:hover{color: rgb(251,65,65); }
 .content-info .submenu #accordion .panel-body .table_1 h5 { padding-left: 15px; }
-.content-info .submenu #accordion .panel-body .table_1 h5 a{color: rgb(50,57,70); text-decoration: none; }
+.content-info .submenu #accordion .panel-body .table_1 h5 a{color: #00000c; text-decoration: none;}
+.content-info .submenu #accordion .tipo-programa{border-left: none; border-right: none; border-top: none; 
+border-radius: 2px; color: rgb(50,57,70); background: #f5f5f5; box-shadow: inset -1px -1px 4px 0px rgb(50,57,70);}
+.content-info .submenu #accordion .mg-bottom{margin-bottom: 5px;}
+.content-info .submenu #accordion .panel-hover a{text-decoration: none;}
+.content-info .submenu #accordion .panel-hover:hover{background-color: rgba(251,65,65,.7); box-shadow: none;}
+.content-info .submenu #accordion .panel-hover:hover h3{color:#fff; text-shadow: 0 0px 1px rgba(251,65,65,.9); }
 
 
-
-.content-info .info-text{background-color: rgba(229,229,229,.5); padding-bottom: 30px; padding-top: 10px;}
+.content-info .info-text{/*background-color: rgba(229,229,229,.5);*/ padding-bottom: 30px; padding-top: 10px;}
 .content-info .info-text .titulo{background-color: rgb(50,57,70); padding: 12px 1em; color: white;
 font-size: 30px; font-weight: 500; text-shadow: 0 1px 1px #000;}
 .content-info .info-text h4{font-size: 16px; font-weight: 600; color: rgb(40, 46, 58);}
 .content-info .info-text .gallery img{margin-bottom: 8px; width: 100%;}
-.content-info .info-text .casas .cuadro{background:#435663; color: white; padding: 15px; margin-bottom: 8px;box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);border-radius: 10px;}
-.content-info .info-text .casas .cuadro p{margin: 0px;}
-
 
 .content-info .info-text .talleres #accordion2 .nopadding{padding: 0;}
 .content-info .info-text .talleres #accordion2 .productos{margin-top: 0.5em;}
@@ -76,22 +72,13 @@ font-size: 30px; font-weight: 500; text-shadow: 0 1px 1px #000;}
 .content-info .info-text .talleres #accordion2 .panel-default .panel-body .images img{width: 100%;}
 .content-info .info-text .talleres #accordion2 .panel-default .panel-body .images1 img{width: 100%; margin-bottom: 5px;}
 
-.content-info .info-text .talleres .enlaces{background: white; color: rgb(67,86,99); margin: 10px auto; color:white; padding: 4px 1em;}
-.content-info .info-text .talleres .enlaces h4{font-size: 17px; font-weight: 600;}
-.content-info .info-text .title_menu2{background-color: rgb(50,57,70); color:white; padding:10px; text-transform: uppercase; margin-top:5px; margin-bottom: 5px; font-weight:100; font-size: 15px;}
-.menu2 {margin-top: 5px;}
-.menu2 .padding{padding: 0px;}
-.menu2 .padding ul{padding-left: 0px;}
-.menu2 .padding ul li{background: rgb(229,229,229); padding: 10px 15px; border: 1px solid gray; margin-bottom:3px;}
-.menu2 .padding ul a{color: rgb(50,57,70); text-decoration: none;}
-.menu2 .panel {background: transparent; margin-bottom: -10px; border-radius:0px;}
-.menu2 .panel .panel-heading{border-radius:0px; margin-bottom:3px;}
-.menu2 .menu_responsive .panel .title{background-color:rgb(50,57,70); color: white;}
-.menu2 .menu_responsive .panel .title h4{color: white; font-weight: 100; font-size:14px; }
-
 @media( max-width: 500px ){.content-info .info-text .titulo{font-size: 25px;} }
 @media only screen and (min-width: 300px ) and (max-width: 767px){ .menu2{visibility: visible;}}
-
+@media( max-width: 380px ){
+  .content-info .info-text .gallery .col-xs-6{ width: 100%;}
+  .content-info .info-text .gallery .off-img{visibility: hidden;}
+  .content-info .info-text .gallery {margin-top:-220px }
+}
 
 
  /*@media only screen and (min-width: 2560px) { body {  font-size: 30.38px; } }
