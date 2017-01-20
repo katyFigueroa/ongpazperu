@@ -114,7 +114,7 @@ font-family: 'AvenirLTStd-Medium', sans-serif;
     color:white;
     background-color: transparent;
     padding: 19px;
-    margin-bottom: 200px;  left: 20%; right: 20%;
+    margin-bottom: 16%;  left: 20%; right: 20%;
 }
 .cuadro .box-int h3{ font-size: 2.5em;line-height: 1;margin-bottom: 20px; color: white; font-weight: bold;}
 .cuadro .box-int h3 strong{ text-transform: uppercase; }

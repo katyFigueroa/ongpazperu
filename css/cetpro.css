@@ -47,9 +47,12 @@ border-radius: 2px; color: rgb(50,57,70); background: #f5f5f5; box-shadow: inset
 .panel-default{width: 100%;}
 .contact .titulo-contact{background:rgb(67, 86, 99); padding: 2px 10px; margin: 15px auto 10px;}
 .contact .titulo-contact h3{ color: white; text-transform: none; font-size: 20px; text-shadow: 0 1px 1px #000; margin-top: 10px;}
-.contact .address {padding: 10px 5px;  background: #f5f5f5; margin: 15px 0px 15px;}
+.contact .address {padding: 20px 5px;  background: #f5f5f5; margin: 15px 0px 15px;}
 .contact .address .fa{font-size: 30px; color: rgb(50,57,70);width: 20px;}
 .contact .address p{margin-bottom: 0px;}
+.contact .address .boton-fb{width: 180px;}
+.contact .address .boton-fb i{width: 15px;color: white;font-size: 18px;}
+.contact .address .boton-fb h5{padding: 5px 15px; margin:5px;}
 .formulario .form-control{margin-bottom: 7px;}
 .formulario .button{float: right; background: transparent;color:rgb(67, 86, 99); padding:4px 45px; border: 1px solid rgb(67, 86, 99); }
 .formulario .button:hover{background: rgb(67,86,99); color: white; border: 1px solid white;}
@@ -257,6 +260,8 @@ width : 40px; margin-top: 55px; color: gray; font-size: 35px;}
 
 @media (min-width: 200px) and (max-width: 991px){
     .cetpro1, .cetpro2, .cetpro3, .cetpro4{margin-bottom: 7px; }
+    .formulario .button{width: 100%; padding:4px 45px; border: 1px solid rgb(67, 86, 99); }
+
 }
 
 @media (min-width: 200px) and (max-width: 570px){
@@ -300,4 +305,22 @@ width : 40px; margin-top: 55px; color: gray; font-size: 35px;}
 }
 @media (min-width: 200px) and (max-width: 300px){
     .board .board-inner{margin-left: 7%;}
+}
+@media (min-width: 992px) and (max-width: 1199px){
+  .contact .address .boton-fb{width: 160px;}
+.contact .address .boton-fb h5{padding: 5px 8px; margin:5px;}
+}
+@media (min-width: 551px) and (max-width: 610px){
+  .contact .address .boton-fb{width: 155px;}
+  .contact .address .boton-fb i{width: 10px;}
+  .contact .address .boton-fb h5{padding: 5px 5px; margin:5px;}
+}
+@media (max-width: 550px){
+  .contact .col-xs-7{width: 100%;}
+  .contact .col-xs-5{width: 100%;}
+}
+@media (max-width: 290px){
+  .contact .address .boton-fb{width: 155px;}
+  .contact .address .boton-fb i{width: 10px;}
+  .contact .address .boton-fb h5{padding: 5px 5px; margin:5px;}
 }
