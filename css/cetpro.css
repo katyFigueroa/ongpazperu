@@ -260,10 +260,10 @@ width : 40px; margin-top: 55px; color: gray; font-size: 35px;}
 
 @media (min-width: 200px) and (max-width: 991px){
     .cetpro1, .cetpro2, .cetpro3, .cetpro4{margin-bottom: 7px; }
-    .formulario .button{width: 100%; padding:4px 45px; border: 1px solid rgb(67, 86, 99); }
-
 }
-
+@media (max-width: 767px){
+    .formulario .button{width: 100%; padding:4px 45px; border: 1px solid rgb(67, 86, 99); }
+}
 @media (min-width: 200px) and (max-width: 570px){
     .board .board-inner{margin-left: 0%;}
     .board-inner{margin-right: 105%;}
