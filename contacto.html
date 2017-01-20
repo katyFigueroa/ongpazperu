@@ -80,13 +80,15 @@
         <div class="entrada-text">
           <h1 class="title">CONTÁCTANOS</h1>
           <p>Gracias por querer ponerse en contacto con nosotros. Por favor, sírvase completar el siguiente formulario con la consulta o solicitud que nos quiere hacer llegar. Pronto nos contactaremos contigo.</p>
-          <input type="text" class="form-control mi-input" placeholder="Nombre y Apellido">
-          <br>
-          <input type="text" class="form-control mi-input" placeholder="Correo electrónico">
-          <br>
-          <textarea name="" id="" cols="20" rows="5" style="width: 100%;" placeholder="Escribe aquí tu mensaje"></textarea>
-           <br>
-           <input class="button" type="submit" value="ENVIAR" class="submit-btn">
+             <form action="formulariocontacto.php" method="post">
+                <input type="text" name="nombre" class="form-control mi-input" placeholder="Nombre y Apellido">
+                  <br>
+                  <input type="text" name="email" class="form-control mi-input" placeholder="Correo electrónico">
+                  <br>
+                  <textarea name="mensaje" id="" cols="20" rows="5" style="width: 100%;" placeholder="Escribe aquí tu mensaje"></textarea>
+                  <br>
+                  <input class="button" type="submit" value="ENVIAR" class="submit-btn">
+              </form> 
         </div>
         <div class="social">
             <i class="fa fa-cogs col-md-1" aria-hidden="true"></i>
@@ -124,6 +126,7 @@
           <div class="img-footer hidden-xs"><img src="img/programas/captura1.png" class="img-responsive" ></div>
           <div class="menu text-center" >
               <ul class=" list-inline list-unstyled">
+              
                 <li><a href="index.html">Inicio</a></li> | 
                 <li><a href="nosotros.html">Nosotros</a></li> |
                 <li><a href="programas.html">Programas</a></li> |
