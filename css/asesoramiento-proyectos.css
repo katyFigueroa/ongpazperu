@@ -52,7 +52,7 @@ button{background: rgba(251,65,65,.7); color: #fff;}
 .modal-header{background: rgba(251,65,65,.7); color: #fff;}
 .modal-header button{ background: : #fff;}
 .modal-content, .modal-header{border-top-right-radius: 9px; border-top-left-radius: 9px;}
-.modal.in .modal-dialog{margin: 30px auto; width: 1200px;}
+.modal.in .modal-dialog{margin: 30px auto; width: 1000px;}
 @media (max-width: 500px){
 	.titulo-general{font-size: 25px; text-align: center;}
 }

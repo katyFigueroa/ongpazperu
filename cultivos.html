@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Cultivos</title>
+    <title>Cultivos Sostenibles</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
 
@@ -12,8 +12,13 @@
     <link rel="stylesheet" href="css/cultivos.css">
     <link rel="stylesheet" type="text/css" href="css/font.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/jquery-1.12.3.js"></script>
     <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <script src="js/collapse.js"></script>
 </head>
 <body>
 
@@ -57,9 +62,9 @@
 </div>
 
 <div class="content-info">
-<div class="container">
-    <div class="row" style="background: rgb(229,229,229);">
-        <div class="col-md-3 col-sm-3 hidden-xs"  style="padding-top: 30px; padding-left:30px; padding-right: 0px; ">
+    <div class="container">
+        <div class="row" style="background: rgb(229,229,229); padding-bottom: 30px;">
+            <div class="col-md-3 col-sm-3 hidden-xs pull-left"  style="padding-top: 30px; padding-left:30px; padding-right: 0px; ">
                 <div class="submenu" >
                     <div class="panel-group"  id="accordion"> 
                         <div class="panel _Title">
@@ -157,91 +162,157 @@
                     </div>
 
                 </div>
-            </div>        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 section-content">
-            <div class=" col-md-12">
-                <h3 class="subtitu text-center">Agricultura orgánica e hipodrónica</h3>
-                    <div class="row fila">
-                        <div class="col-md-12">
-                            <p class="text-justify">Somos un centro de producción y capacitación en temas de agricultura orgánica e hidropónica.<br>
-                            La producción agrícola orgánica se fundamenta y se apoya en los principios responsables de los equilibrios biológicos.</p>
-                            <h4 class="sub-title">OBJETIVOS:</h4>
+            </div>
+        
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 section-content">
+                <div class=" col-md-12">
+                    <h3 class="subtitu text-center">Agricultura orgánica e hipodrónica</h3>
+                        <div class="row fila">
+                            <div class="col-md-12">
+                                <p class="text-justify">Somos un centro de producción y capacitación en temas de agricultura orgánica e hidropónica.<br>
+                                A través de su biohuerto, Paz Perú enfrenta problemas ecológicos y se apoya en los principios responsables de los equilibrios biológicos para llevar a cabo un proyecto eco-amigable y saludable.</p>
+                                Biohuerto Paz Perú - es una chacra ecológica donde se produce una variedad de frutas, verduras y cereales en armonía con el medio ambiente. El Biohuerto cultiva lechugas hipodrónicas, cebollas, repollo, tomate, acelga, apio, beterraga y variedades de hortalizas ecológicas.<br>
+                                Esta operación ayuda al pueblo a través de una alimentación sana y mejora la calidad de los suelos, agua, aire y sus habitantes a través de la siembra ecológica y orgánica.
+                                <h4 class="sub-title"></h4>
+                                <div class="note">
+                                    <i class="fa fa-gg" aria-hidden="true"></i>  En la agricultura orgánica se pueden obtener buenos niveles productivos, evitando al mismo tiempo todo tipo de riesgos de contaminación química para el trabajador rural, para el consumidor final y para el medio ambiente.
+                                </div><br>
+                                <div class="note">
+                                    <i class="fa fa-gg" aria-hidden="true"></i>  Los cultivos hidropónicos o hidroponía son plantaciones basadas en un método que prescinde de la tierra para sustituirla por sustratos varios o, sin más, por ninguno de ellos, en este caso utilizando agua enriquecida con soluciones minerales nutritivas.
+                                </div>
+                                <br>
+                                <p>Ser un productor orgánico implica un mayor conocimiento de la naturaleza y de su funcionamiento, lo que exige mayor preparación técnica, un nivel cultural y un compromiso con el trabajo mayor que en el observado en la producción convencional.</p>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-6">
+                                <div class="">
+                                    <div class="Image-Hover Zoom-In">
+                                        <img class="img-responsive img-thumbnail" src="img/programas/agricultura/productos-espinaca.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-6">
+                                <div class="">
+                                    <div class="Image-Hover Zoom-In">
+                                        <img class="img-responsive img-thumbnail" src="img/programas/agricultura/productos-lechugas.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-6">
+                                <div class="">
+                                    <div class="Image-Hover Zoom-In">
+                                        <img class="img-responsive img-thumbnail" src="img/programas/agricultura/productos-choclos.jpg">  
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-6">
+                                <div class="">
+                                    <div class="Image-Hover Zoom-In">
+                                        <img class="img-responsive img-thumbnail" src="img/programas/agricultura/productos-acelgas.jpg">   
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h3 class="no-span">¿Sabías cuáles son los beneficios que nos da un arbol para vivir?</h3>
                                 <ul style="padding-left: 20px;">
-                                    <li>Mejorar los sistemas de cultivo dirigidos a la implantación de una agricultura rentable con un mínimo impacto ambiental, a través del respeto al equilibrio biológico y la reducción de la contaminación.</li>
-                                    <li>Contribuir al desarrollo y fortalecimiento de la agricultura orgánica.</li>
-                                    <li>Desarrollar nuevos métodos para el tratamiento de residuos y subproductos de origen agrario y evaluación de sus posibilidades de reutilización.</li>
+                                    <li>Proporcionan sombra, humedad y abono a través de sus hojas. </li>
+                                    <li>Retienen partículas de polvo flotantes que causan enfermedades como el asma,etc.</li>
+                                    <li>Combaten la erosion del suelo,fijando los suelos.</li>
+                                    <li>Funcionan como amortiguador de ruidos molestos como los autos.</li>
+                                    <li>Fijan el CO2 a través de sus hojas y lo tranforman en oxígeno.</li>
                                 </ul>
-                            <div class="note">
-                                <i class="fa fa-gg" aria-hidden="true"></i>  En la agricultura orgánica se pueden obtener buenos niveles productivos, evitando al mismo tiempo todo tipo de riesgos de contaminación química para el trabajador rural, para el consumidor final y para el medio ambiente. Es posible asimismo obtener una producción sostenida contribuir simultáneamente a la conservación y recuperación de los recursos naturales.
-                            </div><br>
-                            <div class="note">
-                                <i class="fa fa-gg" aria-hidden="true"></i>  Los cultivos hidropónicos o hidroponía son plantaciones basadas en un método que prescinde de la tierra para sustituirla por sustratos varios o, sin más, por ninguno de ellos, en este caso utilizando agua enriquecida con soluciones minerales nutritivas.
                             </div>
-                            <br>
-                            <p>Ser un productor orgánico implica un mayor conocimiento de la naturaleza y de su funcionamiento, lo que exige mayor preparación técnica, un nivel cultural y un compromiso con el trabajo mayor que en el observado en la producción convencional.</p>
+                        </div>
+                        <div>
+                                <h3 class="no-span">Pasos para plantar un árbol</h3>
+                                <div class="row">
+                                    <div class="col-md-9 col-sm-9 ">
+                                        <ul style="padding-left: 20px;">
+                                            <li> <strong>PASO 1:</strong><br>
+                                            <p>Plantar según la estación. Lo más recomendable son las estaciones de primavera y otoño. Esoger un sitio adecuado dependiendo del uso que se quiere dar al árbol. Remojar el sitio 1 dia antes de plantar el arbol para aflojar y humendecer.</p></li>
+                                            
+                                            <li> <strong>PASO 2:</strong><br> 
+                                            <p>Despegar e área de toda la vegetación, piedras, ramas y basura.</p></li>
+                                            
+                                            <li> <strong>PASO 3:</strong><br>
+                                            <p>Abrir un hueco hasta tres veces el ancho de las raíces (quitando las piedras) para facilitar la búsqueda de nutrientes y su desarrollo. Conservas la tierra para luego tapar las raíces.</p></li>
+                                            
+                                            <li> <strong>PASO 4:</strong><br> <p>Para apoyar la planta en su crecimiento colocar una guía en la tierra y ligeramente amarrar la planta a ella (luego quitar la guía una vez que esté estable).</p></li>
+                                            
+                                            <li> <strong>PASO 5:</strong><br> <p>Plantar el árbol en un montículo, rodeada por surcos para que luego el agua se acumule en la depresión y las raíces puedan absorber el agua.</p></li>
+                                            
+                                            <li> <strong>PASO 6:</strong><br> <p>Enterrar abono arriba de las raíces (y no encima del tallo/tronco) para que los nutrientes filtren con el riego y la planta pueda absorberlos.</p></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3 col-sm-3 col-xs-6">
+                                        <div class="Image-Hover Zoom-In" style="margin-bottom: 5px;">
+                                            <img class="img-responsive" src="img/programas/agricultura/cultivos-08.jpg">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-3 col-xs-6">
+                                        <div class="Image-Hover Zoom-In">
+                                            <img class="img-responsive" src="img/programas/agricultura/cultivos-06.jpg">
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                </div>
+                <div class="col-md-12 info-compost">
+                    <h3>MANUAL BÁSICO PARA EL COMPOSTAJE</h3>
+                    <h2 class="no-span">¿Qué es el Compost?</h2>
+                    <p>En la descomposición controlada demateriales orgánicos como frutas, verduras, podas, pasto, hojas etc. en una pila. Es un mejorador de suelo, de color café oscuro que tiene más humedad y es el bono mas rico en nutrientes.</p>
+                    <h5>Separación de desechos</h5>
+                    <p>Es importante separar los desechos para su reutilización. <br> Ciertos desechos orgánicos se pueden usar para la elaboración de un abono orgánico.</p>
+                    <h5>5 Pasos sencillos para una compostera casera</h5>
+                    <ol style="padding-left: 20px;">
+                        <strong><li>Preparación del sitio</li></strong>
+                        <ul>
+                            <li>Limpiar el terreno de basura, rocas, ramas y vegetación.</li>
+                            <li>Remojar por 1 a 3 días, según el terreno, para aflojar.</li>
+                            <li>Remover hasta 40cm para mayor drenaje y nivelar terreno.</li>
+                            <li>Formar la base sobre la cual apilarás tus desechos, poniendo una cama de ramitas entre tejidas para aumentar drenaje y ventilación.</li>
+                        </ul>
+                        <strong><li>Sistema de ventilación</li></strong>
+                        <ul>
+                            <li>Colocar un palo o tubo plástico por medio de la pila. Retirar el palo cuando la pila llegue a un metro de altura para crear un sistema de ventilación que acelere la descomposición</li>
+                        </ul>
+                        <strong><li>Apilar los desechos en capas</li></strong>
+                        <ul>
+                            <li>Apilar capas alternativas regando después de cada una, hasta llegar al metro de altura:<br> 1° capa seca/café de 10 á 15cm <br>
+                            2° capa verde/fresca de 10 á 15cm <br>
+                            3° tierra y compost mdia descmpuesta 5cm repetir hasta llegar a un metro </li>
+                        </ul>
+                        <strong><li>Riego y mantenimiento</li></strong>
+                        <ul>
+                            <li>Regar inter diario.</li>
+                            <li>A las 6 semanas voltear la pila tratando de poner la materia ya descompuesta del centro al exterior, y la materia del exterior al centro donde hay mas calor para mayor descomposición, creando otra pila nueva al costado.</li>
+                            <li>Seguimos con el riego inter diario por 6 semanas adicionales.</li>
+                        </ul>
+                        <strong><li>Resultado final: Un abono natural superior de alto valor económico</li></strong>
+                        <ul>
+                            <li>Cernir la pila, separando trozos pequeños utilizables como abono (HUMUS) y trozos grandes para utilizar en otras composteras.</li>
+                        </ul>
+                    </ol>
+                    <div class="imagenes">
+                        <div class="col-md-4 col-md-offset-1 col-sm-6 col-xs-6 col-xs-offset-0">
+                            <div class="">
+                                <img class="img-responsive img-thumbnail" src="img/programas/agricultura/compost.jpg">
+                            </div>
                         </div>
                         <div class="col-md-6 col-sm-6 col-xs-6">
-                            <div class="pull-right">
-                                <div class="Image-Hover Zoom-In">
-                                    <img class="img-responsive img-thumbnail" src="img/programas/agricultura/cultivos-01.jpg">
-                                </div>
-                                <h4 class="text-center"> Agricultura orgánica</h4>
-                            </div>
-
-                            <div class="pull-right">
-                                <div class="Image-Hover Zoom-In">
-                                    <img class="img-responsive img-thumbnail" src="img/programas/agricultura/cultivos-04.jpg">
-                                </div>
-                                <h4 class="text-center">Agricultura orgánica</h4>
+                            <div class="">
+                                <img class="img-responsive img-thumbnail" src="img/programas/agricultura/compostaje.jpg"> 
                             </div>
                         </div>
-                        <div class="col-md-6 col-sm-6 col-xs-6">
-                            <div class="pull-left">
-                                <div class="Image-Hover Zoom-In">
-                                    <img class="img-responsive img-thumbnail" src="img/programas/agricultura/cultivos-05.jpg">  
-                                </div>
-                                <h4 class="text-center">Agricultura orgánica</h4>
-                            </div>
-                            <div class="pull-left">
-                                <div class="Image-Hover Zoom-In">
-                                    <img class="img-responsive img-thumbnail" src="img/programas/agricultura/cultivos-06.jpg">
-                                </div>
-                                <h4 class="text-center">Agricultura orgánica</h4>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-xs-6">
-                            <div class="pull-right">
-                                <div class="Image-Hover Zoom-In">
-                                    <img class="img-responsive img-thumbnail" src="img/programas/agricultura/cultivos-07.jpg"> 
-                                </div>
-                                <h4 class="text-center">Cultivos orgánicos</h4>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-xs-6">
-                            <div class="pull-left">
-                                <div class="Image-Hover Zoom-In">
-                                    <img class="img-responsive img-thumbnail" src="img/programas/agricultura/cultivos-08.jpg">
-                                </div>
-                                <h4 class="text-center">Cultivos orgánicos</h4>
-                            </div>
-                        </div>
-                        <!-- <img src="img/programas/agricultura/cultivos-01.jpg"> -->
-                        
-                        <!-- <img src="img/programas/agricultura/cultivos-04.jpg"> -->
-                        <!-- <img src="img/programas/agricultura/cultivos-05.jpg"> -->
-                        <!-- <img src="img/programas/agricultura/cultivos-06.jpg"> -->
-                   <!--      <img src="img/programas/agricultura/cultivos-07.jpg">
-                        <img src="img/programas/agricultura/cultivos-08.jpg"> -->
-
-
-                        <!-- <img src="img/programas/agricultura/cultivos-09.jpg">
-                        <img src="img/programas/agricultura/cultivos-02.jpg">
-                        <img src="img/programas/agricultura/cultivos-03.jpg"> -->
                     </div>
+                </div>
             </div>
         </div>
     </div>
 </div>
-</div>
+
 <div class="section-footer">
     <div class="opacity">
       <div class="container">
