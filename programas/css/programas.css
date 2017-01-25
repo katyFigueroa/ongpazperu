@@ -33,7 +33,11 @@
           border-style: solid;
           border-color:  transparent transparent transparent rgba(255,255,255,0.6);
             }
-
+.programas-productivos a{
+    text-decoration: none;
+    color: rgb(50,57,70);
+    font-weight: bold;
+}
 .section-content .contenedor{background-color: rgb(229,229,229); padding: 10px 30px 20px 30px; font-family:'Roboto', sans-serif;}
 .section-content h3{background-color: rgb(50,57,70); padding: 12px 1em; color: white;
   font-family:'Roboto', sans-serif; font-size: 30px; font-weight: 500; text-shadow: 0 1px 1px #000;}
@@ -87,7 +91,7 @@
   -webkit-transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
   transition: all 0.35s ease-in-out;}
-.proyectos h4 {
+.ih-item h4 {
   font-family:'Roboto', sans-serif;
   text-transform: uppercase;
   color: #fff; font-size: 16px;
