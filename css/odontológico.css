@@ -7,6 +7,8 @@ body{font-family: 'Roboto', sans-serif;}
 	background-position: 36%;
   background-position-y: 16%;
 	width: 100%;height: 450px;}
+.hero .logo{float: right; margin-top: 26.2%; margin-right: 2%; }
+.hero img{float: right; width: 67%; }
 /*.hero .hoverAll{background: rgba(6,28,38,.2); width:100%; height:100%;}*/
 
 /*-------submenu----------*/
@@ -20,22 +22,25 @@ body{font-family: 'Roboto', sans-serif;}
 .section-container .submenu #accordion .panel-mg-top{margin-top: 5px;}
 .section-container .submenu #accordion .panel-body { padding:0px; margin:0 30px;}
 .section-container .submenu #accordion .panel-body .table_1 h5 i { font-size:12px;}
-.section-container .submenu #accordion .panel-body-bottom {margin-bottom: 5px;}
+.section-container .submenu #accordion .panel-body-bottom {margin-bottom: -5px;}
+.section-container .submenu #accordion .pd-bottom {margin-bottom: 10px;}
 .section-container .submenu #accordion .panel-body .table {margin-bottom: 0px; }
 .section-container .submenu #accordion .panel-heading { border-radius: 0px; background:rgb(50,57,70);}
 .section-container .submenu #accordion .panel-heading .fa {width:16px; margin-left:-20px; }
 .section-container .submenu #accordion .panel-collapse .panel-body .table_1 h5{ color: #fff; background:transparent;
-border-bottom:1px dashed #000; margin:3px 0px; padding: 5px 0;}
+border-bottom:1px solid rgba(50,57,70,.5); margin:3px 0px; padding: 5px 0;}
 .section-container .submenu #accordion .panel-collapse .panel-body .table_1 .bottom{border-bottom:0px; }
 .section-container .submenu #accordion .panel-collapse .panel-body .table_1 a:hover{color: rgb(251,65,65); }
 .section-container .submenu #accordion .panel-body .table_1 h5 { padding-left: 15px; }
 .section-container .submenu #accordion .panel-body .table_1 h5 a{color: #00000c; text-decoration: none;}
+.section-container .submenu #accordion .panel-body .table_1 .active a{color:rgb(251,65,65);}
 .section-container .submenu #accordion .tipo-programa{border-left: none; border-right: none; border-top: none; 
 border-radius: 2px; color: rgb(50,57,70); background: #f5f5f5; box-shadow: inset -1px -1px 4px 0px rgb(50,57,70);}
 .section-container .submenu #accordion .mg-bottom{margin-bottom: 5px;}
-.section-info .submenu #accordion .panel-hover a{text-decoration: none;}
+.section-container .submenu #accordion .panel-hover a{text-decoration: none;}
 .section-container .submenu #accordion .panel-hover:hover{background-color: rgba(251,65,65,.7); box-shadow: none;}
 .section-container .submenu #accordion .panel-hover:hover h3{color:#fff; text-shadow: 0 0px 1px rgba(251,65,65,.9); }
+
 
 /*---------------- CONTENIDOO ----------*/
 h3{margin-top: 10px; font-size: 20px; text-shadow: 0 1px 1px #000;}

@@ -170,7 +170,7 @@ font-family: 'AvenirLTStd-Medium', sans-serif;
 .drop-up-item ._2{background-image: url('../img/foto-cuadro2.jpg');background-size:cover;width:100%;}
 .drop-up-item ._3{background-image: url('../img/foto-cuadro3.jpg');background-size:cover;width:100%;}
 .drop-up-item ._4{background-image: url('../img/foto-cuadro4.jpg');background-size:cover;width:100%;}
-.drop-up-item .oscuro, .oscuro2, .oscuro3, .oscuro4{background-color: rgba(0,0,0,.5); width: 100%;height: 100%;}
+.drop-up-item .oscuro, .oscuro2, .oscuro3, .oscuro4{background-color: rgba(0,0,0,.6); width: 100%;height: 100%;}
 .content{
     overflow: hidden;
     display: block;
@@ -209,7 +209,7 @@ font-family: 'AvenirLTStd-Medium', sans-serif;
         }
 
 /*--------------PROGRAMASS----------*/
-.proyects2{background-color: rgb(229,229,229); margin-top: 140px; font-family: 'Roboto', sans-serif;}
+.proyects2{background-color: rgba(229,229,229,.5); margin-top: 230px;  /*140px*/ font-family: 'Roboto', sans-serif;}
 .proyects2 h2{font-size: 3.2rem;}
 .proyects2 .esconder-mostrar {padding: 4em 0em 5em;}
 .snip1566 {position: relative; display: inline-block; margin-bottom: 5px; max-width: 180px; width: 100%; color: rgb(40,46,58); font-size: 16px;
@@ -258,19 +258,20 @@ font-family: 'AvenirLTStd-Medium', sans-serif;
 .section-about input:hover{color: #fff; border:1px solid #fff; background: rgb(50,57,70);}
 
 /*---------PUBLICATIONS----------*/
-.section-publications {padding: 4em 0em 5em; background: rgb(229,229,229);}
+.section-publications {padding: 4em 0em 5em; background: rgba(229,229,229,.5);}
 .section-publications h2{font-size: 3.2rem;}
 .section-publications img{margin: 15px 0; width:100%;}
 .section-publications hr{margin: 15px 0px;}
 .section-publications .nota{border:1px solid gray; padding: 15px;}
-.section-publications .btn {background: rgba(251,65,65,.6); color: white;}
-.section-publications a{color: rgba(251,65,65,.6); text-decoration: none;}
+.section-publications .btn {background: rgba(251,65,65,.8); color: white;}
+.section-publications a{color: rgb(251,65,65); text-decoration: none;}
 .section-publications .label{background-color: rgb(50,57,70); font-weight: 100;}
 .section-publications input{margin: 40px 0px 10px; color:rgb(21,56,116); text-transform: uppercase; padding:5px 46px; border:1px solid rgb(21,56,116);background: transparent;}
-/*------------auspiciadores_carousel 22-------*/
+.section-publications input:hover{color: #fff; border:1px solid #fff; background: rgb(50,57,70);}
+/*------------auspiciadores-------*/
 .section-aliados{ width: 100%;color: white;padding: 4em 0em 5em;}
 .section-aliados h3{font-size:1.7em; text-transform:none; margin-bottom:20px; color:rgb(50,57,70); text-shadow: 0 1px 1px #000;} 
-.section-aliados #media ._fondo img{filter: grayscale(98%); transition: grayscale 0.5s; width: 100%; border-radius: 15px;}
+.section-aliados #media ._fondo img{filter: grayscale(98%); transition: grayscale 0.5s; width: 90%; margin: auto;}
 .section-aliados #media ._fondo img:hover {filter: grayscale(0);}
 .section-aliados #media ._fondo {padding: 15px 0px;}
 /*-----------Footer----------- */

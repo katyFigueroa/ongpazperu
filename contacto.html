@@ -72,8 +72,58 @@
         </nav>
 </div>
 <!-- -------------FIN MENU--------------- -->
-<div class="hero"><div class="hoverAll"></div></div>
-<div class="section-content">
+<div class="hero">
+  <div class="hoverAll">
+      <div class="section-content">
+          <div class="container">
+          <div class="row contacto-form">
+            <div class="col-md-8 padding datos-contacto">
+              <div class="entrada-text">
+                <h1 class="title">CONTÁCTANOS</h1>
+                <p>Gracias por querer ponerse en contacto con nosotros. Por favor, sírvase completar el siguiente formulario con la consulta o solicitud que nos quiere hacer llegar. Pronto nos contactaremos contigo.</p>
+                   <form action="formulariocontacto.php" method="post">
+                      <input type="text" name="nombre" class="form-control mi-input" placeholder="Nombre y Apellido">
+                        <!-- <br> -->
+                        <input type="text" name="email" class="form-control mi-input" placeholder="Correo electrónico">
+                        <!-- <br> -->
+                        <textarea name="mensaje" id="" cols="20" rows="5" style="width: 100%;" placeholder="Escribe aquí tu mensaje"></textarea>
+                        <!-- <br> -->
+                        <input class="button" type="submit" value="ENVIAR" class="submit-btn">
+                    </form> 
+              </div>
+              <div class="social">
+                  <i class="fa fa-cogs col-md-1" aria-hidden="true"></i>
+                  <br>
+                  <p class="col-md-4">Tambien puedes contactarnos en nuestras redes sociales</p>
+                  <ul class="list-unstyled list-inline redes col-md-6 ">    <!-- text-center -->
+                    <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+                    <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                  </ul>
+              </div>
+            </div>
+            <div class="col-md-4 padding datos-ubicacion">
+              <div class="col-md-1"><h1><i class="fa fa-map-marker"></i></h1></div>
+              <div class="col-md-10"><h3>ENCUÉNTRANOS</h3></div>
+              <div class="col-md-12">
+                <p>Oficina</p>
+                <p>Av. Salaverry s/n Urb. Lara, Socabaya</p>
+                <p>Tel. (054) 436555</p>
+                <p>Email: pazperuong@gmail.com</p>
+                <div id="map">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15305.451885566476!2d-71.5307593!3d-16.4571485!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6b15506b678c651!2sONG+PAZ+PERU!5e0!3m2!1ses-419!2spe!4v1481836115519" width="100%" height="228" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+              </div>
+                    
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </div>
+</div>
+
+<!-- <div class="section-content">
     <div class="container">
     <div class="row contacto-form">
       <div class="col-md-8 padding datos-contacto">
@@ -118,8 +168,8 @@
     </div>
   </div>
 </div>
-
-<div class="section-footer">
+ -->
+<!-- <div class="section-footer">
     <div class="opacity">
       <div class="container">
         <div class="col-md-3 col-sm-3 ">
@@ -176,7 +226,7 @@
         </div>
       </div>
     </div>
-</div>
+</div> -->
 <div class="footer-final">
   <div class="container">
     <p class="text-center"> <small>©2016 - ONG PAZ PERÚ</small></p>
