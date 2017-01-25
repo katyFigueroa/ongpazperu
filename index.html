@@ -10,7 +10,6 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.js">
     <link rel="stylesheet" href="css/main2.css">
-    <link rel="stylesheet" type="text/css" href="css/font.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/jquery-1.12.3.js"></script>
@@ -18,7 +17,6 @@
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Roboto|Titillium+Web" rel="stylesheet">
 </head>
 <body>
 
@@ -112,10 +110,9 @@ jQuery(document).ready(function($) {
     </div>
 
     <div class="cuadros">     
-      <div class="container">
-        <div class="row">
+        <div class="col-md-12">
           <div id="drop-up">
-            <div class="col-md-3 col-sm-3 col-xs-6">
+            <div class="col-md-3 col-sm-3 col-xs-6" style="padding-right: 0px;">
                 <div class="drop-up-item text-center">
                     <div class="content _1" style=" height:0; overflow: hidden;">
                       <div class="oscuro">
@@ -129,27 +126,28 @@ jQuery(document).ready(function($) {
                 <div class="drop-up-item text-center">
                     <div class="content _2" style=" height:0; overflow: hidden;">
                       <div class="oscuro2">
-                          <p>Asesoramiento en Proyectos Sociales a empresas privadas, públicas y organizaciones similares.</p>
+                          <p>Asesoramiento en Proyectos Sociales a empresas privadas, públicas y organizaciones similares.</p><br>
                         </div>
                     </div>
                     <h3 class="title-asesoramiento">ASESORAMIENTO EN PROYECTOS DE R.S.</h3>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-3 col-xs-6">
+            <div class="col-md-3 col-sm-3 col-xs-6" style=" padding-left: 0px;">
                 <div class="drop-up-item text-center">
                     <div class="content _3" style=" height:0; overflow: hidden;">
                         <div class="oscuro3">
-                          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                          <p>Promovemos la cooperación con pequeñas microempresas del rubro para poder brindar productos en panadería y pastelería de calidad y accesibles a la población.</p>
                         </div>
                     </div>
                     <h3 class="title-alimentaria">INDUSTRIA ALIMENTARIA</h3>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-3 col-xs-6">
+            <div class="col-md-3 col-sm-3 col-xs-6" style="padding-left: 0px;">
                 <div class="drop-up-item text-center">
                     <div class="content _4" style=" height:0; overflow: hidden;">
                         <div class="oscuro4">
                           <p>Somos un programa de desarrollo de habilidades dirigido a niños, jóvenes y adultos de ambos sexos.</p>
+                          <br>
                         </div>
                     </div>
                     <h3 class="title-capacitacion">CAPACITACIÓN ALTERNATIVA</h3>
@@ -157,9 +155,79 @@ jQuery(document).ready(function($) {
             </div>
           </div>
         </div>  
-      </div>
     </div>
+    <!-- <div class="box-bottom">     
+        <div class="row">
+          <div id="">
+            <div class="col-md-3 col-sm-3 col-xs-6" style="padding-right: 0px;">
+                <div class="box box-1 col-md-12">
+                  <div class="col-md-5">
+                    <img src="img/foto-cuadro11.jpg">
+                  </div>
+                  <div class="col-md-7" >
+                    <div class="texto">
+                        <h4>Confección Textil</h4>
+                        <p>Nuestro trabajo contribuye directamente con nuestra obra social.</p>
+                      </div>
+                  </div>     
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-6" style="padding-right: 0px; padding-left: 0px;">
+                <div class="box box-1 col-md-12">
+                  <div class="col-md-5">
+                    <img src="img/foto-cuadro22.jpg">
+                  </div>
+                  <div class="col-md-7" >
+                    <div class="texto">
+                        <h4>Asesoramiento en Proyectos de RS</h4>
+                        <p>Asesoramiento en Proyectos Sociales a empresas públicas y privadas.</p>
+                      </div>
+                  </div>     
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-6" style="padding-right: 0px; padding-left: 0px;">
+                <div class="box box-1 col-md-12">
+                  <div class="col-md-5">
+                    <img src="img/foto-cuadro33.jpg">
+                  </div>
+                  <div class="col-md-7" >
+                    <div class="texto">
+                        <h4>Industria Alimentaria</h4>
+                        <p>Brindamos productos en panadería y pastelería de calidad.</p>
+                      </div>
+                  </div>     
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-6" style="padding-left: 0px; padding-right: 0px;">
+                <div class="box box-1 col-md-12">
+                  <div class="col-md-5">
+                    <img src="img/foto-cuadro44.jpg">
+                  </div>
+                  <div class="col-md-7" >
+                    <div class="texto">
+                        <h4>Capacitación Alternativa</h4>
+                        <p>Nuestro programa ayuda desarrollo de habilidades personales y sociales.</p>
+                      </div>
+                  </div>     
+                </div>
+            </div>
+          </div>
+        </div>  
+    </div>
+ -->
 </div>
+
+<!-- <style type="text/css">
+  .box-bottom { margin-top: -125px;}
+  .box-bottom .row{ margin-right: 0px;}
+  .box-bottom img{width: 100%; height: 125px;}
+  .box-bottom .col-md-5{padding-left: 0px; }
+  .box-bottom .col-md-7{padding-left: 0px;}
+  .box-bottom .col-md-12{padding-right: 0px;padding-left: 0px; }
+  .box-bottom .box{background-color: rgba(251,65,65,.6);}
+  .box-bottom .box .texto p{color: white;}
+  .box-bottom .box .texto h4{color: white; text-shadow: 0 1px 1px #000; font-size: }
+</style> -->
 
 
 <script type="text/javascript">
