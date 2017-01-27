@@ -192,6 +192,11 @@ figure.snip1158:hover:after,figure.snip1158.hover:after { width: 100%;}
 .formulario .form-control{margin-bottom: 7px;}
 .formulario .button{float: right; background: transparent;color:rgb(67, 86, 99); padding:4px 45px; border: 1px solid rgb(67, 86, 99); }
 .formulario .button:hover{background: rgb(67,86,99); color: white; border: 1px solid white;}
+/*------------clientess-----------*/
+.clientes ._fondo img{filter: grayscale(98%); transition: grayscale 0.5s; /*width: 90%;*/ margin: auto;}
+.clientes ._fondo img:hover {filter: grayscale(0);}
+.clientes .logos{margin: 50px 0px;}
+.clientes .titulo h4{font-size: 16px;font-weight: 600;color: rgb(40, 46, 58);}
 
 
 @media (max-width: 991px){
@@ -240,8 +245,8 @@ figure.snip1158:hover:after,figure.snip1158.hover:after { width: 100%;}
       margin-bottom: 170px;  left: 35%; right: 35%;
   }
   #carousel-example-generic {height: 550px;}
-  .cuadro .box-int h3{ font-size: 3em;}
-  .cuadro .box-int h4{font-size:25px;}
+  .cuadro .box-int h3{ font-size: 2.3em;}
+  .cuadro .box-int h4{font-size:22px;}
 }
 /*-------responsive facebook--------*/
 @media (max-width: 767px){

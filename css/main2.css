@@ -165,6 +165,8 @@ font-family: 'AvenirLTStd-Medium', sans-serif;
 
 /*----------cuadros---------*/
  #themeSlider .cuadros{margin-top: -240px;}
+ #drop-up .capacitacion{padding-left: 0px; }
+ #drop-up .alimentaria{padding-left: 0px; }
 .drop-up-item{ float: left; width: 100%; min-height: 100px; position:relative; top: 150px;}
 .drop-up-item ._1{background-image: url('../img/foto-cuadro1.jpg'); background-size:cover;width:100%;}
 .drop-up-item ._2{background-image: url('../img/foto-cuadro2.jpg');background-size:cover;width:100%;}
@@ -182,7 +184,6 @@ font-family: 'AvenirLTStd-Medium', sans-serif;
     border-top-right-radius: 4px;}
 .content button a{color: white;}
 .content p{padding:30px 15px 30px; color: white;}
-#drop-up .title-asesoramiento{padding: 16.5px 10px; }
 #drop-up h3{ 
         text-shadow: 0 1px 1px #000;
         color:white; 
@@ -324,6 +325,7 @@ font-family: 'AvenirLTStd-Medium', sans-serif;
   #navbar .Logotype {width: 210px;}
   #myCarousel .filas{position: relative; margin-top: 15px;}
   .section-info-header .all_fondo{margin: 10px 0px 5px 0px;}
+  #drop-up .title-asesoramiento{padding:16.5px 10px; }
 }
 @media (max-width: 390px){
   #navbar .Logotype {margin-left: 50px;}
@@ -331,14 +333,23 @@ font-family: 'AvenirLTStd-Medium', sans-serif;
 }
 @media (max-width: 385px){.section-footer .opacity .col-xs-6{width: 100%;} }
 @media (max-width: 375px){#navbar .Logotype {margin-left: 0px;} }
-@media only screen and (min-width: 992px ) and (max-width: 1199px){#drop-up .title-capacitacion{padding:16.5px 10px; } }
-@media only screen and (min-width: 721px ) and (max-width: 767px){#drop-up .title-asesoramiento{padding: 25px 10px; } }
+@media only screen and (min-width: 768px ) and (max-width: 1436px){#drop-up .title-asesoramiento{padding:16.5px 10px; } }
+@media only screen and (min-width: 768px ) and (max-width: 1048px){#drop-up .title-capacitacion{padding:16.5px 10px; } }
+@media only screen and (min-width: 768px ) and (max-width: 859px){#drop-up .title-asesoramiento{padding:8.2px 10px; } }
+@media only screen and (min-width: 768px ) and (max-width: 800px){#drop-up .title-textil{padding:16.5px 10px; } }
 @media only screen and (min-width: 424px ) and (max-width: 547px){#drop-up .title-capacitacion{padding:16.5px 10px; } }
-@media only screen and (min-width: 424px ) and (max-width: 489px){#drop-up .title-alimentaria{padding:16.5px 10px; } }
-@media (max-width: 423px){
+@media only screen and (min-width: 768px ) and (max-width: 931px){#drop-up .title-alimentaria{padding:16.5px 10px; } }
+@media (max-width: 455px){
   #drop-up .col-xs-6{width: 100%;}
-  #drop-up .title-asesoramiento{padding: 25px 10px; }
+  #drop-up .title-asesoramiento{padding: 25px 10px;}
+  #drop-up .title-alimentaria{padding:25px 10px; }
+  #drop-up .title-capacitacion{padding:25px 10px; }
+  #drop-up .capacitacion{padding-right: 0px; padding-left: 0px; }
+  #drop-up .asesoramiento{padding-right: 0px; }
+  #themeSlider .cuadros{margin-left: -15px;}
+  .proyects2{margin-top: 493px;}
 }
+@media only screen and (min-width: 456px ) and (max-width: 767px){.proyects2{margin-top: 333px;}}
 @media (max-width: 368px){#drop-up .title-asesoramiento{padding: 16.5px 10px; } }
 @media only screen and (min-width: 274px ) and (max-width: 1000px){#themeSlider{margin-top:85px;} }
 @media only screen and (min-width: 274px ) and (max-width: 1199px){.snip1566{height: 175px;} }
@@ -358,11 +369,15 @@ font-family: 'AvenirLTStd-Medium', sans-serif;
    .snip1566{max-width:150px; height: 150px;} .proyects2 .col-xs-6{width:100%;} 
    .snip1566 i{font-size: 3em;} .snip1566 h5{font-size:15px;}
 }
-@media only screen and (min-width: 274px ) and (max-width: 767px){
+@media only screen and (min-width: 751px ) and (max-width: 767px){#drop-up .title-asesoramiento{padding:25px 10px; }}
+@media only screen and (min-width: 456px ) and (max-width: 577px){#drop-up .title-capacitacion{padding:16.5px 10px; } }
+@media only screen and (min-width: 456px ) and (max-width: 489px){#drop-up .title-alimentaria{padding:16.5px 10px; } }
+@media (max-width: 767px){
   #drop-up{margin-top: 80px;}
   .drop-up-item{min-height: 80px; top: 170px;}
-  .proyects2{margin-top: 175px;}
   #drop-up h3{background:rgba(251,65,65, 0.8);}
+  #drop-up .capacitacion{padding-left: 15px; }
+   #drop-up .alimentaria{padding-left: 15px; padding-right: 0px; }
   #navbar .navbar-collapse .programas{margin-bottom: 3px;}
   #navbar .navbar-fixed-top{padding-bottom: 35px;}
   .section-aliados .logos{visibility: hidden;}

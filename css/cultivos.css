@@ -96,7 +96,7 @@ h2.no-span:after {left: 0.5%;}
 h3.no-span {display: table; white-space: nowrap; margin: 15px 0px;}
 h3.no-span:after { border-top: 2px solid rgb(67,86,99); content: ''; display: table-cell; position: relative; top: 0.5em; width: 100%;}
 h3.no-span:after {left: 0.5%;}
-.section-content .no-span{color: rgb(67,86,99);}
+.section-content .no-span{color: rgb(67,86,99); font-size: 3.3rem;}
 .section-content .info-compost h3, h2{color: rgb(67,86,99);}
 .section-content .info-compost h5{color: rgb(67,86,99); text-transform: uppercase; font-weight: bold;}
 
@@ -127,7 +127,7 @@ h3.no-span:after {left: 0.5%;}
     margin-left: 17.5%;
     padding: 10px;
 }
-    .imagen-hero h3 {font-size: 3em;}
-    .imagen-hero h4{font-size:25px; font-weight: 200;}
+    .imagen-hero h3 {font-size: 2.3em;}
+    .imagen-hero h4{font-size:22px; font-weight: 200;}
 
 }
