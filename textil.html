@@ -11,14 +11,15 @@
     <link rel="stylesheet" href="css/textil.css">
     <link rel="stylesheet" type="text/css" href="css/font.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
-    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/mostrar.js"></script>
     <script type="text/javascript" src="js/jquery-1.12.3.js"></script>
     <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
     <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-    <!-- <script src="js/collapse.js"></script> -->
+    <link rel="stylesheet" type="text/css" href="js/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="js/slick/slick-theme.css">
 
 </head>
 <body>
@@ -222,7 +223,8 @@
                             <div class="text-justify">
                                 <h1 class="titulo-all">Nuestro Textil</h1>
                                 Nuestra empresa viene trabajando en el rubro textil hace más de 5 años.
-                                Nos consolidamos en el mercado como uno de los centros de confección textil de calidad, apoyados en la tecnología y los cambios de las tendencias actuales con un alta responsabilidad social  cuya renta es reinvertida en nuestras unidades de desarrollo social.
+                                Nos consolidamos en el mercado como uno de los centros de confección textil de calidad, apoyados en la tecnología y los cambios de las tendencias actuales con un alta responsabilidad social  cuya renta es reinvertida en nuestras unidades de desarrollo social. <br>
+                                Confecciones Paz Perú es una empresa comprometida con un alto retorno social. Brinda prendas de alta calidad a un precio competitivo y trabaja con empresas que reconocen nuestro trabajo.
                             </div>
                         </div>
                         <div class="col-md-5 col-sm-5 col-xs-6">
@@ -275,19 +277,19 @@
                         </div>
                         <div class="row gallery"> 
                             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-4">
-                                <figure class="snip1158 blue">
+                                <figure class="snip1158 blue imagen">
                                     <img src="img/programas/textil/instalacion_4.jpg" class="img-thumbnail">
                                     <figcaption><h5>Máquinas especializadas</h5></figcaption>
                                 </figure>
                             </div>
                             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-4">
-                                <figure class="snip1158 blue">
+                                <figure class="snip1158 blue imagen">
                                     <img src="img/programas/textil/instalacion_5.jpg" class="img-thumbnail">
                                     <figcaption><h5>Ambiente amplio</h5></figcaption>
                                 </figure>
                             </div>
                             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-4">
-                                <figure class="snip1158 blue">
+                                <figure class="snip1158 blue imagen">
                                     <img src="img/programas/textil/instalacion_6.jpg" class="img-thumbnail">
                                     <figcaption><h5>Infraestructura segura</h5></figcaption>
                                 </figure>
@@ -315,14 +317,45 @@
                     <div class="row productos nopadding" id="productos"> 
                             <div class="col-sm-12 col-md-12">
                                 <div class="titulo">
-                                    <h4>NUESTROS PRODUCTOS</h4>
+                                    <h4>NUESTRA PRODUCCIÓN</h4>
+                                </div>
+                                <div class="contenido-text" style="margin-bottom:10px;">
+                                    La calidad de nuestros productos es nuestro orgullo. Confeccionamos ropa industrial, ropa informal, uniformes escolares y accesorios de alta calidad.
+                                    <!-- <ol>
+                                        <li>Uniformes
+                                            <ul>
+                                                <li>Institucional</li>
+                                                <li>Escolar</li>
+                                                <li>EPP</li>
+                                            </ul>
+                                        </li>
+                                        <li>Lineas
+                                            <ul>
+                                                <li>Deporte</li>
+                                                <li>Hotelería</li>
+                                                <li>Salud y belleza</li>
+                                            </ul>
+                                        </li>
+                                        <li>Sport
+                                            <ul>
+                                                <li>Polos</li>
+                                                <li>Poleras y casacas</li>
+                                            </ul>
+                                        </li>
+                                        <li>Médico
+                                            <ul>
+                                                <li>Atuendo</li>
+                                                <li>Cirujía y accesorios</li>
+                                            </ul>
+                                        </li>
+                                    </ol> -->
                                 </div>
                                 <div class="panel-group" id="accordion3">
                                     <div class="panel panel-default ">   <!-- nav nav-pills nav-stacked admin-menu -->
                                         <div class="panel-heading" data-toggle="collapse"  data-target-id="1" data-parent="#accordion3" href="#linea1">
-                                            <h4 class="panel-title"> UNIFORMES</h4>
+                                            <h4 class="panel-title"> UNIFORMES <i class="fa fa-chevron-down pull-right"></i></h4>
                                         </div>
-                                        <div id="linea1" class="panel-collapse collapse in ">
+                                        <div id="linea1" class="panel-collapse collapse">
                                             <div class="panel-body">
                                                     <div class="col-lg-4 col-md-4 col-xs-4 text-center">
                                                     <div class="images-group">
@@ -385,10 +418,12 @@
                                             </div>
                                         </div>
                                         
+
+
                                     </div>
                                     <div class="panel panel-default">
                                         <div class="panel-heading" data-toggle="collapse"  data-target-id="4" data-parent="#accordion3" href="#linea2">
-                                            <h4 class="panel-title" >LÍNEAS</h4>
+                                            <h4 class="panel-title" >LÍNEAS <i class="fa fa-chevron-down pull-right"></i></h4>
                                         </div>
                                         <div id="linea2" class="panel-collapse collapse">
                                             <div class="panel-body">
@@ -454,7 +489,7 @@
                                     </div>
                                     <div class="panel panel-default">
                                         <div class="panel-heading" data-toggle="collapse" data-target-id="8" data-parent="#accordion3" href="#linea3">
-                                            <h4 class="panel-title">SPORT</h4>
+                                            <h4 class="panel-title">SPORT <i class="fa fa-chevron-down pull-right"></i></h4>
                                         </div>
                                         <div id="linea3" class="panel-collapse collapse">
                                             <div class="panel-body">
@@ -501,16 +536,14 @@
                                     </div>
                                     <div class="panel panel-default">
                                         <div class="panel-heading" data-toggle="collapse" data-target-id="11" data-parent="#accordion3" href="#linea4">
-                                            <h4 class="panel-title">
-                                                MÉDICO
-                                            </h4>
+                                            <h4 class="panel-title">MÉDICO <i class="fa fa-chevron-down pull-right"></i></h4>
                                         </div>
                                         <div id="linea4" class="panel-collapse collapse">
                                             <div class="panel-body">
                                                     <div class="col-lg-4 col-md-4 col-md-offset-2 col-xs-4 col-xs-offset-2 text-center">
                                                         <div class="images-group">
                                                             <div class="subtitulo">
-                                                                <h4>ATUENDO</h4>
+                                                                <h4>ATUENDO </h4>
                                                             </div>
                                                             <div class="ejemplo">
                                                                 <div class="row nomargin">
@@ -549,6 +582,9 @@
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                                <div class="btn-catalogo">
+                                    <a class="but-prog" href="Catálogo-virtual.html"><input type="button" name="button" value="Visita nuestro Catálogo virtual"></a>
                                 </div>
                             </div>
                     </div>
@@ -691,6 +727,9 @@
         <p class="text-center"> <small>©2016 - ONG PAZ PERÚ</small></p>
     </div>
 </div>
+
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="js/slick/slick.js" type="text/javascript" charset="utf-8"></script>
 
 </body>
 </html>

@@ -1,3 +1,5 @@
+
+
 // $(document).ready(function(){ $(".capa1").hover(function(){ $(".mensaje1").show();  }, function(){ $(".mensaje1").hide(); }); });
 // $(document).ready(function(){ $(".capa2").hover(function(){ $(".mensaje2").show();  }, function(){ $(".mensaje2").hide(); }); });
 // $(document).ready(function(){ $(".capa3").hover(function(){ $(".mensaje3").show();  }, function(){ $(".mensaje3").hide(); }); });
