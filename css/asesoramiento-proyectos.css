@@ -1,4 +1,4 @@
-/**{outline: 1px solid green;}*/
+/**{outline: 1px solid red;}*/
 
 body{font-family: 'Roboto', sans-serif;}
 .titulo-general{background: rgb(50,57,70); color: #fff; padding: 12px 1em; margin:0 0 10px 0; font-size: 30px; 
@@ -11,6 +11,22 @@ body{font-family: 'Roboto', sans-serif;}
     background-position: right;
     margin-top: 80px;
 }
+.portada .block{
+    color:white;
+    background-color: rgba(0,0,0,0.4);
+    width:57%; height: auto;
+    margin-top: 160px;
+    margin-left: 21.5%;
+    padding: 10px;
+    text-align: center;
+}
+.portada h3 {
+    font-size: 2em;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.portada h4{font-size:17px; font-weight: 200; text-align: center; padding: 0 10px;}
 /*-------submenu----------*/
 .section-info .submenu #accordion{background: transparent; margin-bottom: 0;}
 .section-info .submenu ._Title{border: none;}
@@ -63,4 +79,44 @@ button{background: rgba(251,65,65,.7); color: #fff;}
 @media (max-width: 450px){
 	.proyecto-resp .col-xs-5{width: 100%;}
 	.proyecto-resp .col-xs-7{width: 100%;}
+}
+@media (max-width: 750px){
+    .portada .block {margin-bottom: 120px;}
+}
+@media (max-width: 400px){
+    .portada .block h3{ font-size: 1.8em; }
+    .portada .block h4{font-size:15px;}
+}
+@media (max-width: 330px){
+    .portada .block {margin-bottom: 160px;}
+    .portada .block h3{ font-size: 1.6em; }
+    .portada .block h4{font-size:14px;}
+}
+@media (max-width: 461px){
+    .portada .block{ margin-top: 130px;}
+}
+@media (max-width: 290px){
+    .portada .block h3{ font-size: 1.5em; }
+}
+
+/*----------responsive large----------*/
+@media only screen and (min-width: 1921px ) and (max-width: 2600px){
+    .portada{ height: 550px;}
+    .portada .block{
+    background-color: rgba(0,0,0,0.3); width:65%;
+    margin-top: 190px;
+    margin-left: 17.5%;
+    padding: 10px;}
+    .portada h3 {font-size: 2.1em;}
+    .portada h4{font-size:21px; font-weight: 200;}
+}
+@media only screen and (min-width: 1441px ) and (max-width: 1920px){
+    .portada{ height: 450px;}
+    .portada h3 {font-size: 2em;}
+    .portada h4{font-size:19px;}
+    .portada .block{
+    background-color: rgba(0,0,0,0.3); width:65%;
+    margin-top: 155px;
+    margin-left: 17.5%;
+    padding: 10px;}
 }

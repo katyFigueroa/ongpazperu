@@ -51,7 +51,15 @@ border-radius: 2px; color: rgb(50,57,70); background: #f5f5f5; box-shadow: inset
     color: #fff;
     margin-bottom: 15px; text-shadow: 0 1px 1px #000; margin-top: 0px; 
  }
-.contenido-programas{padding: 30px; background: rgb(229, 229, 229);}
+.content-info{
+  background-image: url(../img/fondo-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: relative;
+}
+.contenido-programas{padding: 30px; /*background: rgb(229, 229, 229);*/}
 h4{ font-size: 16px; font-weight: 600;}
 .gallery img {margin-bottom: 15px;}
 

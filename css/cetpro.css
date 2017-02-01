@@ -42,6 +42,13 @@ border-radius: 2px; color: rgb(50,57,70); background: #f5f5f5; box-shadow: inset
 
 
 /*----------CONTENT INFOO------*/
+.section-container {background-image: url(../img/fondo-bg2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: relative;
+}
 .nomargin{margin: 0;}
 .nopadding{padding: 0;}
 .padding-left{padding-left: 25px;}
@@ -76,7 +83,7 @@ border-radius: 2px; color: rgb(50,57,70); background: #f5f5f5; box-shadow: inset
 .panel-default { border-color: #fff; }
 .panel-default>.panel-heading {color: #fff; background-color: rgb(67, 86, 99);}
 .titulo-programa{width: 100%; background: rgb(50,57,70); padding: 12px 1em; font-size: 30px; color: #fff; margin-bottom: 15px; text-shadow: 0 1px 1px #000; margin-top:0px;}
-#cetpro{padding: 30px 20px 40px; background: rgb(229, 229, 229);}
+#cetpro{padding: 30px 20px 40px; /*background: rgb(229, 229, 229);*/}
 .direc-poli{padding: 5px; width: 70%; background: #f5f5f5; margin: 5px 20px; float: right;}
 .titulo-linea h4{font-size: 16px; font-weight: 600; color: rgb(40, 46, 58);}
 .estructura-cet{

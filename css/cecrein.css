@@ -51,3 +51,23 @@ border-radius: 2px; color: rgb(50,57,70); background: #f5f5f5; box-shadow: inset
 .content-info .submenu #accordion .panel-hover:hover h3{color:#fff; text-shadow: 0 0px 1px rgba(251,65,65,.9); }
 .content-info .submenu #accordion .panel-mg-top .active { background-color: rgba(251,65,65,.7); box-shadow: none;}
 .content-info .submenu #accordion .panel-mg-top .active h3 { color:#fff; text-shadow: 0 0px 1px rgba(251,65,65,.9);}
+
+/*----------responsive large------*/
+@media only screen and (min-width: 1921px ) and (max-width: 2600px){
+  .portada{ height: 550px;}
+  .portada h4{font-size: 40px;}
+  .portada .box-in { top: 60.5%; }
+}
+@media only screen and (max-width: 2540px){.portada .box-in {top: 60.8%;} }
+@media only screen and (max-width: 1950px) {.portada .box-in {top: 65.7%;} }
+@media only screen and (max-width: 1920px){.portada .box-in { top: 62%; } }
+@media only screen and (max-width: 1600px) {.portada .box-in {top: 68.4%;} }
+@media only screen and (max-width: 1440px) {.portada .box-in {top: 66.9%;} }
+@media only screen and (max-width: 1366px) {.portada .box-in {top: 65.9%;} .portada img{ width: 45%;} }
+@media only screen and (max-width: 1024px) {.portada .box-in {top: 68.5%;} .portada img{ width: 50%;} .portada h4{font-size: 25px;} }
+@media only screen and (max-width: 768px) {.portada .box-in {top: 70%;} .portada img{ width: 60%;} }
+@media only screen and (max-width: 450px) {.portada .box-in {top: 65%;} .portada img{ width: 100%;} }
+@media only screen and (max-width: 425px) {.portada .box-in {top: 66.9%;} .portada img{ width: 100%;} .portada h4{font-size: 23px; }
+@media only screen and (max-width: 375px) {.portada .box-in {top: 68%;} }
+@media only screen and (max-width: 320px) {.portada .box-in {top: 69%;} }
+

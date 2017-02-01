@@ -184,13 +184,14 @@ figure img {width: 100%; position: absolute;-webkit-transition: all 500ms; trans
 }
 
 /*------------responsive large------*/
-@media only screen and (min-width: 1441px ) and (max-width: 2600px){
+@media only screen and (min-width: 1921px ) and (max-width: 2600px){
   .portada{ height: 550px;}
   .portada h4{font-size: 40px;}
   .portada .box-in { top: 60.5%; }
 }
 @media only screen and (max-width: 2540px){.portada .box-in {top: 60.8%;} }
 @media only screen and (max-width: 1950px) {.portada .box-in {top: 65.7%;} }
+@media only screen and (max-width: 1920px){.portada .box-in { top: 62%; } }
 @media only screen and (max-width: 1600px) {.portada .box-in {top: 68.4%;} }
 @media only screen and (max-width: 1440px) {.portada .box-in {top: 66.9%;} }
 @media only screen and (max-width: 1366px) {.portada .box-in {top: 65.9%;} .portada img{ width: 45%;} }
@@ -200,16 +201,4 @@ figure img {width: 100%; position: absolute;-webkit-transition: all 500ms; trans
 @media only screen and (max-width: 425px) {.portada .box-in {top: 66.9%;} .portada img{ width: 100%;} .portada h4{font-size: 23px; }
 @media only screen and (max-width: 375px) {.portada .box-in {top: 68%;} }
 @media only screen and (max-width: 320px) {.portada .box-in {top: 69%;} }
-
-/*@media only screen and (min-width: 2560px) { body {  font-size: 30.38px; } }
-  @media only screen and (max-width: 1950px) { body {  font-size: 22.97px; } } 
-  @media only screen and (max-width: 1600px) { body { font-size: 18.92px; } } 
-  @media only screen and (max-width: 1440px) { body {  font-size: 17.07px; } } 
-  @media only screen and (max-width: 1366px) { body { font-size: 16px; } } 
-  @media only screen and (max-width: 768px) { body { font-size: 12.57px; } } 
-  @media only screen and (max-width: 1024px) { body {  font-size: 12.14px; } } 
-  @media only screen and (max-width: 768px) { body { font-size: 9px; } }
-  @media only screen and (max-width: 450px) { body {  } }
-  @media only screen and (max-width: 320px) { body {  } }
-*/
 

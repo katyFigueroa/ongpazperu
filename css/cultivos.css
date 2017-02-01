@@ -22,11 +22,11 @@ body{padding-top: 0px;}
     font-size: 2em;
     line-height: 1;
     text-transform: uppercase;
-    font-family: font-family:'Roboto', sans-serif;
+    font-family:'Roboto', sans-serif;
     margin-bottom: 20px;
 }
-.imagen-hero .logo{float: right; margin-top: 4.8%; margin-right: 1%; }
-.imagen-hero .logo img{float: right; width: 67%; }
+/*.imagen-hero .logo{float: right; margin-top: 4.8%; margin-right: 1%; }
+.imagen-hero .logo img{float: right; width: 67%; }*/
 /*-------submenu----------*/
 .content-info .submenu #accordion{background: transparent; margin-bottom: 0;}
 .content-info .submenu ._Title{border: none;}
@@ -68,7 +68,7 @@ border-radius: 2px; color: rgb(50,57,70); background: #f5f5f5; box-shadow: inset
 .section-content .contenedor{background-color: ;padding: 2em 0em 0em 0em;}
 .subtitu{background-color: rgb(50,57,70); padding: 12px 1em; color:white ; margin:0px; font-size: 30px; text-shadow: 0 1px 1px #000;}
 .section-content .text{padding: 1em 2em 2em 2em; margin-bottom: 0px;}
-.section-content .fila{padding: 15px 0 20px 0;}
+.section-content .fila{padding: 15px 0 0px 0;}
 .section-content .fila .note{font-weight: 100; border: 1px dashed rgb(67,86,99);
     border-left: 6px solid rgb(67,86,99);padding:20px; }
 .section-content .fila .fa{font-size: 20px; color:rgb(67,86,99);font-weight: bold; }
@@ -96,6 +96,8 @@ h2.no-span:after {left: 0.5%;}
 h3.no-span {display: table; white-space: nowrap; margin: 15px 0px;}
 h3.no-span:after { border-top: 2px solid rgb(67,86,99); content: ''; display: table-cell; position: relative; top: 0.5em; width: 100%;}
 h3.no-span:after {left: 0.5%;}
+.section-content .beneficios h3{color: rgb(67,86,99); font-size: 20px; margin-top: 10px;}
+.section-content .pasos h3{color: rgb(67,86,99); font-size: 20px;}
 .section-content .no-span{color: rgb(67,86,99); font-size: 3.3rem;}
 .section-content .info-compost h3, h2{color: rgb(67,86,99);}
 .section-content .info-compost h5{color: rgb(67,86,99); text-transform: uppercase; font-weight: bold;}
@@ -118,16 +120,26 @@ h3.no-span:after {left: 0.5%;}
     .section-content .col-xs-6{width: 100%;}
 }
 
-@media only screen and (min-width: 1441px ) and (max-width: 2600px){
+@media only screen and (min-width: 1921px ) and (max-width: 2600px){
     .imagen-hero{ height: 550px;}
     .imagen-hero .block{
-    background-color: rgba(0,0,0,0.4);
-    width:66%; height: auto;
+    background-color: rgba(0,0,0,0.3);
+    width:65%; height: auto;
     margin-top: 190px;
     margin-left: 17.5%;
-    padding: 10px;
-}
-    .imagen-hero h3 {font-size: 2.3em;}
-    .imagen-hero h4{font-size:22px; font-weight: 200;}
+    padding: 10px;}
+    .imagen-hero h3 {font-size: 2.1em;}
+    .imagen-hero h4{font-size:21px; font-weight: 200;}
 
+}
+@media only screen and (min-width: 1441px ) and (max-width: 1920px){
+    .imagen-hero{ height: 450px;}
+    .imagen-hero .block{
+    background-color: rgba(0,0,0,0.3);
+    width:65%; height: auto;
+    margin-top: 155px;
+    margin-left: 17.5%;
+    padding: 10px;}
+    .imagen-hero h3 {font-size: 2em;}
+    .imagen-hero h4{font-size:19px; font-weight: 200;}
 }
