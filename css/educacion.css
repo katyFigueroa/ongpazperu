@@ -1,6 +1,7 @@
 /**{outline: 1px 'solid red;}*/
 
 body{font-family:'Roboto', sans-serif;}
+.navbar-fixed-top{background-color: rgba(255,255,255,.9);}
 .imagen-hero{
   /*background-image: url("../img/programas/casa_isabel/casa-portada.jpg");*/
 	background-image: url("../img/programas/casa_isabel/portada-casaisabel.jpg");

@@ -34,6 +34,7 @@ font-family: 'AvenirLTStd-Medium', sans-serif;
   -moz-box-shadow: 0px 0px 4px 0px rgba(221,221,221,1);
   box-shadow: 0px 0px 4px 0px rgba(221,221,221,1);
 }
+.navbar-default.change-color .redes-bg{visibility: hidden;}
 .navbar-default .navbar-nav>.active>a {background-color: rgb(251,65,65); color: white; border-radius: 30px;}
 .navbar-default .navbar-nav>.active {padding: 0px;}
 .navbar-default .navbar-nav>li>a, .navbar-default .navbar-text{color: black; font-weight: 600;}
@@ -44,8 +45,8 @@ font-family: 'AvenirLTStd-Medium', sans-serif;
 .dropdown-menu > li > a:hover, .dropdown-menu > .active > a:hover { text-decoration: none;}  
 .dropdown-menu .fa {color: rgb(251,65,65); font-size: 15px; font-size: 7px; width: 11px;}
 .dropdown-menu > li > a:hover .fa{color: #fff;}
-.dropdown-menu{ background-color:#fff; padding: 14px; min-width: 230px; }
-.dropdown-menu li .border-bt{border-bottom: 1px solid gray; }
+.dropdown-menu{ background-color:#fff; padding: 14px 0px; min-width: 230px; margin-right: -110px;}
+.dropdown-menu li .border-bt{border-bottom: 1px solid #ccc; }
 
 @media (max-width: 767px) {
   .navbar-nav  {display: inline;}
