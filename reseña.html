@@ -16,11 +16,13 @@
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 </head>
 <body>
 <!-- --------MENU--------------- -->
 <div id="navbar" style="font-family: 'Roboto', sans-serif; font-size:14px;"> 
-  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation" style="background-color: rgba(255,255,255,.9);">
       <div class="container">
         <div class="redes-bg pull-right hidden-xs" >
           <ul class="list-inline" style="margin-bottom: 0px; margin-top: 7px;">
@@ -43,7 +45,7 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="index.html" class="title_menu">INICIO</a></li>
                     <li class="dropdown active">
-                        <a href="nosotros.html" class="dropdown-toggle" data-toggle="dropdown">NOSOTROS <span class="caret"></span></a>
+                        <a href="nosotros.html" class="dropdown-toggle title_menu" data-toggle="dropdown">NOSOTROS <span class="caret"></span></a>
                         <ul id="login-dp" class="dropdown-menu">
                             <li><a class="border-bt" href="nosotros.html"> <i class="fa fa-stop"></i> Somos Paz Perú </a></li>
                             <li><a class="border-bt" href="reseña.html"> <i class="fa fa-stop"></i> Nuestra Historia </a></li>
@@ -57,7 +59,6 @@
       </div>
   </nav>
 </div>
-
 <script type="text/javascript">
     $(document).ready(function(){
     $(".dropdown").hover(            
@@ -72,6 +73,20 @@
     );
 });
 
+</script>
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+  $(window).scroll(function() {
+    var scrollPos = $(window).scrollTop(),
+        navbar = $('.navbar-default');
+
+    if (scrollPos > 1) {
+      navbar.addClass('change-color');
+    } else {
+      navbar.removeClass('change-color');
+    } 
+  });
+});
 </script>
 <!-- -------------FIN MENU--------------- -->
 

@@ -16,11 +16,13 @@
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 </head>
 <body>
 <!-- --------MENU--------------- -->
 <div id="navbar" style="font-family: 'Roboto', sans-serif; font-size:14px;"> 
-  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation" style="background-color: rgba(255,255,255,.9);">
       <div class="container">
         <div class="redes-bg pull-right hidden-xs" >
           <ul class="list-inline" style="margin-bottom: 0px; margin-top: 7px;">
@@ -72,6 +74,20 @@
     );
 });
 
+</script>
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+  $(window).scroll(function() {
+    var scrollPos = $(window).scrollTop(),
+        navbar = $('.navbar-default');
+
+    if (scrollPos > 1) {
+      navbar.addClass('change-color');
+    } else {
+      navbar.removeClass('change-color');
+    } 
+  });
+});
 </script>
 <!-- -------------FIN MENU--------------- -->
 

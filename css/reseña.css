@@ -1,18 +1,17 @@
 /**{outline: 1px solid red;}*/
 body{font-family:'Roboto', sans-serif;}
-.navbar-fixed-top{background-color: rgba(255,255,255,.9);}
 .navbar-default.change-color .redes-bg{visibility: hidden;}
 .portada{
     width: 100%;
     height: 450px;
-    background-image: url(../img/fondo-convenios.jpg);
+    background-image: url(../img/portada-reseña1.jpg);
     background-size: cover;
     background-position: right;
     margin-top: 80px;
 }
 .portada .box-in{color: white; padding-top: 12%;}
 .portada .box-in h2{font-weight: bold; text-shadow:0px 1px 5px #2D3129; font-size: 3.9rem;}
-.portada .box-in h4{margin: 0px 13%; font-size: 17px; text-shadow:0px 1px 1px ##2D3129;}
+.portada .box-in h4{margin: 0px 13%; font-size: 17px; text-shadow:0px 1px 1px #2D3129;}
 .container h3{ background-color: rgb(50,57,70); padding: 12px 1em; color: white; 
     font-family:'Roboto', sans-serif; font-size: 30px; font-weight: 500; text-shadow: 0 1px 1px #000; margin: 0px 0px 15px 0px; }
 
