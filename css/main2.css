@@ -46,7 +46,7 @@ font-family: 'AvenirLTStd-Medium', sans-serif;
 .dropdown-menu > li > a:hover, .dropdown-menu > .active > a:hover { text-decoration: none;}  
 .dropdown-menu .fa {color: rgb(251,65,65); font-size: 15px; font-size: 7px; width: 11px;}
 .dropdown-menu > li > a:hover .fa{color: #fff;}
-.dropdown-menu{ background-color:#fff; padding: 14px 0px; min-width: 230px; margin-right: -110px;}
+.dropdown-menu{ background-color:#fff; padding: 10px 0px; min-width: 230px; margin-right: -110px;}
 .dropdown-menu li .border-bt{border-bottom: 1px solid #ccc; }
 
 @media (max-width: 767px) {
@@ -278,7 +278,7 @@ font-family: 'AvenirLTStd-Medium', sans-serif;
 .section-publications h2{font-size: 3.2rem;}
 .section-publications img{margin: 0 0 10px; width:100%; border-radius: 0px;}
 .section-publications hr{margin: 15px 0px;}
-.section-publications .nota{border:1px solid gray;}
+.section-publications .nota{border:2px solid #fff; padding: 15px;}
 .section-publications .text-justify{color: #505050;}
 .section-publications .btn {background: rgba(251,65,65,.8); color: white; padding:4px 10px; border-radius: 0px; font-size: 13px; }
 .section-publications .btn:hover {background: rgb(50,57,70); color: white; }
@@ -286,7 +286,7 @@ font-family: 'AvenirLTStd-Medium', sans-serif;
 .section-publications a{color: rgb(251,65,65); text-decoration: none;}
 .section-publications .label{background-color: rgb(50,57,70); font-weight: 100;}
 .section-publications input{margin: 40px 0px 10px; color:rgb(50,57,70); text-transform: uppercase; padding:5px 46px; border:1px solid rgb(50,57,70);background: transparent;}
-.section-publications input:hover{color: #fff; border:1px solid #fff; background: rgb(251,65,65);}
+.section-publications input:hover{color: #fff; border:1px solid #fff; background: rgb(50,57,70);}
 .section-publications a:hover{color: rgb(50,57,70);}
 /*------------auspiciadores-------*/
 .section-aliados{ width: 100%;color: white;padding: 4em 0em 5em;}

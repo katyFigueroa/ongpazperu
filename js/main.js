@@ -1,8 +1,10 @@
 
-$(document).ready(function() {
-  $('#media').carousel({
-    pause: true,
-    interval: 1,
-  });
-});
+// $(document).ready(function() {
+//   $('#media').carousel({
+//     pause: true,
+//     interval: 1,
+//   });
+// });
+
+
 
