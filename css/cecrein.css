@@ -1,10 +1,11 @@
 .portada{
-	background-image: url('../img/programas/capacitacion-alt/port-capa.jpg');
+	background-image: url('../img/programas/cecrein/slider-cecrein.jpg');
 	background-size: cover;
 	background-position: top center;
 	width: 100%;
 	height: 450px; 
 	margin-top: 80px;
+	border-top: 1px solid #ccc;
 }
 .portada h4{
 	text-align: center;
@@ -22,34 +23,34 @@
 
 
 .content-info .submenu #accordion{background: transparent; margin-bottom: 0;}
-.content-info .submenu ._Title{border: none;}
+.content-info .submenu ._Title{border: none; margin-bottom: 4px;}
 .content-info .submenu #accordion .spacy{background-color: rgb(229,229,229); height:30px;width:100%;}
 .content-info .submenu #accordion h4{text-transform: uppercase; font-weight: 300; text-shadow: 0 1px 1px #000; font-size:15px; color: #fff;}
-.content-info .submenu #accordion h3{text-transform: none; font-size: 14px; padding-left: 15px; text-shadow: none; font-weight:bold; }
+.content-info .submenu #accordion h3{text-transform: none; font-size: 14px; padding-left: 15px; text-shadow: 0 0 0 #000; font-weight:400; }
 .content-info .submenu #accordion .glyphicon { margin-right:10px; }
 .content-info .submenu #accordion .panel {border-radius: 0px; background: transparent; margin-top: 0px;}
-.content-info .submenu #accordion .panel-mg-top{margin-top: 5px;}
-.content-info .submenu #accordion .panel-body { padding:0px; margin:0 30px;}
-.content-info .submenu #accordion .panel-body .table_1 h5 i { font-size:12px;}
-.content-info .submenu #accordion .panel-body-bottom {margin-bottom: -5px;}
-.content-info .submenu #accordion .pd-bottom {margin-bottom: 10px;}
+.content-info .submenu #accordion .panel-mg-top{margin-top: 0px;}
+.content-info .submenu #accordion .panel-body { padding:0px;}
+.content-info .submenu #accordion .panel-body .table_1 h5 i { font-size:10px; width: 10px;}
+.content-info .submenu #accordion .pd-bottom {margin-bottom: 5px; margin-top: -5px;}
 .content-info .submenu #accordion .panel-body .table {margin-bottom: 0px; }
 .content-info .submenu #accordion .panel-heading { border-radius: 0px; background:rgb(50,57,70);}
 .content-info .submenu #accordion .panel-heading .fa {width:16px; margin-left:-20px; }
 .content-info .submenu #accordion .panel-collapse .panel-body .table_1 h5{ color: #fff; background:transparent;
-border-bottom:1px solid rgba(50,57,70,.5); margin:3px 0px; padding: 5px 0;}
-.content-info .submenu #accordion .panel-collapse .panel-body .table_1 .bottom{border-bottom:0px; }
-.content-info .submenu #accordion .panel-collapse .panel-body .table_1 a:hover{color: rgb(251,65,65); }
+border-bottom:1px solid rgba(50,57,70,.5); margin: 0px; padding: 8px 15px;}
+.content-info .submenu #accordion .panel-collapse .panel-body .table_1 .bottom{border-bottom:0px;}
+.content-info .submenu #accordion .panel-collapse .panel-body .table_1:hover{background-color: rgba(251,65,65,.8); }
+.content-info .submenu #accordion .panel-collapse .panel-body .table_1:hover a{color: #fff;font-weight: 500; }
 .content-info .submenu #accordion .panel-body .table_1 h5 { padding-left: 15px; }
 .content-info .submenu #accordion .panel-body .table_1 h5 a{color: #00000c; text-decoration: none;}
-.content-info .submenu #accordion .panel-body .table_1 .active a{color:rgb(251,65,65);}
+.content-info .submenu #accordion .panel-body .table_1 .active a{color:rgb(251,65,65); }
 .content-info .submenu #accordion .tipo-programa{border-left: none; border-right: none; border-top: none; 
 border-radius: 2px; color: rgb(50,57,70); background: #f5f5f5; box-shadow: inset -1px -1px 4px 0px rgb(50,57,70);}
 .content-info .submenu #accordion .mg-bottom{margin-bottom: 5px;}
 .content-info .submenu #accordion .panel-hover a{text-decoration: none;}
-.content-info .submenu #accordion .panel-hover:hover{background-color: rgba(251,65,65,.7); box-shadow: none;}
+.content-info .submenu #accordion .panel-hover:hover{background-color: rgba(251,65,65,.8); box-shadow: none;}
 .content-info .submenu #accordion .panel-hover:hover h3{color:#fff; text-shadow: 0 0px 1px rgba(251,65,65,.9); }
-.content-info .submenu #accordion .panel-mg-top .active { background-color: rgba(251,65,65,.7); box-shadow: none;}
+.content-info .submenu #accordion .panel-mg-top .active { background-color: rgba(251,65,65,.8); box-shadow: none;}
 .content-info .submenu #accordion .panel-mg-top .active h3 { color:#fff; text-shadow: 0 0px 1px rgba(251,65,65,.9);}
 
 /*----------responsive large------*/
@@ -64,6 +65,7 @@ border-radius: 2px; color: rgb(50,57,70); background: #f5f5f5; box-shadow: inset
 @media only screen and (max-width: 1600px) {.portada .box-in {top: 68.4%;} }
 @media only screen and (max-width: 1440px) {.portada .box-in {top: 66.9%;} }
 @media only screen and (max-width: 1366px) {.portada .box-in {top: 65.9%;} .portada img{ width: 45%;} }
+@media only screen and (max-width: 1093px) {.portada .box-in {top: 68.8%;}
 @media only screen and (max-width: 1024px) {.portada .box-in {top: 68.5%;} .portada img{ width: 50%;} .portada h4{font-size: 25px;} }
 @media only screen and (max-width: 768px) {.portada .box-in {top: 70%;} .portada img{ width: 60%;} }
 @media only screen and (max-width: 450px) {.portada .box-in {top: 65%;} .portada img{ width: 100%;} }

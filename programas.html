@@ -12,7 +12,11 @@
     <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
 
     <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>    
-            <link rel="stylesheet" href="library/css/common.css" />
+        <script type="text/javascript" src="js/jquery-1.12.3.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 
 </head>
 <body>
@@ -77,90 +81,249 @@
     <div class="hoverAll"><h2 class="titulo lado-derecha-arriba"><i class="fa fa-clone"></i> Nuestros Programas</h2></div>
 </div>
 
-<div class="slider-program">
-    <div class="container">
-        
-    </div>
-</div>
-
-
-
 <div class="section-content">
     <div class="container">
         <div class="contenedor">
             <h3>Unidades de Desarrollo Social</h3>
-            <p class="text text-justify ">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud eation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p class="text text-justify" style="margin-bottom: 0px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud eation ullamc laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             
-            <div class="row proyectos">
-                <div class="col-md-3 col-sm-6 col-xs-6"> <!-- normal -->
-                    <div class="ih-item square effect6 from_top_and_bottom">
-                        <h4>Casa Isabel</h4>
-                        <a target="_blank" href="educacion.html">
-                            <div class="img">
-                                <img src="img/programas/casa_niñas.jpg" alt="img" class="img-responsive">
+            <div class="programas-sociales">
+                <div class="row proyectos">
+                        <section  class="section how-it-works" id="how-it-works">
+                        <div class="col-md-12 board">
+                            <div class="board-inner">
+                                <ul class="nav nav-tabs" id="myTab">
+                                    <li class="text-center">
+                                        <a href="#salud" aria-controls="carpinteria" role="tab" data-toggle="tab" title="User Experience">
+                                            <span class="round-tabs one text-center"><p style="margin: 0px;"><i class="fa fa-arrow-circle-left"></i></p></span>
+                                        </a>  
+                                    </li>
+                                    <li class="text-center">
+                                        <a href="#educacion" aria-controls="conf-textil" role="tab" data-toggle="tab" title="UI Design">
+                                            <span class="round-tabs four"><p style="margin: 0px;"><i class="fa fa-arrow-circle-right"></i></p></span>
+                                        </a>
+                                    </li>
+                                </ul>
                             </div>
-                            <div class="info">
-                                <button class="btn btn-danger">Ver Más</button>
+
+                            <div class="tab-content row">
+                                <div class="tab-pane fade in active" id="salud">
+                                    <div class="col-md-3 col-sm-6 col-xs-6">
+                                        <div class="ih-item square effect6 from_top_and_bottom">
+                                            <h4>Casa Isabel</h4>
+                                            <a target="_blank" href="educacion.html">
+                                                <div class="img">
+                                                    <img src="img/programas/casa_niñas.jpg" alt="img" class="img-responsive">
+                                                </div>
+                                                <div class="info">
+                                                    <button class="btn btn-danger">Ver Más</button>
+                                                </div>
+                                            </a>
+                                         </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6 col-xs-6">
+                                        <div class="ih-item square effect6 from_top_and_bottom">
+                                            <h4>CIAM</h4>
+                                            <a target="_blank" href="ciam.html">
+                                                <div class="img">
+                                                    <img src="img/programas/ciam.jpg" alt="img" class="img-responsive">
+                                                </div>
+                                                <div class="info">
+                                                    <button class="btn btn-danger">Ver Más</button>
+                                                </div>
+                                            </a>
+                                         </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6 col-xs-6">
+                                        <div class="ih-item square effect6 from_top_and_bottom">
+                                            <h4>Policlínico</h4>
+                                            <a target="_blank" href="policlinico.html">
+                                                <div class="img">
+                                                    <img src="img/programas/policlinico.jpg" alt="img" class="img-responsive">
+                                                </div>
+                                                <div class="info">
+                                                    <button class="btn btn-danger">Ver Más</button>
+                                                </div>
+                                            </a>
+                                         </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6 col-xs-6"> <!-- normal -->
+                                        <div class="ih-item square effect6 from_top_and_bottom">
+                                            <h4>CETPRO José Olaya</h4>
+                                            <a target="_blank" href="educacion.html">
+                                                <div class="img">
+                                                    <img src="img/programas/cetpro.jpg" alt="img" class="img-responsive">
+                                                </div>
+                                                <div class="info">
+                                                    <button class="btn btn-danger">Ver Más</button>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="educacion">
+                                    <div class="col-md-3 col-sm-6 col-xs-6">
+                                        <div class="ih-item square effect6 from_top_and_bottom">
+                                            <h4>Inicial</h4>
+                                            <a target="_blank" href="inicial.html">
+                                                <div class="img">
+                                                    <img src="img/programas/cuna.jpg" alt="img" class="img-responsive">
+                                                </div>
+                                                <div class="info">
+                                                    <button class="btn btn-danger">Ver Más</button>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6 col-xs-6"> 
+                                        <div class="ih-item square effect6 from_top_and_bottom">
+                                            <h4>Clínica Odontológica</h4>
+                                            <a target="_blank" href="educacion.html">
+                                                <div class="img">
+                                                    <img src="img/programas/clinica.jpg" alt="img" class="img-responsive">
+                                                </div>
+                                                <div class="info">
+                                                    <button class="btn btn-danger">Ver Más</button>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6 col-xs-6"> 
+                                        <div class="ih-item square effect6 from_top_and_bottom">
+                                            <h4>Cuna</h4>
+                                            <a target="_blank" href="educacion.html">
+                                                <div class="img">
+                                                    <img src="img/programas/cuna1.jpg" alt="img" class="img-responsive">
+                                                </div>
+                                                <div class="info">
+                                                    <button class="btn btn-danger">Ver Más</button>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6 col-xs-6"> 
+                                        <div class="ih-item square effect6 from_top_and_bottom">
+                                            <h4>CECREIN</h4>
+                                            <a target="_blank" href="educacion.html">
+                                                <div class="img">
+                                                    <img src="img/programas/cecrein.jpg" alt="img" class="img-responsive">
+                                                </div>
+                                                <div class="info">
+                                                    <button class="btn btn-danger">Ver Más</button>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="clearfix"></div>
                             </div>
-                        </a>
-                     </div>
+                        </div>
+                    </section>
                 </div>
-                <div class="col-md-3 col-sm-6 col-xs-6"> <!-- normal -->
-                    <div class="ih-item square effect6 from_top_and_bottom">
-                        <h4>CIAM</h4>
-                        <a target="_blank" href="ciam.html">
-                            <div class="img">
-                                <img src="img/programas/ciam.jpg" alt="img" class="img-responsive">
-                            </div>
-                            <div class="info">
-                                <button class="btn btn-danger">Ver Más</button>
-                            </div>
-                        </a>
-                     </div>
-                </div> 
-                <div class="col-md-3 col-sm-6 col-xs-6"> <!-- normal -->
-                    <div class="ih-item square effect6 from_top_and_bottom">
-                        <h4>Policlínico</h4>
-                        <a target="_blank" href="policlinico.html">
-                            <div class="img">
-                                <img src="img/programas/policlinico.jpg" alt="img" class="img-responsive">
-                            </div>
-                            <div class="info">
-                                <button class="btn btn-danger">Ver Más</button>
-                            </div>
-                        </a>
-                     </div>
-                </div> 
-                <div class="col-md-3 col-sm-6 col-xs-6"> <!-- normal -->
-                    <div class="ih-item square effect6 from_top_and_bottom">
-                        <h4>Cuna - Inicial</h4>
-                        <a target="_blank" href="inicial.html">
-                            <div class="img">
-                                <img src="img/programas/cuna.jpg" alt="img" class="img-responsive">
-                            </div>
-                            <div class="info">
-                                <button class="btn btn-danger">Ver Más</button>
-                            </div>
-                        </a>
-                    </div>
-                </div>  <!-- end normal -->
             </div>
 
+
             <h3>Unidades de Producción</h3>
-            <p class="text text-justify ">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud eation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p class="text text-justify" style="margin-bottom: 0px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud eation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            <div class="programas-productivos">
+                <div class="row proyectos">
+                    <section  class="section how-it-works" id="how-it-works">
+                        <div class="col-md-12 board">
+                            <div class="board-inner">
+                                <ul class="nav nav-tabs" id="myTab">
+                                    <li class="text-center">
+                                        <a href="#produccion" aria-controls="carpinteria" role="tab" data-toggle="tab" title="User Experience">
+                                            <span class="round-tabs one text-center"><p style="margin: 0px;"><i class="fa fa-arrow-circle-left"></i></p></span>
+                                        </a>  
+                                    </li>
+                                    <li class="text-center">
+                                        <a href="#produccion2" aria-controls="conf-textil" role="tab" data-toggle="tab" title="UI Design">
+                                            <span class="round-tabs four"><p style="margin: 0px;"><i class="fa fa-arrow-circle-right"></i></p></span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-content row">
+                                <div class="tab-pane fade in active" id="produccion">
+                                    <div class="col-md-3 col-sm-6 col-xs-6"> <!-- normal -->
+                                        <div class="ih-item square effect6 from_top_and_bottom">
+                                            <h4>Confección Textil</h4>
+                                            <a target="_blank" href="textil.html">
+                                                <div class="img">
+                                                    <img src="img/programas/textil.jpg" alt="img">
+                                                </div>
+                                                <div class="info">
+                                                    <button class="btn btn-danger">Ver Más</button>
+                                                </div>
+                                            </a>
+                                         </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6 col-xs-6"> <!-- normal -->
+                                        <div class="ih-item square effect6 from_top_and_bottom">
+                                            <h4>Industria Alimentaria</h4>
+                                            <a target="_blank" href="alimentaria.html">
+                                                <div class="img">
+                                                    <img src="img/programas/panaderia.jpg" alt="img">
+                                                </div>
+                                                <div class="info">
+                                                    <button class="btn btn-danger">Ver Más</button>
+                                                </div>
+                                            </a>
+                                         </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6 col-xs-6"> <!-- normal -->
+                                        <div class="ih-item square effect6 from_top_and_bottom">
+                                            <h4>Cultivos Sostenibles</h4>
+                                            <a target="_blank" href="cultivos.html">
+                                                <div class="img">
+                                                    <img src="img/programas/huerto2..jpg" alt="img">
+                                                </div>
+                                                <div class="info">
+                                                    <button class="btn btn-danger">Ver Más</button>
+                                                </div>
+                                            </a>
+                                         </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6 col-xs-6"> <!-- normal -->
+                                        <div class="ih-item square effect6 from_top_and_bottom">
+                                            <h4>Asesoramiento en proyectos</h4>
+                                            <a target="_blank" href="gestion-proyectos.html">
+                                                <div class="img">
+                                                    <img src="img/programas/gestion.jpg" alt="img">
+                                                </div>
+                                                <div class="info">
+                                                    <button class="btn btn-danger">Ver Más</button>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="produccion2">
+                                    <div class="col-md-3 col-sm-6 col-xs-6">
+                                        <div class="ih-item square effect6 from_top_and_bottom">
+                                            <h4>CECREIN</h4>
+                                            <a target="_blank" href="cecrein.html">
+                                                <div class="img">
+                                                    <img src="img/programas/cecrein2.jpg" alt="img" class="img-responsive">
+                                                </div>
+                                                <div class="info">
+                                                    <button class="btn btn-danger">Ver Más</button>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
             
-            <div class="row proyectos">
-                <div class="col-md-3 col-sm-6 col-xs-6"> <!-- normal -->
+            <!-- <div class="row proyectos">
+                <div class="col-md-3 col-sm-6 col-xs-6"> 
                     <div class="ih-item square effect6 from_top_and_bottom">
                         <h4>Confección Textil</h4>
                         <a target="_blank" href="textil.html">
@@ -173,7 +336,7 @@
                         </a>
                      </div>
                 </div>
-                <div class="col-md-3 col-sm-6 col-xs-6"> <!-- normal -->
+                <div class="col-md-3 col-sm-6 col-xs-6"> 
                     <div class="ih-item square effect6 from_top_and_bottom">
                         <h4>Industria Alimentaria</h4>
                         <a target="_blank" href="alimentaria.html">
@@ -186,7 +349,7 @@
                         </a>
                      </div>
                 </div> 
-                <div class="col-md-3 col-sm-6 col-xs-6"> <!-- normal -->
+                <div class="col-md-3 col-sm-6 col-xs-6"> 
                     <div class="ih-item square effect6 from_top_and_bottom">
                         <h4>Cultivos Sostenibles</h4>
                         <a target="_blank" href="cultivos.html">
@@ -199,7 +362,7 @@
                         </a>
                      </div>
                 </div> 
-                <div class="col-md-3 col-sm-6 col-xs-6"> <!-- normal -->
+                <div class="col-md-3 col-sm-6 col-xs-6"> 
                     <div class="ih-item square effect6 from_top_and_bottom">
                         <h4>Asesoramiento en proyectos</h4>
                         <a target="_blank" href="gestion-proyectos.html">
@@ -211,8 +374,8 @@
                             </div>
                         </a>
                     </div>
-                </div>  <!-- end normal -->
-            </div>
+                </div> 
+            </div> -->
 
         </div>
     </div>
