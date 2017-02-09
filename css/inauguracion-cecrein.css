@@ -1,0 +1,42 @@
+/**{outline: 1px solid red;}*/
+body{font-family: 'Roboto', sans-serif;}
+.portada{
+	background-image: url('../img/noticias/slider-noticias.jpg');
+	background-position:center;
+	background-size: cover;
+	width: 100%;
+	height: 230px; position: relative;
+}
+.portada h3{margin-top: 14%; font-weight: bold; color: rgba(255,255,255,.9); font-size:27px; padding:7px; text-shadow: 0 1px 0 #000;
+border-bottom: 1px solid #ccc; border-top: 1px solid #ccc; }
+
+.section-content p{color: #505050;}
+.section-content img{width: 100%; border: 1px solid #ccc;}
+.section-content .title-news h1{font-weight: bold; color: rgb(50,57,70);}
+.section-content .title-news h5{font-weight: bold; letter-spacing: 0.2px; line-height:17px; color: rgb(50,57,70);}
+.section-content .contenido{padding: 20px 15px 40px;}
+.section-content .content-news .image{margin:15px 0 20px;}
+.section-content .recent-news{padding: 40px 0px 40px;}
+.section-content .recent-news h4{font-weight:bold; text-transform: uppercase; color: #fff; background: rgba(251,65,65,.8); padding:11px;
+font-size: 15px; text-shadow: 1px 1px 0px #000; }
+.section-content .recent-news h5{font-weight:bold; font-size: 15px;}
+.section-content .recent-news a{color:rgba(251,65,65,.9)}
+
+@media only screen and (max-width: 1093px){.portada h3{margin-top: 17%;}
+@media only screen and (max-width: 768px){.portada h3{margin-top: 22%;}}
+@media only screen and (max-width: 450px){.portada h3{margin-top: 40%;}}
+@media only screen and (max-width: 425px){.portada h3{margin-top: 42%; font-size: 25px;}}
+@media only screen and (max-width: 375px){.portada h3{margin-top: 48%;}}
+@media only screen and (max-width: 320px){.portada h3{margin-top: 57%;}}
+@media only screen and (max-width: 991px){
+	.section-content .recent-news .col-md-12{padding-right: 15px;} 
+	.section-content .recent-news .publi{margin-bottom: 40px;}
+}
+@media only screen and (max-width: 500px){.section-content .title-news h1{font-size:30px;} .section-content .title-news h5{font-size:13px; }}
+@media only screen and (max-width: 480px){
+	.section-content .content-news .imagenes .col-xs-6{width: 100%;}
+}
+@media only screen and (max-width: 386px){
+	.section-content .recent-news .col-xs-6{width: 100%;}
+	.section-content .recent-news .publication-1{margin-bottom: 5px;}
+}
