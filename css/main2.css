@@ -30,7 +30,7 @@ font-family: 'AvenirLTStd-Medium', sans-serif;
 
 .navbar-fixed-top{background-color: rgba(255,255,255,0.7); color: white;   transition: 0.2s all linear;}
 .navbar-default.change-color {
-  background-color:rgb(255,255,255);
+  background-color:rgba(255,255,255,.8);
   -webkit-box-shadow: 0px 0px 4px 0px rgba(221,221,221,1);
   -moz-box-shadow: 0px 0px 4px 0px rgba(221,221,221,1);
   box-shadow: 0px 0px 4px 0px rgba(221,221,221,1);
@@ -323,11 +323,16 @@ font-family: 'AvenirLTStd-Medium', sans-serif;
 /*------footer finalll---*/
 .footer-final{background-color: rgb(50,57,70); color: white; padding:0.5em;}
 .footer-final p{margin-bottom: 0px;}
-
+/*---------button scroll------*/
+.section-footer .scrollup{width:40px; height:40px; opacity:0.7; bottom:55px; position:fixed; right:95px;background:rgba(50,57,70,.8); border-radius: 50%; display:none; cursor:pointer;}
+.section-footer .scrollup i{color: white;padding: 7px; margin-left: 5px; font-size: 25px;}
+.section-footer .scrollup:hover{background-color: rgba(229,229,229,.8);}
+.section-footer .scrollup:hover i{color: gray;}
 
 @media (max-width: 850px){
   .cuadro .box-int h3{ font-size: 2.5em; }
   .cuadro .box-int h4{font-size:18px;}
+  .section-footer .scrollup{right: 30px;}
 } 
 @media (max-width: 664px){
   .cuadro .box-int { margin-bottom: 180px;  left: 15%; right: 15%;}
@@ -448,11 +453,13 @@ font-family: 'AvenirLTStd-Medium', sans-serif;
   .cuadro .box-int {margin-bottom: 19%;}
   .cuadro .box-int h3{ font-size: 3.3em;}
   .cuadro .box-int h4{font-size:25px;}
+  .section-footer .scrollup{right: 500px;}
 }
 @media only screen and (min-width: 1441px ) and (max-width: 1920px){
   .cuadro .box-int {margin-bottom: 19%;}
   .cuadro .box-int h3{ font-size: 3em;}
   .cuadro .box-int h4{font-size:21px;}
+  .section-footer .scrollup{right: 300px;}
 }
 @media (max-width: 1440px){
   .section-footer .opacity{background: rgba(50,57,70,0.6);}

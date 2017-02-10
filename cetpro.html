@@ -536,6 +536,7 @@
             </div>
           </div>
         </div>
+        <div class="scrollup"><i class="fa fa-angle-double-up"></i></div>
       </div>
     </div>
 </div>
@@ -544,6 +545,21 @@
     <p class="text-center"> <small>©2016 - ONG PAZ PERÚ</small></p>
   </div>
 </div>
-
+<script type="text/javascript">
+       $(document).ready(function(){ 
+        $(window).scroll(function(){
+            if ($(this).scrollTop() > 1500) {
+                $('.scrollup').fadeIn();
+            } else {
+                $('.scrollup').fadeOut();
+            }
+        }); 
+ 
+        $('.scrollup').click(function(){
+            $("html, body").animate({ scrollTop: 0 }, 400);
+            return false;
+        });
+    });
+</script>
 </body>
 </html>

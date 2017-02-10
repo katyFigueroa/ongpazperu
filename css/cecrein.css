@@ -52,7 +52,9 @@ border-radius: 2px; color: rgb(50,57,70); background: #f5f5f5; box-shadow: inset
 .content-info .submenu #accordion .panel-hover:hover h3{color:#fff; text-shadow: 0 0px 1px rgba(251,65,65,.9); }
 .content-info .submenu #accordion .panel-mg-top .active { background-color: rgba(251,65,65,.8); box-shadow: none;}
 .content-info .submenu #accordion .panel-mg-top .active h3 { color:#fff; text-shadow: 0 0px 1px rgba(251,65,65,.9);}
-
+/*-----------content------------*/
+.content-info{background-image: url(../img/fondo-bg.jpg); background-size: cover; background-position: center; background-repeat: no-repeat;
+  width: 100%; position: relative;}
 /*----------responsive large------*/
 @media only screen and (min-width: 1921px ) and (max-width: 2600px){
   .portada{ height: 550px;}

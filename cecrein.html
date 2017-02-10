@@ -55,7 +55,7 @@
 
 <div class="content-info">
     <div class="container">
-        <div class="row" style="background: rgb(229,229,229);">
+        <div class="row">
             <div class="col-md-3 col-sm-3 hidden-xs"  style="padding:30px 0 30px 30px;">
                 <div class="submenu" >
                     <div class="panel-group"  id="accordion"> 
@@ -222,6 +222,7 @@
             </div>
           </div>
         </div>
+        <div class="scrollup"><i class="fa fa-angle-double-up"></i></div>
       </div>
     </div>
 </div>
@@ -230,6 +231,21 @@
       <p class="text-center"> <small>©2016 - ONG PAZ PERÚ</small></p>
     </div>
 </div>
-
+<script type="text/javascript">
+       $(document).ready(function(){ 
+        $(window).scroll(function(){
+            if ($(this).scrollTop() > 400) {
+                $('.scrollup').fadeIn();
+            } else {
+                $('.scrollup').fadeOut();
+            }
+        }); 
+ 
+        $('.scrollup').click(function(){
+            $("html, body").animate({ scrollTop: 0 }, 600);
+            return false;
+        });
+    });
+</script>
 </body>
 </html>

@@ -61,7 +61,13 @@ border-radius: 2px; color: rgb(50,57,70); background: #f5f5f5; box-shadow: inset
 
 
 /*-----------CONTENT-------*/
-.content-info{ background: rgb(229,229,229); padding: 30px;}
+.section-info{background-image: url(../img/fondo-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: relative;}
+.content-info{ padding: 30px;}
 .sub-titulo{ color: rgb(50,57,70);padding: 5px 15px;}
 .sub-titulo h5{font-weight: 700; text-shadow: 0 1px 1px #fff; font-size: 16px;}	
 .proyecto-resp{ margin: 10px 0;padding:20px 5px;  height: auto; background:#fff; }
@@ -73,7 +79,9 @@ button{background: rgba(251,65,65,.7); color: #fff;}
 .modal-header{background: rgba(251,65,65,.7); color: #fff;}
 .modal-header button{ background: : #fff;}
 .modal-content, .modal-header{border-top-right-radius: 9px; border-top-left-radius: 9px;}
-.modal.in .modal-dialog{margin: 30px auto; width: 80%;}
+.modal.in .modal-dialog{margin: 30px auto; width: 72%;}
+.modal-body .imagen img {width: 100%;}
+.modal p, li{text-align: justify;}
 @media (max-width: 500px){
 	.titulo-general{font-size: 25px; text-align: center;}
 }
@@ -110,6 +118,7 @@ button{background: rgba(251,65,65,.7); color: #fff;}
     padding: 10px;}
     .portada h3 {font-size: 2.1em;}
     .portada h4{font-size:21px; font-weight: 200;}
+    .modal.in .modal-dialog{ width: 52%;}
 }
 @media only screen and (min-width: 1441px ) and (max-width: 1920px){
     .portada{ height: 450px;}
@@ -120,4 +129,5 @@ button{background: rgba(251,65,65,.7); color: #fff;}
     margin-top: 155px;
     margin-left: 17.5%;
     padding: 10px;}
+    .modal.in .modal-dialog{ width: 62%;}
 }
