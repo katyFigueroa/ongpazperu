@@ -2,8 +2,11 @@
 .portada{background-image: url(../img/programas/ciam/portada-ciam.jpg);
 background-size: cover;background-position:center; width: 100%; height: 450px; margin-top: 80px;}
 /*.portada .hoverAll{background: rgba(6,28,38,.2); width:100%; height:100%;}*/
-.portada .row{float: right; margin-top: 22%; margin-right: 1%; }
-.portada img{float: right; width: 76%; }
+.portada .block{color:white; margin: 14% 24% 0 24%; text-align: center; border-top: 1px solid #fff; border-bottom:1px solid #fff;
+padding: 0 10px;}
+.portada h3 {font-size: 27px; text-transform:uppercase; margin:10px 0 20px; text-shadow:0px 1px 5px #2D3129;font-weight: bold;}
+.portada h4{font-size:17px; font-weight: 400; text-align: center; padding: 0 10px; text-shadow:1px 1px 2px #2D3129;}
+
 /*-------submenu----------*/
 .content-info .submenu #accordion{background: transparent; margin-bottom: 0;}
 .content-info .submenu ._Title{border: none; margin-bottom: 4px;}
@@ -57,9 +60,21 @@ h4{font-size: 16px; font-weight: 600;margin: 10px auto;}
 .contenido-programas{padding: 30px; background: rgb(229, 229, 229);}
 .titulo-linea{border-bottom: 2px solid #fff; padding: 5px; margin-bottom: 10px;}
 
+@media (min-width: 1921px ) and (max-width: 2560px){
+  .portada{height: 550px;}
+  .portada .block{ margin: 18.5% 24% 0 24%;}
+}
+@media (max-width: 1093px){.portada .block{ margin: 17% 24% 0 24%;}}
+@media (max-width: 768px){.portada .block{ margin: 21% 24% 0 24%;}.portada .block h4{font-size:16px;} }
+@media (max-width: 500px){.portada .block{ margin: 32% 20% 0 20%;}}
+@media (max-width: 425px){.portada .block{ margin: 35% 20% 0 20%;}}
+@media (max-width: 375px){.portada .block{margin: 37% 20% 0 20%;}}
+@media (max-width: 320px){.portada .block{margin: 42% 20% 0 20%;} .portada .block h3{font-size:1.6em;} }
+
 @media (max-width: 570px){.gallery .col-xs-3{width: 50%;}
 @media( max-width: 500px ){.titulo-programa{font-size: 25px; text-align: center;} }
 @media (max-width: 380px){.gallery .col-xs-3{width: 100%;} }
 @media (min-width: 270px) and (max-width: 991px){ 
     .list-unstyled {padding-top: 10px; margin-bottom: 0px;}
 }
+

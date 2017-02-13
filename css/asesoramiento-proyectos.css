@@ -11,22 +11,10 @@ body{font-family: 'Roboto', sans-serif;}
     background-position: right;
     margin-top: 80px;
 }
-.portada .block{
-    color:white;
-    background-color: rgba(0,0,0,0.4);
-    width:57%; height: auto;
-    margin-top: 160px;
-    margin-left: 21.5%;
-    padding: 10px;
-    text-align: center;
-}
-.portada h3 {
-    font-size: 2em;
-    line-height: 1;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-}
-.portada h4{font-size:17px; font-weight: 200; text-align: center; padding: 0 10px;}
+.portada .block{color:white; margin: 14% 24% 0 24%; text-align: center; border-top: 1px solid #fff; border-bottom:1px solid #fff;
+padding: 0 10px;}
+.portada h3 {font-size: 27px; text-transform:uppercase; margin:10px 0 20px; text-shadow:0px 1px 2px #2D3129;font-weight: bold;}
+.portada h4{font-size:17px; font-weight: 400; text-align: center; padding: 0 10px; text-shadow:0px 1px 1px #2D3129;}
 /*-------submenu----------*/
 .section-info .submenu #accordion{background: transparent; margin-bottom: 0;}
 .section-info .submenu ._Title{border: none; margin-bottom: 4px;}
@@ -82,9 +70,6 @@ button{background: rgba(251,65,65,.7); color: #fff;}
 .modal.in .modal-dialog{margin: 30px auto; width: 72%;}
 .modal-body .imagen img {width: 100%;}
 .modal p, li{text-align: justify;}
-@media (max-width: 500px){
-	.titulo-general{font-size: 25px; text-align: center;}
-}
 @media (max-width: 450px){
 	.proyecto-resp .col-xs-5{width: 100%;}
 	.proyecto-resp .col-xs-7{width: 100%;}
@@ -111,23 +96,21 @@ button{background: rgba(251,65,65,.7); color: #fff;}
 /*----------responsive large----------*/
 @media only screen and (min-width: 1921px ) and (max-width: 2600px){
     .portada{ height: 550px;}
-    .portada .block{
-    background-color: rgba(0,0,0,0.3); width:65%;
-    margin-top: 190px;
-    margin-left: 17.5%;
-    padding: 10px;}
-    .portada h3 {font-size: 2.1em;}
-    .portada h4{font-size:21px; font-weight: 200;}
+    .portada .block{ margin: 18.5% 24% 0 24%;}
     .modal.in .modal-dialog{ width: 52%;}
 }
 @media only screen and (min-width: 1441px ) and (max-width: 1920px){
     .portada{ height: 450px;}
-    .portada h3 {font-size: 2em;}
-    .portada h4{font-size:19px;}
-    .portada .block{
-    background-color: rgba(0,0,0,0.3); width:65%;
-    margin-top: 155px;
-    margin-left: 17.5%;
-    padding: 10px;}
+    .portada .block{ margin: 14% 24% 0 24%;}
     .modal.in .modal-dialog{ width: 62%;}
 }
+@media (max-width: 1093px){
+    .portada .block{ margin: 17% 24% 0 24%;}
+}
+@media (max-width: 768px){.portada .block{ margin: 19% 24% 0 24%;}.portada .block h4{font-size:16px;} }
+@media (max-width: 500px){
+    .titulo-general{font-size: 25px; text-align: center;}
+    .portada .block{ margin: 30% 20% 0 20%;}
+}
+@media (max-width: 375px){.portada .block{color:white; margin: 33% 20% 0 20%;}}
+@media (max-width: 320px){.portada .block{margin: 38% 20% 0 20%;}}

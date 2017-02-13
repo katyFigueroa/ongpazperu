@@ -1,6 +1,9 @@
 /**{outline: 1px solid red;}*/
 
-.section-container .submenu ._Title{border: none;}
+.hero .block{color:white; margin: 14% 24% 0 24%; text-align: center; border-top: 1px solid #ccc; border-bottom:1px solid #ccc;
+padding: 0 10px;}
+.hero h3 {font-size: 27px; text-transform:uppercase; margin:10px 0 20px; text-shadow:1px 1px 5px #2D3129;font-weight: bold;}
+.hero h4{font-size:17px; font-weight: 400; text-align: center; padding: 0 10px; text-shadow:1px 1px 2px #2D3129; color: #fff;}
 /*-------submenu----------*/
 .section-container .submenu #accordion{background: transparent; margin-bottom: 0;}
 .section-container .submenu ._Title{border: none; margin-bottom: 4px;}
@@ -70,13 +73,7 @@ h4{font-size: 16px;font-weight: 600;color: rgb(40, 46, 58);}
   background: rgba(255,255,255,0.3);
   -webkit-transition: all 500ms;
 }
-
-.hoverDot:hover .icon-group{
-    padding: 16%;
-    font-size: 100%;
-    background: none;
-    color: #fff;
-}
+.hoverDot:hover .icon-group{padding: 16%; font-size: 100%; background: none; color: #fff;}
 .hoverDot .flip-text {
   color: #fff;
   font-size: 24px;
@@ -90,23 +87,12 @@ h4{font-size: 16px;font-weight: 600;color: rgb(40, 46, 58);}
   -webkit-transform: rotateY(-180deg);
   -webkit-transition: all 500ms;
 }
-.hoverDot, .flip-text{
-    background-size: cover;
-    background-position: center;
-}
+.hoverDot, .flip-text{background-size: cover; background-position: center;}
 .cuna1{background-image: url(../img/programas/inicial/responsabilidad.jpg);}
 .cuna2{background-image: url(../img/programas/inicial/equidad.jpg);}
 .cuna3{background-image: url(../img/programas/inicial/solidaridad.jpg);}
-
-.hoverDot:hover{
-    background: rgb(67, 86, 99);
-}
-.hoverDot:hover .flip-text {
-  opacity: 1;
-  -webkit-transform: rotateY(0);
-}
-
-
+.hoverDot:hover{background: rgb(67, 86, 99);}
+.hoverDot:hover .flip-text {opacity: 1; -webkit-transform: rotateY(0);}
 
 .gallery figure .foto1 {-webkit-filter: grayscale(0); filter: grayscale(0);-webkit-transition: .3s ease-in-out; transition: .3s ease-in-out;}
 .gallery figure:hover .foto1{-webkit-filter: grayscale(100%);filter: grayscale(100%);}
@@ -124,6 +110,17 @@ h4{font-size: 16px;font-weight: 600;color: rgb(40, 46, 58);}
 
 
 /*----------------------------*/
+@media only screen and (min-width: 1921px ) and (max-width: 2560px){
+  .hero{height: 550px;}
+  .hero .block{ margin: 18.5% 24% 0 24%;}
+}
+@media only screen and (min-width: 1537px ) and (max-width: 1920px){.hero{background-position-y:30%;}}
+@media (max-width: 1093px){.hero .block{ margin: 17% 24% 0 24%;}}
+@media (max-width: 768px){.hero .block{ margin: 21% 24% 0 24%;}.hero .block h4{font-size:16px;} }
+@media (max-width: 500px){.hero .block{ margin: 30% 20% 0 20%;}}
+@media (max-width: 375px){.hero .block{margin: 35% 20% 0 20%;}}
+@media (max-width: 320px){.hero .block{margin: 39% 20% 0 20%;} .hero .block h3{font-size:1.6em;} }
+
 @media only screen and (min-width: 200px ) and (max-width: 470px){
   .servicios .col-xs-8{width: 100%;}
   .servicios .imagen{width: 100%;}

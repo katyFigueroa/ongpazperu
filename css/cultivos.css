@@ -1,8 +1,7 @@
 /**{outline: 1px solid red;}*/
 body{padding-top: 0px; font-family:'Roboto', sans-serif}
 .imagen-hero{
-    background-image: url("../img/programas/agricultura/portada-cultivo.jpg");
-	/*background-image: url("../img/programas/agricultura/agricultura_organica.jpg");*/
+    background-image: url("../img/programas/agricultura/portada-cultivo1.jpg");
 	background-size: cover;
     background-position: center;
 	width: 100%;
@@ -15,9 +14,10 @@ body{padding-top: 0px; font-family:'Roboto', sans-serif}
 .imagen-hero h4{font-size:17px; font-weight: 200; padding: 0 10px;}
 */
 /*------------------------------*/
-.imagen-hero .block{color:white; padding-top: 13%; text-align: center;}
-.imagen-hero h3 {font-size: 3.9rem; text-transform:none; margin-bottom: 20px; text-shadow:0px 1px 5px #2D3129;font-weight: bold;}
-.imagen-hero h4{margin: 0px 13%; font-size: 17px; text-shadow:0px 1px 1px #2D3129;}
+.imagen-hero .block{color:white; margin: 14% 24% 0 24%; text-align: center; border-top: 1px solid #fff; border-bottom:1px solid #fff;
+padding: 0 10px;}
+.imagen-hero h3 {font-size: 27px; text-transform:uppercase; margin:10px 0 20px; text-shadow:0px 1px 5px #2D3129;font-weight: bold;}
+.imagen-hero h4{ font-size: 17px; text-shadow:0px 1px 1px #2D3129; font-weight: 400;}
 /*-------submenu----------*/
 .content-info .submenu #accordion{background: transparent; margin-bottom: 0;}
 .content-info .submenu ._Title{border: none; margin-bottom: 4px;}
@@ -61,8 +61,7 @@ border-radius: 2px; color: rgb(50,57,70); background: #f5f5f5; box-shadow: inset
 .subtitu{background-color: rgb(50,57,70); padding: 12px 1em; color:white ; margin:0px; font-size: 30px; text-shadow: 0 1px 1px #000;}
 .section-content .text{padding: 1em 2em 2em 2em; margin-bottom: 0px;}
 .section-content .fila{padding: 15px 0 0px 0;}
-.section-content .fila .note{font-weight: 100; border: 1px dashed rgb(67,86,99);
-    border-left: 6px solid rgb(67,86,99);padding:20px; }
+.section-content .fila .note{border: 1px dashed rgb(67,86,99); color: #505050; border-left: 6px solid rgb(67,86,99);padding:20px; }
 .section-content .fila .fa{font-size: 20px; color:rgb(67,86,99);font-weight: bold; }
 .section-content h4{background-color:rgb(67,86,99) ;color: white; padding: 0.5em 0; font-weight: 100; font-size: 16px; margin-top: 5px;}
 
@@ -104,47 +103,16 @@ h3.no-span:after {left: 0.5%;}
 /*@media (max-width: 461px){.imagen-hero .block{ margin-top: 130px;} }*/
 /*@media (max-width: 400px){.imagen-hero h3 {font-size: 1.8em;} .imagen-hero h4{font-size:15px;} }*/
 /*@media (max-width: 330px){.imagen-hero h3 {font-size: 1.6em;} .imagen-hero h4{font-size:14px;} }*/
-@media (max-width: 290px){
-    /*.imagen-hero h3 {font-size: 1.5em;}*/
-    .section-content h4{font-size: 15px;}
-}
-@media (max-width: 370px){
-    .section-content .col-xs-6{width: 100%;}
-}
-
-@media only screen and (min-width: 1921px ) and (max-width: 2600px){
-    .imagen-hero{ height: 550px;}
-/*    .imagen-hero .block{
-    background-color: rgba(0,0,0,0.3);
-    width:65%; height: auto;
-    margin-top: 190px;
-    margin-left: 17.5%;
-    padding: 10px;}
-    .imagen-hero h3 {font-size: 2.1em;}
-    .imagen-hero h4{font-size:21px; font-weight: 200;}*/
-
-}
-@media only screen and (min-width: 1441px ) and (max-width: 1920px){
-/*    .imagen-hero{ height: 450px;}*/
-/*    .imagen-hero .block{
-    background-color: rgba(0,0,0,0.3);
-    width:65%; height: auto;
-    margin-top: 155px;
-    margin-left: 17.5%;
-    padding: 10px;}
-    .imagen-hero h3 {font-size: 2em;}
-    .imagen-hero h4{font-size:19px; font-weight: 200;}*/
-}
-
+@media (max-width: 290px){.section-content h4{font-size: 15px;}}
+@media (max-width: 370px){.section-content .col-xs-6{width: 100%;}}
+@media only screen and (min-width: 1921px ) and (max-width: 2600px){.imagen-hero{ height: 550px;}}
+@media (max-width: 1093px){.imagen-hero .block{color:white; margin: 17% 24% 0 24%;}}
+@media only screen and (min-width: 1441px ) and (max-width: 1920px){.imagen-hero{ height: 450px;}}
 /*---------------------------*/
 @media (max-width: 991px){
-  .imagen-hero .block{padding-top: 20.5%;}
-  .imagen-hero .block h3{font-size: 3.5rem;}
+  .imagen-hero .block{color:white; margin: 21% 24% 0 24%;}
   .imagen-hero .block h4{font-size: 16px;}
 }
-@media (max-width: 500px){
-  .imagen-hero .block{padding-top: 30%;}
-  .imagen-hero .block h3{font-size: 3.1rem;}
-  .imagen-hero .block h4{font-size: 15px;}
-}
-@media (max-width: 500px){ .imagen-hero .block{padding-top: 40%;} }
+@media (max-width: 500px){.imagen-hero .block{color:white; margin: 26% 20% 0 20%;}}
+@media (max-width: 375px){ .imagen-hero .block{color:white; margin: 33% 20% 0 20%;}}
+@media (max-width: 320px){.imagen-hero .block{margin: 38% 20% 0 20%;} .imagen-hero .block h3{font-size:1.6em;}}

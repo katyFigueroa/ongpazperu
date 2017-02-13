@@ -17,14 +17,11 @@ body{font-family:'Roboto', sans-serif;}
 .cuadro .carousel-inner .imagen2{background-image: url("../img/programas/textil/slider_1.jpg"); background-size: cover;background-position: center; width: 100%;}
 .cuadro .carousel-inner .imagen3{background-image: url("../img/programas/textil/portada2.jpg"); background-size: cover;background-position: center; width: 100%;}
 /*.cuadro .carousel-inner .item .hoverAll{background: rgba(6,28,38,.2); width:100%; height:100%;}*/
-.cuadro .box-int {
-    color:white;
-    background-color: rgba(0,0,0,0.3);
-    padding: 10px;
-    margin-bottom: 138px;  left: 26.9%; right: 26.9%;
-}
-.cuadro .box-int h3{ font-size: 2em;line-height: 1;text-transform: uppercase;margin-bottom: 20px; font-weight: normal; }
-.cuadro .box-int h4{font-size:17px; color: white; font-weight: 200;}
+.cuadro .box-int {color:white; padding: 0 10px; margin-bottom: 160px;  left: 29%; right: 29%; border-top: 1px solid #fff; 
+  border-bottom: 1px solid #fff;}
+.cuadro .box-int h3{ font-size: 27px;line-height: 1;text-transform: uppercase;margin-bottom: 20px; font-weight: bold; 
+  margin-top: 10px; text-shadow:0px 1px 4px #2D3129;}
+.cuadro .box-int h4{font-size:17px; color: white; font-weight: 400; text-shadow:0px 1px 1px #2D3129;}
 .carousel-indicators {bottom: 0px;}
 .carousel-fade .carousel-inner .item {-webkit-transition-property: opacity;transition-property: opacity;}
 .carousel-fade .carousel-inner .item,
@@ -239,16 +236,11 @@ figure.snip1158:hover:after,figure.snip1158.hover:after { width: 100%;}
 @media (max-width: 531px){
   .cuadro .box-int {margin-bottom: 100px;  left: 25%; right: 25%;}
 }
-@media (max-width: 445px){
-  .cuadro .box-int {margin-bottom: 85px;}
-}
 @media (max-width: 400px){
   .cuadro .box-int h3{ font-size: 1.8em; margin-bottom: 10px;}
   .cuadro .box-int h4{font-size:15px;}
-  .cuadro .box-int {margin-bottom: 105px;}
   #productos .contenido-text .col-sm-3{width: 100%; padding-top: 10px; padding-bottom: 10px;}
   #productos .contenido-text .border{border-right: none; border-bottom: 1px solid #ccc;}
-
 }
 @media (max-width: 330px){
     .cuadro .box-int h3{ font-size: 1.6em; margin-bottom: 10px; }
@@ -258,29 +250,29 @@ figure.snip1158:hover:after,figure.snip1158.hover:after { width: 100%;}
   .cuadro .box-int {margin-bottom: 95px;}
 }
 
-
 /*----------responsive large----------*/
 @media only screen and (min-width: 1921px ) and (max-width: 2600px){
   .hero{height: 550px;}
-  .cuadro .box-int {
-      background-color: rgba(0,0,0,0.3);
-      margin-bottom: 170px;  left: 35%; right: 35%;
-  }
+  .cuadro .box-int { margin-bottom: 202px;left: 38.2%; right: 38.2%; }
   #carousel-example-generic {height: 550px;}
   .cuadro .box-int h3{ font-size: 2.1em;}
   .cuadro .box-int h4{font-size:21px;}
 }
 @media only screen and (min-width: 1441px ) and (max-width: 1920px){
-  .hero{height: 550px;}
-  .cuadro .box-int {
-      background-color: rgba(0,0,0,0.3);
-      margin-bottom: 135px;  left: 30.2%; right: 30.2%;
-  }
+  .hero{height: 450px;}
+  .cuadro .box-int {margin-bottom: 158px;  left: 34.2%; right: 34.2%;}
   #carousel-example-generic {height: 450px;}
   .cuadro .box-int h3{ font-size: 2em;}
   .cuadro .box-int h4{font-size:19px;}
 }
-/*-------responsive facebook--------*/
+@media (max-width: 1536px ){.cuadro .box-int {margin-bottom: 158px;  left: 30.2%; right: 30.2%;}}
+@media (max-width: 1366px ){.cuadro .box-int {margin-bottom: 161px;  left: 28%; right: 28%;}}
+@media (max-width: 1024px ){.cuadro .box-int {margin-bottom: 158px;  left: 25%; right: 25%;}}
+@media (max-width: 768px ){.cuadro .box-int {margin-bottom: 160px;  left: 24%; right: 24%;}.cuadro .box-int h4{font-size:16px;}}
+@media (max-width: 500px ){.cuadro .box-int {margin-bottom: 157px;  left: 20%; right: 20%;}.cuadro .box-int h4{font-size:16px;}}
+@media (max-width: 425px ){.cuadro .box-int {margin-bottom: 140px;  left: 20%; right: 20%;}.cuadro .box-int h4{font-size:16px;}}
+@media (max-width: 375px ){.cuadro .box-int {margin-bottom: 135px;  left: 20%; right: 20%;}.cuadro .box-int h4{font-size:16px;}}
+ /*-------responsive facebook--------*/
 @media (max-width: 767px){
   .formulario .button{width: 100%; padding:4px 45px; border: 1px solid rgb(67, 86, 99); }
 }
@@ -291,7 +283,7 @@ figure.snip1158:hover:after,figure.snip1158.hover:after { width: 100%;}
 }
 @media (max-width: 430px){.contact .col-xs-5 .fb-small{margin-left: 13%;}}
 @media (max-width: 400px){.contact .col-xs-5 .fb-small{margin-left: 8%;} .instalaciones .gallery .col-xs-4{width: 100%;}}
-@media (max-width: 320px){.contact .col-xs-5 .fb-small{margin-left: 0%;}}
+@media (max-width: 320px){.contact .col-xs-5 .fb-small{margin-left: 0%;} .cuadro .box-int  h3{font-size:1.6em;}}
 
 
 

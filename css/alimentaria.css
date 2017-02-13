@@ -9,25 +9,10 @@ body {font-size: 14px; font-size: 14px; font-size: 1.4rem; background: #f5f5f5; 
     height: 450px;
     position: relative;
 }
-.imagen-hero .block{
-    color:white;
-    background-color: rgba(0,0,0,0.4);
-    width:57%; height: auto;
-    margin-top: 160px;
-    margin-left: 21.5%;
-    padding: 10px;
-    text-align: center;
-}
-.imagen-hero h3 {
-    font-size: 2em;
-    line-height: 1;
-    text-transform: uppercase;
-    font-family: font-family:'Roboto', sans-serif;
-    margin-bottom: 20px;
-}
-.imagen-hero h4{font-size:17px; font-weight: 200; text-align: center; padding: 0 10px;}
-.imagen-hero .logo{float: right; margin-top: 3.7%; margin-right: 1%;  }
-.imagen-hero img{float: right; width: 73%; }
+.imagen-hero .block{color:white; margin: 14% 24% 0 24%; text-align: center; border-top: 1px solid #fff; border-bottom:1px solid #fff;
+padding: 0 10px;}
+.imagen-hero h3 {font-size: 27px; text-transform:uppercase; margin:10px 0 20px; text-shadow:0px 1px 5px #2D3129;font-weight: bold;}
+.imagen-hero h4{font-size:17px; font-weight: 400; text-align: center; padding: 0 10px; text-shadow:0px 1px 1px #2D3129;}
 /*-------submenu----------*/
 .content-info .submenu #accordion{background: transparent; margin-bottom: 0;}
 .content-info .submenu ._Title{border: none; margin-bottom: 4px;}
@@ -83,9 +68,7 @@ margin-left: 15px; margin-right: 15px; text-shadow: 0 1px 1px #000;}
 #slider-alimentaria .media-carousel .carousel-indicators .active{background: #333333;}
 #slider-alimentaria .media-carousel img{width: 230px;height: 150px; margin: 0px;}
 #slider-alimentaria h4{font-size: 16px; font-weight: 600; color: rgb(40, 46, 58);}
-@media (max-width: 767px){
-    .information_menu_mobile li a {padding: 20px;}
-}
+
 @media (max-width: 750px){
     .imagen-hero .block {margin-bottom: 120px;}
 }
@@ -123,21 +106,20 @@ margin-left: 15px; margin-right: 15px; text-shadow: 0 1px 1px #000;}
 /*----------responsive large----------*/
 @media only screen and (min-width: 1921px ) and (max-width: 2600px){
     .imagen-hero{ height: 550px;}
-    .imagen-hero .block{
-    background-color: rgba(0,0,0,0.3); width:65%;
-    margin-top: 190px;
-    margin-left: 17.5%;
-    padding: 10px;}
+    .imagen-hero .block{margin-top: 210px;}
     .imagen-hero h3 {font-size: 2.1em;}
-    .imagen-hero h4{font-size:21px; font-weight: 200;}
-}
+    .imagen-hero h4{font-size:21px;}
+} 
 @media only screen and (min-width: 1441px ) and (max-width: 1920px){
     .imagen-hero{ height: 450px;}
     .imagen-hero h3 {font-size: 2em;}
     .imagen-hero h4{font-size:19px;}
-    .imagen-hero .block{
-    background-color: rgba(0,0,0,0.3); width:65%;
-    margin-top: 155px;
-    margin-left: 17.5%;
-    padding: 10px;}
 }
+@media (max-width: 1093px){
+    .imagen-hero .block{ margin: 17% 24% 0 24%;}
+}
+@media (max-width: 768px){.imagen-hero .block{ margin: 21% 24% 0 24%;}.imagen-hero .block h4{font-size:16px;} }
+@media (max-width: 500px){.imagen-hero .block{ margin: 30% 20% 0 20%;} }
+@media (max-width: 500px){.imagen-hero .block{ margin: 30% 20% 0 20%;} }
+@media (max-width: 375px){.imagen-hero .block{margin: 33% 20% 0 20%;}}
+@media (max-width: 320px){.imagen-hero .block{margin: 38% 20% 0 20%;} .imagen-hero .block h3{font-size:1.6em;} }

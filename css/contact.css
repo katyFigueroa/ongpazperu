@@ -58,6 +58,7 @@ textarea{padding:6px 12px; border-radius:4px;  }
   p{font-size: 16px;}
   .datos-ubicacion h3{font-size:2.2em; font-weight: 400;}
 } 
+@media only screen and (max-width: 1536px){.contacto-form{margin-top: 13%;}}
 @media only screen and (max-width: 1440px) { 
   .contacto-form{margin-top: 8.5%;}
   p{font-size: 15px;}
