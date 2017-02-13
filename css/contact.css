@@ -70,7 +70,7 @@ textarea{padding:6px 12px; border-radius:4px;  }
   .datos-ubicacion h3{font-size:2em;}
  } 
  @media only screen and (max-width: 1093px) { 
-  .contacto-form{margin-top: 9%;} .datos-contacto{padding-top: 5px;}
+  .contacto-form{margin-top: 7.2%;} .datos-contacto{padding-top: 5px;}
   .title{font-size: 3.5rem;}
   p{font-size: 14px;} 
   .datos-ubicacion {padding: 20px 30px 25px 30px;}
