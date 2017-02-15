@@ -10,9 +10,10 @@ body{font-family:'Roboto', sans-serif;}
     background-position: center;
     margin-top: 80px;
 }
-.portada .box-in{color: white; padding-top: 12%;}
-.portada .box-in h2{font-weight: bold; text-shadow:0px 1px 5px #2D3129; font-size: 3.9rem;}
-.portada .box-in h4{margin: 0px 13%; font-size: 17px; text-shadow:0px 1px 1px ##2D3129;}
+.portada .box-in{color:white; margin: 13% 24% 0 24%; text-align: center; border-top: 1px solid #fff; border-bottom:1px solid #fff;
+padding: 0 10px;}
+.portada .box-in h2{font-size: 27px; text-transform:uppercase; margin:10px 0 20px; text-shadow:1px 1px 5px #2D3129;font-weight: bold;}
+.portada .box-in h4{font-size:17px; font-weight: 400; text-align: center; padding: 0 10px; text-shadow:0px 1px 1px #2D3129;}
 .section-info h3{ background-color: rgb(50,57,70); padding: 12px 1em; color: white; 
     font-family:'Roboto', sans-serif; font-size: 30px; font-weight: 500; text-shadow: 0 1px 1px #000; margin: 0px 0px 15px 0px; }
 
@@ -28,14 +29,16 @@ body{font-family:'Roboto', sans-serif;}
 .section-info .container .convenios{height: 300px;}
 .section-info .container .convenios .fa{width: 20px; font-size: 8px; color: rgb(251,65,65);padding-bottom: 12px;}
 
-@media (max-width: 991px){
-  .portada .box-in{padding-top: 16.5%;}
-  .portada .box-in h2{font-size: 3.5rem;}
-  .portada .box-in h4{font-size: 16px;}
+@media only screen and (min-width: 1921px ) and (max-width: 2560px){
+  .portada{height: 550px;}
+  .portada .box-in{ margin: 17.5% 24% 0 24%;}
 }
+@media (max-width: 1093px){.portada .box-in{ margin: 15% 24% 0 24%;}}
+@media (max-width: 768px){.portada .box-in{ margin: 19% 24% 0 24%;}.portada .box-in h4{font-size:16px;} }
+@media (max-width: 500px){.portada .box-in{ margin: 23% 20% 0 20%;}}
+@media (max-width: 375px){.portada .box-in{margin: 22% 20% 0 20%;}}
+@media (max-width: 320px){.portada .box-in{margin: 29% 17% 0 17%; padding: 0px;} .portada .box-in h2{font-size:1.6em;} }
+
 @media (max-width: 500px){
   .container h3{font-size: 25px; text-align: center;}
-  .portada .box-in{padding-top: 25%;}
-  .portada .box-in h2{font-size: 3.1rem;}
-  .portada .box-in h4{font-size: 15px;}
 }
