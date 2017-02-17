@@ -172,7 +172,9 @@ figure.snip1158:hover:after,figure.snip1158.hover:after { width: 100%;}
 .margin{margin: 10px auto;}
 .panel-default{width: 100%;}
 .nav-pills>li>a {color: rgb(67, 86, 99);}
-.btn-catalogo{margin-bottom: 5px; }
+.btn-catalogo{margin-bottom: 5px; margin-top: 13px; }
+.btn-catalogo .but-catalogo input{border: 1px solid rgba(40, 46, 58,.5); background: #fff; padding: 5px 10px;}
+.btn-catalogo .but-catalogo input:hover{background: rgb(67, 86, 99); color: #fff; border: 1px solid rgba(50,57,70,.5); }
 #productos .titulo h4{font-size: 16px;font-weight: 600;color: rgb(40, 46, 58);}
 #productos .contenido-text .categoria{font-weight: bold; text-transform: uppercase; color: rgb(67,86,99); font-size:12px; }
 #productos .contenido-text ul{padding-left: 15px;}
@@ -180,6 +182,7 @@ figure.snip1158:hover:after,figure.snip1158.hover:after { width: 100%;}
 #productos .contenido-text i{color: rgb(67,86,99); font-size: 16px; width: 10px;}
 #productos .contenido-text .border{border-right: 1px solid #ccc;}
 #productos .contenido-text .col-md-3{padding-top: 10px;}
+#productos .contenido-text .border-1, .border-2, .border-3, .border-4{background: #fff; height: 185px; }
 
 /*#accordion3{margin-bottom: 5px;}
 #productos #accordion3.images-group{background: rgb(229,229,229); padding: 10px 0 10px 15px;}

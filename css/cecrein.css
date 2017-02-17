@@ -64,7 +64,7 @@ border-radius: 2px; color: rgb(50,57,70); background: #f5f5f5; box-shadow: inset
 }
 @media only screen and (max-width: 2540px){.portada .box-in {top: 60.8%;} }
 @media only screen and (max-width: 1950px) {.portada .box-in {top: 65.7%;} }
-@media only screen and (max-width: 1920px){.portada .box-in { top: 62%; } }
+@media only screen and (max-width: 1920px){.portada .box-in { top: 62.6%; } }
 @media only screen and (max-width: 1600px) {.portada .box-in {top: 68.4%;} }
 @media only screen and (max-width: 1440px) {.portada .box-in {top: 66.9%;} }
 @media only screen and (max-width: 1366px) {.portada .box-in {top: 65.9%;} .portada img{ width: 45%;} }
