@@ -462,7 +462,7 @@ font-family: 'AvenirLTStd-Medium', sans-serif;
   .cuadro .box-int {margin-bottom: 19%;}
   .cuadro .box-int h3{ font-size: 3em;}
   .cuadro .box-int h4{font-size:21px;}
-  .section-footer .scrollup{right: 100px;}
+  .section-footer .scrollup{right: 200px;}
 }
 @media (max-width: 1440px){
   .section-footer .opacity{background: rgba(50,57,70,0.6);}

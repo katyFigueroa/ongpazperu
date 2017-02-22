@@ -1,12 +1,13 @@
 /**{outline: 1px solid red;}*/
 body{font-family: 'Roboto', sans-serif;}
 .portada{
-	background-image: url('../img/noticias/slider-noticia.jpg');
+	background-image: url('../img/noticias/slider-noticias1.jpg');
 	background-position:top;
 	background-size: cover;
 	width: 100%;
 	height: 170px; position: relative;
 }
+.portada .opaci{background-color: rgba(50,57,70,.2);height: 100%; width: 100%;}
 .portada h3{margin-top: 10%; font-weight: bold; color: rgba(255,255,255,.9); font-size:24px; padding:5px 14px; text-shadow: 0 1px 0 #000;
 border-bottom: 1px solid #ccc; border-top: 1px solid #ccc; margin-right: 88%;}
 
