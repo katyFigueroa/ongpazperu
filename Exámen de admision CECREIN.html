@@ -22,8 +22,16 @@
 <!-- --------MENU--------------- -->
 
 <div id="navbar" style="font-family: 'Roboto', sans-serif; font-size:14px;">    
-  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation" style="background-color: rgba(255,255,255,.9);">
       <div class="container">
+        <div class="redes-bg pull-right hidden-xs" >
+          <ul class="list-inline" style="margin-bottom: 0px; margin-top: 7px;">
+              <li><a href="https://www.facebook.com/PAZPERUONG/" class="fb"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="https://www.youtube.com/channel/UCRG-gn5MD-v2oaclvDTegnQ"><i class="fa fa-youtube-play"></i></a></li>
+              <li style="color: #000; top: 16px;">|</li>
+              <li><a style="text-decoration:none; "> (054) 436555</a></li>
+          </ul>
+        </div>
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
@@ -36,7 +44,14 @@
             <div class="collapse navbar-collapse" id="navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="index.html" class="title_menu">INICIO</a></li>
-                    <li><a href="nosotros.html" class="title_menu" >NOSOTROS </a> </li>
+                    <li class="dropdown">
+                        <a href="nosotros.html" class="dropdown-toggle title_menu" data-toggle="dropdown">NOSOTROS <span class="caret"></span></a>
+                        <ul id="login-dp" class="dropdown-menu">
+                            <li><a class="border-bt" href="nosotros.html"> <i class="fa fa-stop"></i> Somos Paz Perú </a></li>
+                            <li><a class="border-bt" href="reseña.html"> <i class="fa fa-stop"></i> Nuestra Historia </a></li>
+                            <li><a href="Convenios.html"> <i class="fa fa-stop"></i> Nuestros Convenios </a></li>
+                        </ul>
+                    </li>
                     <li><a href="programas.html" class=" title_menu" >PROGRAMAS</a></li>
                     <li><a href="contacto.html" class="title_menu">CONTÁCTANOS</a></li>
                 </ul>
@@ -44,6 +59,20 @@
           </div>
         </nav>
 </div>
+<script type="text/javascript">
+    $(document).ready(function(){
+    $(".dropdown").hover(            
+        function() {
+            $('.dropdown-menu', this).stop( true, true ).slideDown("fast");
+            $(this).toggleClass('open');        
+        },
+        function() {
+            $('.dropdown-menu', this).stop( true, true ).slideUp("fast");
+            $(this).toggleClass('open');       
+        }
+    );
+});
+</script>
 <!-- -------------FIN MENU--------------- -->
 <div class="portada">
     <div class="opaci">
@@ -125,8 +154,6 @@
         </div>
     </div>
 </div>
-
-
 <div class="section-footer">
     <div class="opacity">
       <div class="container">
@@ -141,23 +168,23 @@
               </ul>
           </div>
           <div class="footer-red text-center">
-            <div class=""><a href="#"><i class="fa fa-facebook"></i></a></div>
-            <div class=""><a href="#"><i class="fa fa-youtube-play"></i></a></div>
-            <div class=""><a href="#"><i class="fa fa-envelope"></i></a></div>
+            <div class=""><a href="https://www.facebook.com/PAZPERUONG/"><i class="fa fa-facebook"></i></a></div>
+            <div class=""><a href="https://www.youtube.com/channel/UCRG-gn5MD-v2oaclvDTegnQ"><i class="fa fa-youtube-play"></i></a></div>
+            <div class=""><a href="contacto.html"><i class="fa fa-envelope"></i></a></div>
           </div>
         </div>
         <div class="col-md-3 col-sm-3 col-xs-6 column">
           <h5>Programas Sociales</h5>
           <hr>
           <ul class="list-unstyled">
+            <li><a href="educacón.html"><i class="fa fa-chevron-right"></i> Casa Isabel</a></li>
             <li><a href="cuna.html"><i class="fa fa-chevron-right"></i> Cuna</a></li>
             <li><a href="ciam.html"><i class="fa fa-chevron-right"></i> CIAM</a></li>
+            <li><a href="inicial.html"><i class="fa fa-chevron-right"></i> Inicial</a></li>
             <li><a href="cetpro.html"><i class="fa fa-chevron-right"></i> CETPRO</a></li>
             <li><a href="policlinico.html"><i class="fa fa-chevron-right"></i> Policlinico</a></li>
-            <li><a href="educacón.html"><i class="fa fa-chevron-right"></i> Casa Isabel</a></li>
-            <li><a href="odontológico.html"><i class="fa fa-chevron-right"></i> Clínica Odontológica</a></li>
-            <li><a href=".html"><i class="fa fa-chevron-right"></i>CECREIN - Capacitación Alternativa</a></li>
-            
+            <li><a href="odontológico.html"><i class="fa fa-chevron-right"></i>Clínica Odontológica</a></li>
+            <li><a href="capacitacion-allternativa.html"><i class="fa fa-chevron-right"></i>CECREIN - Capacitación Alternativa</a></li>
           </ul>
         </div>
         <div class="col-md-3 col-sm-3 col-xs-6 column">
@@ -167,7 +194,8 @@
             <li><a href="textil.html"><i class="fa fa-chevron-right"></i> Industria Textil</a></li>
             <li><a href="alimentaria.html"><i class="fa fa-chevron-right"></i> Industria Alimentaria</a></li>
             <li><a href="cultivos.html"><i class="fa fa-chevron-right"></i> Cultivo Sostenible</a></li>
-            <li><a href="gestion.html"><i class="fa fa-chevron-right"></i> Gestion de Proyectos</a></li>
+            <li><a href="asesoramiento-proyectos.html"><i class="fa fa-chevron-right"></i> Asesoramiento de Proyectos</a></li>
+            <li><a href="cecrein.html"><i class="fa fa-chevron-right"></i> CECREIN Productivo</a></li>
           </ul>
         </div>
         <div class="col-md-3 col-sm-3 col-xs-12 column">
@@ -176,12 +204,13 @@
           <div class="row">
             <div class="col-md-12">
                 <p><i class="fa fa-phone"></i> (054) 436555</p>
-                <p><i class="fa fa-envelope"></i> pazperuong@gmail.com</p>
+                <p><i class="fa fa-envelope"></i> <a href="contacto.html">pazperuong@gmail.com</a></p>
                 <p><i class="fa fa-clock-o"></i> Lun-Sáb 8:00 - 18:00</p>
                 <p><i class="fa fa-map-marker"></i> Av. Salaverry S/N Urb. Lara</p>
             </div>
           </div>
         </div>
+        <div class="scrollup"><i class="fa fa-angle-double-up"></i></div>
       </div>
     </div>
 </div>
@@ -190,6 +219,7 @@
       <p class="text-center"> <small>©2016 - ONG PAZ PERÚ</small></p>
     </div>
 </div>
+
 
 </body>
 </html>

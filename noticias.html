@@ -19,7 +19,7 @@
 
 <!-- --------MENU--------------- -->
 <div id="navbar" style="font-family: 'Roboto', sans-serif; font-size:14px;"> 
-  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation" style="background-color: rgba(255,255,255,.9);">
       <div class="container">
         <div class="redes-bg pull-right hidden-xs" >
           <ul class="list-inline" style="margin-bottom: 0px; margin-top: 7px;">
@@ -70,20 +70,6 @@
     );
 });
 
-</script>
-<script type="text/javascript">
-jQuery(document).ready(function($) {
-  $(window).scroll(function() {
-    var scrollPos = $(window).scrollTop(),
-        navbar = $('.navbar-default');
-
-    if (scrollPos > 1) {
-      navbar.addClass('change-color');
-    } else {
-      navbar.removeClass('change-color');
-    } 
-  });
-});
 </script>
 <!-- <!-- -------------FIN MENU-> -->
 <div class="portada">
@@ -199,20 +185,21 @@ jQuery(document).ready(function($) {
               </ul>
           </div>
           <div class="footer-red text-center">
-            <div class=""><a href="#"><i class="fa fa-facebook"></i></a></div>
-            <div class=""><a href="#"><i class="fa fa-youtube-play"></i></a></div>
-            <div class=""><a href="#"><i class="fa fa-envelope"></i></a></div>
+            <div class=""><a href="https://www.facebook.com/PAZPERUONG/"><i class="fa fa-facebook"></i></a></div>
+            <div class=""><a href="https://www.youtube.com/channel/UCRG-gn5MD-v2oaclvDTegnQ"><i class="fa fa-youtube-play"></i></a></div>
+            <div class=""><a href="contacto.html"><i class="fa fa-envelope"></i></a></div>
           </div>
         </div>
         <div class="col-md-3 col-sm-3 col-xs-6 column">
           <h5>Programas Sociales</h5>
           <hr>
           <ul class="list-unstyled">
+            <li><a href="educacón.html"><i class="fa fa-chevron-right"></i> Casa Isabel</a></li>
             <li><a href="cuna.html"><i class="fa fa-chevron-right"></i> Cuna</a></li>
             <li><a href="ciam.html"><i class="fa fa-chevron-right"></i> CIAM</a></li>
+            <li><a href="inicial.html"><i class="fa fa-chevron-right"></i> Inicial</a></li>
             <li><a href="cetpro.html"><i class="fa fa-chevron-right"></i> CETPRO</a></li>
             <li><a href="policlinico.html"><i class="fa fa-chevron-right"></i> Policlinico</a></li>
-            <li><a href="educacón.html"><i class="fa fa-chevron-right"></i> Casa Isabel</a></li>
             <li><a href="odontológico.html"><i class="fa fa-chevron-right"></i>Clínica Odontológica</a></li>
             <li><a href="capacitacion-allternativa.html"><i class="fa fa-chevron-right"></i>CECREIN - Capacitación Alternativa</a></li>
           </ul>
@@ -224,7 +211,8 @@ jQuery(document).ready(function($) {
             <li><a href="textil.html"><i class="fa fa-chevron-right"></i> Industria Textil</a></li>
             <li><a href="alimentaria.html"><i class="fa fa-chevron-right"></i> Industria Alimentaria</a></li>
             <li><a href="cultivos.html"><i class="fa fa-chevron-right"></i> Cultivo Sostenible</a></li>
-            <li><a href="gestion.html"><i class="fa fa-chevron-right"></i> Gestion de Proyectos</a></li>
+            <li><a href="asesoramiento-proyectos.html"><i class="fa fa-chevron-right"></i> Asesoramiento de Proyectos</a></li>
+            <li><a href="cecrein.html"><i class="fa fa-chevron-right"></i> CECREIN Productivo</a></li>
           </ul>
         </div>
         <div class="col-md-3 col-sm-3 col-xs-12 column">
@@ -233,7 +221,7 @@ jQuery(document).ready(function($) {
           <div class="row">
             <div class="col-md-12">
                 <p><i class="fa fa-phone"></i> (054) 436555</p>
-                <p><i class="fa fa-envelope"></i> pazperuong@gmail.com</p>
+                <p><i class="fa fa-envelope"></i> <a href="contacto.html">pazperuong@gmail.com</a></p>
                 <p><i class="fa fa-clock-o"></i> Lun-Sáb 8:00 - 18:00</p>
                 <p><i class="fa fa-map-marker"></i> Av. Salaverry S/N Urb. Lara</p>
             </div>
@@ -243,11 +231,11 @@ jQuery(document).ready(function($) {
       </div>
     </div>
 </div>
-  <div class="footer-final">
+<div class="footer-final">
     <div class="container">
       <p class="text-center"> <small>©2016 - ONG PAZ PERÚ</small></p>
     </div>
-  </div>
+</div>
 
 </body>
 </html>
