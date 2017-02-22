@@ -12,7 +12,7 @@
 $cabeceras = "From: $email\n" //La persona que envia el correo
  . "Reply-To: $email\n";
 $asunto = "Mensaje desde la pagina Web"; //asunto aparecera en la bandeja del servidor de correo
-$email_to = "madayt.qc@gmail.com"; //cambiar por tu email
+$email_to = "ventas@pazperuong.org"; //cambiar por tu email
 $contenido = "$nombre ha enviado un mensaje desde la web www.ongpazperu.com\n"
 . "\n"
 . "Nombre: $nombre\n"
