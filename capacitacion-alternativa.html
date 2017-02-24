@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Capacitacion Alternativa</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.js">
+    <link rel="stylesheet" href="css/main2.css">
+    <link rel="stylesheet" href="css/capacitacion-allternativa.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+
+    <script type="text/javascript" src="js/jquery-1.12.3.js"></script>
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+<!-- --------MENU--------------- -->
+<div id="navbar" style="font-family: 'Roboto', sans-serif; font-size:14px;"> 
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation" style="background-color: rgba(255,255,255,.9);">
+      <div class="container">
+        <div class="redes-bg pull-right hidden-xs" >
+          <ul class="list-inline" style="margin-bottom: 0px; margin-top: 7px;">
+              <li><a href="https://www.facebook.com/PAZPERUONG/" class="fb"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="https://www.youtube.com/channel/UCRG-gn5MD-v2oaclvDTegnQ"><i class="fa fa-youtube-play"></i></a></li>
+              <li style="color: #000; top: 16px;">|</li>
+              <li><a style="text-decoration:none; "> (054) 436555</a></li>
+          </ul>
+        </div>
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+              <a class="navbar-brand" href="#"><img src="img/logo_horizontal.png" class="Logotype img-responsive" ></a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li ><a href="index.html" class="title_menu">INICIO</a></li>
+                    <li class="dropdown">
+                        <a href="nosotros.html" class="dropdown-toggle title_menu" data-toggle="dropdown">NOSOTROS <span class="caret"></span></a>
+                        <ul id="login-dp" class="dropdown-menu">
+                            <li><a class="border-bt" href="nosotros.html"> <i class="fa fa-stop"></i> Somos Paz Perú </a></li>
+                            <li><a class="border-bt" href="resena.html"> <i class="fa fa-stop"></i> Nuestra Historia </a></li>
+                            <li><a href="Convenios.html"> <i class="fa fa-stop"></i> Nuestros Convenios </a></li>
+                        </ul>
+                    </li> 
+                    <li class="programas active"><a href="programas.html" class=" title_menu" >PROGRAMAS</a></li>
+                    <li ><a href="contacto.html" class="title_menu">CONTÁCTANOS</a></li>
+                </ul>
+            </div>
+      </div>
+  </nav>
+</div>
+<script type="text/javascript">
+    $(document).ready(function(){
+    $(".dropdown").hover(            
+        function() {
+            $('.dropdown-menu', this).stop( true, true ).slideDown("fast");
+            $(this).toggleClass('open');        
+        },
+        function() {
+            $('.dropdown-menu', this).stop( true, true ).slideUp("fast");
+            $(this).toggleClass('open');       
+        }
+    );
+});
+</script>
+<!-- -------------fin menu---------- -->
+<div class="portada">
+    <!--  <div class="logo">
+        <img src="img/logos/logo-cecrein.png">
+    </div> -->
+    <div class="box-in text-center" >
+        <h4>Programa para niños y jóvenes</h4>
+        <img src="img/programas/capacitacion-alt/fila-logos.png">
+    </div>
+</div>
+<div class="section-info">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-3 hidden-xs"  style="padding-top: 30px; padding-left:30px; padding-right: 0px; ">
+                <div class="submenu" >
+                    <div class="panel-group"  id="accordion"> 
+                        <div class="panel _Title">
+                            <div class="panel-heading text-center">
+                                <h4 class="title" style="margin: 2.5px;"><span></span>UNIDADES DE DESARROLLO SOCIAL</h4>
+                            </div>
+                        </div>
+                        <div class="panel panel-mg-top">
+                            <div class="panel-heading tipo-programa " data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                                <h3 class="panel-title"><span class="fa fa-child"></span> Programa de Defensa y Promoción de los derechos de los niños, jóvenes, mujeres y adulto mayor</h3>
+                            </div>
+                            <div id="collapseThree" class="panel-collapse collapse">
+                                <div class="panel-body panel-body-bottom">
+                                    <div class="table">
+                                        <div class="table_1">
+                                            <h5 ><a href="casa-isabel.html"><i class="fa fa-chevron-right"></i> Programa de refugio, apoyo y Protección Integral Casa Isabel</a> </h5>
+                                        </div>
+                                        <div class="table_1">
+                                            <h5><a class="cuna" href="cuna.html"><i class="fa fa-chevron-right"></i> Cuna</a> </h5>
+                                        </div>
+                                        <div class="table_1">
+                                            <h5 class="bottom"><a class="ciam" href="ciam.html"><i class="fa fa-chevron-right"></i> CIAM</a> </h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-mg-top">
+                            <div class="panel-heading tipo-programa" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                                <h3 class="panel-title"><span class="fa fa-book"></span> Programa de Educación Integral</h3>
+                            </div>
+                            <div id="collapseTwo" class="panel-collapse collapse in">
+                                <div class="panel-body">
+                                    <div class="table">
+                                        <div class="table_1">
+                                            <h5 ><a href="inicial.html"><i class="fa fa-chevron-right"></i> Programa Educativo Integral Paz Perú Inicial</a> </h5>
+                                        </div>
+                                        <div class="table_1">
+                                            <h5><a href="cetpro.html"><i class="fa fa-chevron-right"></i> Cetpro José Olaya</a> </h5> 
+                                        </div>
+                                        <div class="table_1">
+                                            <h5 class="bottom active"><a href="capacitacion-alternativa.html"><i class="fa fa-chevron-right"></i> CECREIN - Capacitación Alternativa</a> </h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-mg-top">
+                            <div class="panel-heading tipo-programa mg-bottom" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                <h3 class="panel-title"><span class="fa fa-medkit"></span> Programa de Salud Integral</h3>
+                            </div>
+                            <div id="collapseOne" class="panel-collapse collapse">
+                                <div class="panel-body pd-bottom">
+                                    <div class="table">
+                                        <div class="table_1">
+                                            <h5><a href="policlinico.html"><i class="fa fa-chevron-right"></i> Policlínico</a></h5>
+                                        </div>
+                                        <div class="table_1">
+                                            <h5 class="bottom"><a href="clinica-odontologica.html"> <i class="fa fa-chevron-right"></i> Clínica Odontológica</a></h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel-group"  id="accordion">
+                        <div class="panel _Title">
+                            <div class="panel-heading text-center">
+                                <h4 class="title"><span class=""></span>UNIDADES DE PRODUCCIÓN</h4>
+                            </div>
+                        </div>
+                        <div class="panel panel-mg-top">
+                            <div class="panel-heading tipo-programa panel-hover">
+                                <h3 class="panel-title"><a href="textil.html"><span class="fa fa-thumb-tack"></span> Programa de Industria Textil</a></h3>
+                            </div>
+                        </div>
+                        <div class="panel panel-mg-top">
+                            <div class="panel-heading tipo-programa panel-hover">
+                                <h3 class="panel-title"><a href="asesoramiento-proyectos.html"><span class="fa fa-universal-access"></span> Asesoramiento en Proyectos y Responsabilidad Social</a></h3>
+                            </div>
+                        </div>
+                        <div class="panel panel-mg-top">
+                            <div class="panel-heading tipo-programa panel-hover">
+                                <h3 class="panel-title"><a href="alimentaria.html"><span class="fa fa-birthday-cake"></span> Programa de Industria Alimentaria</a></h3>
+                            </div>
+                        </div>
+                        <div class="panel panel-mg-top">
+                            <div class="panel-heading tipo-programa panel-hover" >
+                                <h3 class="panel-title"><a href="cultivos.html"><span class="fa fa-pagelines"></span> Programa de Cultivo Sostenible</a></h3>
+                            </div>
+                        </div>
+                        <div class="panel panel-mg-top">
+                            <div class="panel-heading tipo-programa panel-hover">
+                                <h3 class="panel-title"><a href="cecrein.html"><span class="fa fa-graduation-cap"></span> CECREIN - Productivo</a></h3>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 capacitacion-info">
+                <h3 class="titulo">Programa de Capacitaciones Alternativas</h3>
+                <p>Este programa es un proyecto creado con la finalidad de prevenir las malas prácticas sociales, conflictos y violencia en la sociedad, creando así programas educacionales donde nuestros alumnos desarrollan sus habilidades y competencias para su crecimiento personal y/o profesional e iniciarlos en una guia vocacional.
+                </p>
+                <h4>¿A QUIÉN VA DIRIGIDO?</h4>
+                <p>Este programa está dirigido a niños y jóvenes de ambos sexos.</p>
+                <h4>MODALIDAD</h4>
+                <ul style="padding-left: 20px;">
+                    <li>Talleres Express</li>
+                    <li>Talleres full time</li>
+                    <li>Talleres college - fam</li>
+                </ul>
+                <h4>HORARIO:</h4>
+                Horarios al escoger - Fines de semana.
+                <h4>CERTIFICACIÓN:</h4>
+                <p>Certificación del Ministerio de Educación</p>
+                <h4>TALLERES:</h4>
+                <div class="talleres">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6 col-xs-6">
+                            <div class="taller taller-manualidades">
+                                <figure>
+                                    <img src="img/programas/capacitacion-alt/tall-manualidades.jpg">
+                                    <figcaption>
+                                      <div class="description"> 
+                                        Este taller promueve la creatividad, la cultura productiva y la capacidad emprendedora de la persona.
+                                      </div>
+                                      <p class="title">Manualidades</p>
+                                      <ul class="iconos">
+                                        <li><a href="#one" data-toggle="modal"><i class="fa fa-plus"></i></a></li>
+                                      </ul>
+                                    </figcaption>
+                                </figure>
+                                <div class="modal fade" id="one" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header modal-header-primary">
+                                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                                <h3><i class="fa fa-diamond"></i> Taller de Manualidades</h3>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>Este taller brinda las herramientas para promover la creatividad, la cultura productiva y la capacidad emprendedora de contribuir con el desarrollo integral de la persona a lo largo de toda la vida.</p>
+                                                <h5><strong>OBJETIVO</strong></h5>
+                                                <p>Fortalecer las facultades creadoras del participante reforzando sus habilidades para enfrentar y solucionar los problemas que se le presenten, haciendo uso de las herramientas que le proporciona el medio en que se desenvuelve.</p>
+                                                <h5><strong>ACTIVIDADES QUE DESARROLLAN</strong></h5>
+                                                    <ul style="padding-left: 20px;">
+                                                        <li>Manualidades con cerámia en frío.</li>
+                                                        <li>Bisutería, macrame, cartonaje creativo y tecnopor.</li>
+                                                        <li>Flores en porcelana fina.</li>
+                                                        <li>Pintura en madera y tela.</li>
+                                                        <li>Bordado con cinta, bordado yugoslavo y español.</li>
+                                                        <li>Goma eva.</li>
+                                                        <li>Arte con material reciclado.</li>
+                                                        <li>Manualidades adornos navideños y eventos especiales.</li>
+                                                        
+                                                    </ul>
+                                                <div class="gallery">
+                                                    <div class="col-md-4 col-sm-4 col-xs-6"><img src="img/programas/capacitacion-alt/manualidad-1.jpg"></div>
+                                                    <div class="col-md-4 col-sm-4 col-xs-6"><img src="img/programas/capacitacion-alt/manualidad-2.jpg"></div>
+                                                    <div class="col-md-4 col-sm-4 hidden-xs"><img src="img/programas/capacitacion-alt/manualidad-3.jpg"></div>
+                                                </div>
+                                                <h5><strong>INSCRIPCIONES</strong></h5>
+                                                <hr>
+                                                <p>
+                                                    <strong>Dirección:</strong>Av. Salaverry S/N Lara - Socabaya <br>
+                                                    <strong>Teléfono:</strong> (054) 436565 / RPC:959375374 / RPM:977281031 <br>
+                                                    <strong>Correo electrónico:</strong> capacitacionalternativa@pazperuong.org
+                                                </p>         
+                                            </div>
+                                            <div class="modal-footer">
+                                                 <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-6">
+                            <div class="taller taller-gastronomia">
+                                <figure>
+                                    <img src="img/programas/capacitacion-alt/tall-reposteria2.jpg">
+                                    <figcaption>
+                                      <div class="description"> 
+                                        Te permite conocer, innovar y disfrutar de las tradiciones culinarias y dominar los secretos de la pasteleria.
+                                      </div>
+                                      <p class="title">Gastronomía y Repostería</p>
+                                      <ul class="iconos">
+                                        <li><a href="#two" data-toggle="modal"><i class="fa fa-plus"></i></a></li>  
+                                      </ul>
+                                    </figcaption>
+                                </figure>
+                                <div class="modal fade" id="two" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header modal-header-primary">
+                                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                                <h3><i class="fa fa-cutlery"></i> Taller de Gastronomía y Repostería</h3>
+                                            </div>
+                                            <div class="modal-body">
+                                                Este taller brinda una formación culinaria, a través de técnicas necesarias para nuestros alumnos, innovando e incentivando la cultura gastronómica y respostería. 
+                                                <h5><strong>OBJETIVO</strong></h5>
+                                                Lograr que los alumnos innoven con propuestas gastronómicas e ideas de panadería.
+                                                <h5><strong>ACTIVIDADES QUE DESARROLLAN</strong></h5>
+                                                    <ul style="padding-left: 20px;">
+                                                        <li> Crear combinaciones o aportar tu creatividad al servicio de platos clásicos.</li>
+                                                        <li> Integrar y liderar equipos en el área de cocina.</li>
+                                                        <li> Diseñar propuestas de cocina.</li>
+                                                        <li> Crear o elaborar postres de diferentes tipos.</li>
+                                                    </ul>
+                                                <h5><strong>TALLERES</strong></h5>
+                                                <ul style="padding-left: 20px;">
+                                                    <li>Talleres de cocina y repostería para niños.</li>
+                                                    <li>Talleres de cocina y repostería para jóvenes y adultos.</li>
+                                                </ul>
+                                                <div class="gallery">
+                                                    <div class="col-md-4 col-sm-4 col-xs-6"><img src="img/programas/capacitacion-alt/cocina-1.jpg"></div>
+                                                    <div class="col-md-4 col-sm-4 hidden-xs"><img src="img/programas/capacitacion-alt/cocina-2.jpg"></div>
+                                                    <div class="col-md-4 col-sm-4 col-xs-6"><img src="img/programas/capacitacion-alt/cocina-3.jpg"></div>
+                                                </div>
+                                                <h5><strong>INSCRIPCIONES</strong></h5>
+                                                <hr>
+                                                <p>
+                                                    <strong>Dirección:</strong>Av. Salaverry S/N Lara - Socabaya <br>
+                                                    <strong>Teléfono:</strong> (054) 436565 / RPC:959375374 / RPM:977281031 <br>
+                                                    <strong>Correo electrónico:</strong> capacitacionalternativa@pazperuong.org
+                                                </p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                 <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-6">
+                            <div class="taller taller-agricultura">
+                                <figure>
+                                    <img src="img/programas/capacitacion-alt/tall-agricultura.jpg">
+                                    <figcaption>
+                                      <div class="description">
+                                        Te permite identificar las causas y consecuencias del deterioro ambiental y la producción ecológica.
+                                      </div>
+                                      <p class="title">Agricultura orgánica</p>
+                                      <ul class="iconos">
+                                        <li><a href="#three" data-toggle="modal"><i class="fa fa-plus"></i></a></li>
+                                      </ul>
+                                    </figcaption>
+                                </figure>
+                                <div class="modal fade" id="three" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header modal-header-primary">
+                                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                                <h3><i class="fa fa-envira"></i> Taller de Agricultura orgánica</h3>
+                                            </div>
+                                            <div class="modal-body">
+                                                <h5><strong>OBJETIVO</strong></h5>
+                                                Proveer una experiencia práctica-teórica a los participantes para que tengan confianza en la creación y manejo de sus propios huertos biointensivos.
+                                                Todos aquellos que tienen interés en cultivar sus propios alimentos en pequeños espacios y a la vez, cuidar el suelo.
+                                                <h5><strong>TEMAS A DESARROLLAR</strong></h5>
+                                                    <ul style="padding-left: 20px;">
+                                                        <li>Agricultura Biointensiva, consevación.</li>
+                                                        <li>Componentes de Agricultura Biointensiva</li>
+                                                        <li>La preparación del suelo (Herramientas, procedimientos y razones).</li>
+                                                        <li>La composta (Ventajas, materiales, uso de cultivos y manejo).</li>
+                                                        <li>Incorporación de cultivos eficientes (Características, definición).</li>
+                                                        <li>Sistema Integral</li>
+                                                        <li>Ejercicios prácticos</li>
+                                                    </ul>
+                                                <div class="gallery">
+                                                    <div class="col-md-4 col-sm-4 col-xs-6"><img src="img/programas/capacitacion-alt/agricultura-1.jpg"></div>
+                                                    <div class="col-md-4 col-sm-4 col-xs-6"><img src="img/programas/capacitacion-alt/agricultura-2.jpg"></div>
+                                                    <div class="col-md-4 col-sm-4 hidden-xs"><img src="img/programas/capacitacion-alt/agricultura-3.jpg"></div>
+                                                </div>
+                                                <h5><strong>INSCRIPCIONES</strong></h5>
+                                                <hr>
+                                                <p>
+                                                    <strong>Dirección:</strong>Av. Salaverry S/N Lara - Socabaya <br>
+                                                    <strong>Teléfono:</strong> (054) 436565 / RPC:959375374 / RPM:977281031 <br>
+                                                    <strong>Correo electrónico:</strong> capacitacionalternativa@pazperuong.org
+                                                </p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                 <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-6">
+                            <div class="taller taller-computacion">
+                                <figure>
+                                    <img src="img/programas/capacitacion-alt/tall-computacion.jpg">
+                                    <figcaption>
+                                      <div class="description">
+                                        Te permite descubrir el mundo informático, manejando y gestionando información.
+                                      </div>
+                                      <p class="title">Computación e Informática</p>
+                                      <ul class="iconos">
+                                        <li><a href="#four" data-toggle="modal"><i class="fa fa-plus"></i></a></li> 
+                                      </ul>
+                                    </figcaption>
+                                </figure>
+                                <div class="modal fade" id="four" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header modal-header-primary">
+                                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                                <h3><i class="fa fa-laptop"></i> Taller de Computación e Informática</h3>
+                                            </div>
+                                            <div class="modal-body">
+                                                El Taller de Computación e Informática tiene como fin formar niñas, niños y jóvenes capaces de desempeñarse eficiente y responsablemente en relación con la tecnología de la comunicación. Formando educandos preparados para aprender a vivir y trabajar produciendo nuevas formas de comunicación.
+                                                <h5><strong>TEMAS A DESARROLLAR</strong></h5>
+                                                <ul style="padding-left: 20px;">
+                                                        <li>Conocimiento de recursos informáticos.</li>
+                                                        <li>Aplicación de tecnologías.</li>
+                                                </ul>
+                                                <div class="gallery">
+                                                    <div class="col-md-4 col-sm-4 col-xs-6"><img src="img/programas/capacitacion-alt/computacion-1.jpg"></div>
+                                                    <div class="col-md-4 col-sm-4 col-xs-6"><img src="img/programas/capacitacion-alt/computacion-2.jpg"></div>
+                                                    <div class="col-md-4 col-sm-4 hidden-xs"><img src="img/programas/capacitacion-alt/computacion-3.jpg"></div>
+                                                </div>
+                                                <h5><strong>INSCRIPCIONES</strong></h5>
+                                                <hr>
+                                                <p>
+                                                    <strong>Dirección:</strong>Av. Salaverry S/N Lara - Socabaya <br>
+                                                    <strong>Teléfono:</strong> (054) 436565 / RPC:959375374 / RPM:977281031 <br>
+                                                    <strong>Correo electrónico:</strong> capacitacionalternativa@pazperuong.org
+                                                </p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                 <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-6">
+                            <div class="taller taller-cosmetologia">
+                                <figure>
+                                    <img src="img/programas/capacitacion-alt/tall-cosmetologia.jpg">
+                                    <figcaption>
+                                      <div class="description">
+                                        Te brinda altos conocimientos en Cosmetología y Cosmiatria con una buena metodología.
+                                      </div>
+                                      <p class="title">Cosmetología</p>
+                                      <ul class="iconos">
+                                        <li><a href="#five" data-toggle="modal"><i class="fa fa-plus"></i></a></li> 
+                                      </ul>
+                                    </figcaption>
+                                </figure>
+                                <div class="modal fade" id="five" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header modal-header-primary">
+                                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                                <h3><i class="fa fa-scissors"></i> Taller de Cosmetología</h3>
+                                            </div>
+                                            <div class="modal-body">
+                                                <h5><strong>OBJETIVO</strong></h5>
+                                                Lograr que las jóvenes aprendan el arte de la cosmetología mediante técnicas de belleza y desarrollen habilidades durante el proceso.
+                                                <h5><strong>ACTIVIDADES A DESARROLLAR</strong></h5>
+                                                    <ul style="padding-left: 20px;">
+                                                        <li>Corte y cepillado de cabello</li>
+                                                        <li>Limpieza facial</li>
+                                                        <li>Maquillaje</li>
+                                                        <li>Peinados (estilos de trenzas)</li>
+                                                        <li>Manicure, pedicure </li>
+                                                        <li>Estilos de decoración de uñas</li>
+                                                    </ul>
+                                                <div class="gallery">
+                                                    <div class="col-md-4 col-sm-4 col-xs-6"><img src="img/programas/capacitacion-alt/cosmetologia-1.jpg"></div>
+                                                    <div class="col-md-4 col-sm-4 col-xs-6"><img src="img/programas/capacitacion-alt/cosmetologia-2.jpg"></div>
+                                                    <div class="col-md-4 col-sm-4 hidden-xs"><img src="img/programas/capacitacion-alt/cosmetologia-3.jpg"></div>
+                                                </div>
+                                                <h5><strong>INSCRIPCIONES</strong></h5>
+                                                <hr>
+                                                <p>
+                                                    <strong>Dirección:</strong>Av. Salaverry S/N Lara - Socabaya <br>
+                                                    <strong>Teléfono:</strong> (054) 436565 / RPC:959375374 / RPM:977281031 <br>
+                                                    <strong>Correo electrónico:</strong> capacitacionalternativa@pazperuong.org
+                                                </p>       
+                                            </div>
+                                            <div class="modal-footer">
+                                                 <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-6">
+                            <div class="taller taller-textil">
+                                <figure>
+                                    <img src="img/programas/capacitacion-alt/tall-textil.jpg">
+                                    <figcaption>
+                                      <div class="description">
+                                        Este taller permite fomentar el desarrollo en los emprendedores de moda y confección.
+                                      </div>
+                                      <p class="title">Diseño, patronaje y confección textil</p>
+                                      <ul class="iconos">
+                                        <li><a href="#six" data-toggle="modal"><i class="fa fa-plus"></i></a></li> 
+                                      </ul>
+                                    </figcaption>
+                                </figure>
+                                <div class="modal fade" id="six" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header modal-header-primary">
+                                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                                <h3><i class="fa fa-industry"></i> Taller de Diseño, patronaje y confección textil</h3>
+                                            </div>
+                                            <div class="modal-body">
+                                                Nuestro sistema de enseñanza se caracteriza por unificar en un único itinerario formativo las especialidades más importantes de los Estudios de Moda: Diseño, Patronaje y Confección textil.<br>
+                                                Este curso prepara a nuestros alumnos para emprender en las mejores condiciones, tanto la creación de empresas y cómo facilitarles una mejor ubicación profesional en las empresas textiles.
+                                                <h5><strong>CARACTERÍSTICAS DEL CURSO</strong></h5>
+                                                <ul style="padding-left: 20px;">
+                                                    <li>Enseñanzas personalizada.</li>
+                                                    <li>Programa de estudios y certificación.</li>
+                                                </ul>
+                                                <h5><strong>OBJETIVO</strong></h5>
+                                                Brindar conocimientos técnicos sobre diseño, patronaje, confección.
+                                                <h5><strong>DIRIGIDO A</strong></h5>
+                                                Personas que deseen dedicarse profesionalmente al mundo de la moda y producción textil en cualquiera de sus especialidades.
+                                                <div class="gallery">
+                                                    <div class="col-md-4 col-sm-4 col-xs-6"><img src="img/programas/capacitacion-alt/design-1.jpg"></div>
+                                                    <div class="col-md-4 col-sm-4 col-xs-6"><img src="img/programas/capacitacion-alt/design-2.jpg"></div>
+                                                    <div class="col-md-4 col-sm-4 hidden-xs"><img src="img/programas/capacitacion-alt/design-3.jpg"></div>
+                                                </div>
+                                                <h5><strong>INSCRIPCIONES</strong></h5>
+                                                <hr>
+                                                <p>
+                                                    <strong>Dirección:</strong>Av. Salaverry S/N Lara - Socabaya <br>
+                                                    <strong>Teléfono:</strong> (054) 436565 / RPC:959375374 / RPM:977281031 <br>
+                                                    <strong>Correo electrónico:</strong> capacitacionalternativa@pazperuong.org
+                                                </p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                 <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-6">
+                            <div class="taller taller-masaje">
+                                <figure>
+                                    <img src="img/programas/capacitacion-alt/tall-masajes.jpg">
+                                    <figcaption>
+                                      <div class="description">
+                                        Aprenderás técnicas de masaje necesarias para obtener una formación completa como especialista en el rubro.
+                                      </div>
+                                      <p class="title">Técnicas de masaje</p>
+                                      <ul class="iconos">
+                                        <li><a href="#seven" data-toggle="modal"><i class="fa fa-plus"></i></a></li> 
+                                      </ul>
+                                    </figcaption>
+                                </figure>
+                                <div class="modal fade" id="seven" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header modal-header-primary">
+                                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                                <h3><i class="fa fa-male"></i> Taller de Técnicas de masaje</h3>
+                                            </div>
+                                            <div class="modal-body">
+                                                Durante el curso veremos técnicas muy sencillas de masaje accesibles a todo el mundo, podemos prevenir dolores tensionales, potenciar la relajación y el control del estrés y tonificar nuestros músculos, prevenir la fatiga, así como proporcionarnos sensaciones agradables y placenteras.<br>
+                                                El efecto del masaje en el bienestar general de la persona se basa en la importancia del tacto en los seres humanos.
+                                                <h5><strong>OBJETIVOS</strong></h5>
+                                                <ul style="padding-left: 20px;">
+                                                    <li>Comprender la importancia del masaje para la comunicación, la salud y el bienestar.</li>
+                                                    <li>Aprender unas técnicas sencillas, útiles y divertidas para relajar los músculos y estirar el cuerpo.</li>
+                                                    <li>Conseguir un estado de relajación a través del masaje.</li>
+                                                </ul>
+                                                <h5><strong>DIRIGIDO A</strong></h5>
+                                                    Personas con o sin conocimientos en masaje que quieran reciclarse o conocer técnicas de masaje relajante y potenciar la comunicación a través del tacto. 
+                                                <h5><strong>TEMAS A DESARROLLAR</strong></h5>
+                                                    <ul style="padding-left: 20px;">
+                                                        <li>El efecto del masaje en la salud y el bienestar. Masaje y comunicación.</li>
+                                                        <li>Preparativos del masaje. Gimnasia de manos.</li>
+                                                        <li>Aromaterapia.</li>
+                                                        <li>Técnicas y manipulaciones.</li>
+                                                        <li>Tratamientos antiestrés. </li>
+                                                        <li>Masaje facial, espalda, piernas y brazos, tórax y abdomen, pies.</li>
+                                                        <li>Prácticas y demostraciones.</li>
+                                                    </ul>
+                                                <div class="gallery">
+                                                    <div class="col-md-4 col-sm-4 col-xs-6"><img src="img/programas/capacitacion-alt/masaje-1.jpg"></div>
+                                                    <div class="col-md-4 col-sm-4 col-xs-6"><img src="img/programas/capacitacion-alt/masaje-2.jpg"></div>
+                                                    <div class="col-md-4 col-sm-4 hidden-xs"><img src="img/programas/capacitacion-alt/masaje-3.jpg"></div>
+                                                </div>
+                                                <h5><strong>INSCRIPCIONES</strong></h5>
+                                                <hr>
+                                                <p>
+                                                    <strong>Dirección:</strong>Av. Salaverry S/N Lara - Socabaya <br>
+                                                    <strong>Teléfono:</strong> (054) 436565 / RPC:959375374 / RPM:977281031 <br>
+                                                    <strong>Correo electrónico:</strong> capacitacionalternativa@pazperuong.org
+                                                </p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                 <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-6 ">
+                            <div class="taller taller-danza">
+                                <figure>
+                                    <img src="img/programas/capacitacion-alt/tall-danza.jpg">
+                                    <figcaption>
+                                      <div class="description">
+                                        Aprende las técnicas para desarrollar tu destreza en el baile.
+                                      </div>
+                                      <p class="title">Danza Moderna</p>
+                                      <ul class="iconos">
+                                        <li><a href="#eight" data-toggle="modal"><i class="fa fa-plus"></i></a></li> 
+                                      </ul>
+                                    </figcaption>
+                                </figure>
+                                <div class="modal fade" id="eight" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header modal-header-primary">
+                                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                                <h3><i class="fa fa-users"></i> Taller de Danza Moderna</h3>
+                                            </div>
+                                            <div class="modal-body">
+                                                La danza moderna recoge los elementos plásticos de los movimientos utilitarios de los seres humanos y los combinan en una composición coherente y dinámica animada por el espíritu. 
+                                                <h5><strong>OBJETIVOS</strong></h5>
+                                                <ul style="padding-left: 20px;">
+                                                    <li>Fomentar el aprendizaje de la danza en las estudiantes, tomando su motivación como principal herramienta de aprendizaje.</li>
+                                                    <li>Introducir a los más jóvenes en el potencial expresivo de la danza moderna, con una especial atención a los estilos y ritmos urbanos más actuales.</li>
+                                                </ul>
+                                                <h5><strong>DIRIGIDO A</strong></h5>
+                                                Niños, jóvenes y adultos interesados por el ritmo de la danza.
+                                                <h5><strong>HABILIDADES Y DESTREZAS A DESARROLLAR</strong></h5>
+                                                <ul style="padding-left: 20px;">
+                                                    <li>Aplicación del ritmo.</li>
+                                                    <li>Rapidéz.</li>
+                                                    <li>Coordinación.</li>
+                                                    <li>Técnica de giros</li>
+                                                </ul>
+                                                <div class="gallery">
+                                                    <div class="col-md-4 col-sm-4 col-xs-6"><img src="img/programas/capacitacion-alt/danza-1.jpg"></div>
+                                                    <div class="col-md-4 col-sm-4 col-xs-6"><img src="img/programas/capacitacion-alt/danza-2.jpg"></div>
+                                                    <div class="col-md-4 col-sm-4 hidden-xs"><img src="img/programas/capacitacion-alt/danza-3.jpg"></div>
+                                                </div>
+                                                <h5><strong>INSCRIPCIONES</strong></h5>
+                                                <hr>
+                                                <p>
+                                                    <strong>Dirección:</strong>Av. Salaverry S/N Lara - Socabaya <br>
+                                                    <strong>Teléfono:</strong> (054) 436565 / RPC:959375374 / RPM:977281031 <br>
+                                                    <strong>Correo electrónico:</strong> capacitacionalternativa@pazperuong.org
+                                                </p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                 <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h4>INFORMES E INSCRIPCIONES</h4>
+                <hr class="line">
+                <p>
+                    <strong>Dirección:</strong>Av. Salaverry S/N Lara - Socabaya <br>
+                    <strong>Teléfono:</strong> (054) 436565 / RPC:959375374 / RPM:977281031 <br>
+                    <strong>Correo electrónico:</strong> capacitacionalternativa@pazperuong.org
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<style type="text/css">
+.application {border-top: 1px solid #c1e1ec;}
+.affix-top { position: relative;}
+.affix { top: 70px;}
+.affix, 
+.affix-bottom {width: 19.45%;}
+.affix-bottom {position: absolute;}
+</style>
+<script type="text/javascript">
+    $('#sub').affix({
+    offset: {     
+      top: $('#sub').offset().top,
+      bottom: ($('footer').outerHeight(true) + $('.application').outerHeight(true)) + 50
+    }
+});
+
+</script>
+<div class="section-footer">
+    <div class="opacity">
+      <div class="container">
+        <div class="col-md-3 col-sm-3 ">
+          <div class="img-footer hidden-xs"><img src="img/programas/captura1.png" class="img-responsive" ></div>
+          <div class="menu text-center" >
+              <ul class=" list-inline list-unstyled">
+                <li><a href="index.html">Inicio</a></li> | 
+                <li><a href="nosotros.html">Nosotros</a></li> |
+                <li><a href="programas.html">Programas</a></li> |
+                <li><a href="contacto.html">Contacto</a></li>
+              </ul>
+          </div>
+          <div class="footer-red text-center">
+            <div class=""><a href="https://www.facebook.com/PAZPERUONG/"><i class="fa fa-facebook"></i></a></div>
+            <div class=""><a href="https://www.youtube.com/channel/UCRG-gn5MD-v2oaclvDTegnQ"><i class="fa fa-youtube-play"></i></a></div>
+            <div class=""><a href="contacto.html"><i class="fa fa-envelope"></i></a></div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-6 column">
+          <h5>Programas Sociales</h5>
+          <hr>
+          <ul class="list-unstyled">
+            <li><a href="casa-isabel.html"><i class="fa fa-chevron-right"></i> Casa Isabel</a></li>
+            <li><a href="cuna.html"><i class="fa fa-chevron-right"></i> Cuna</a></li>
+            <li><a href="ciam.html"><i class="fa fa-chevron-right"></i> CIAM</a></li>
+            <li><a href="inicial.html"><i class="fa fa-chevron-right"></i> Inicial</a></li>
+            <li><a href="cetpro.html"><i class="fa fa-chevron-right"></i> CETPRO</a></li>
+            <li><a href="policlinico.html"><i class="fa fa-chevron-right"></i> Policlinico</a></li>
+            <li><a href="clinica-odontologica.html"><i class="fa fa-chevron-right"></i>Clínica Odontológica</a></li>
+            <li><a href="capacitacion-alternativa.html"><i class="fa fa-chevron-right"></i>CECREIN - Capacitación Alternativa</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-6 column">
+          <h5>Programas Productivos</h5>
+          <hr>
+          <ul class="list-unstyled">
+            <li><a href="textil.html"><i class="fa fa-chevron-right"></i> Industria Textil</a></li>
+            <li><a href="alimentaria.html"><i class="fa fa-chevron-right"></i> Industria Alimentaria</a></li>
+            <li><a href="cultivos.html"><i class="fa fa-chevron-right"></i> Cultivo Sostenible</a></li>
+            <li><a href="asesoramiento-proyectos.html"><i class="fa fa-chevron-right"></i> Asesoramiento de Proyectos</a></li>
+            <li><a href="cecrein.html"><i class="fa fa-chevron-right"></i> CECREIN Productivo</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-12 column">
+          <h5>Contacto</h5>
+          <hr>
+          <div class="row">
+            <div class="col-md-12">
+                <p><i class="fa fa-phone"></i> (054) 436555</p>
+                <p><i class="fa fa-envelope"></i> <a href="contacto.html">pazperuong@gmail.com</a></p>
+                <p><i class="fa fa-clock-o"></i> Lun-Sáb 8:00 - 18:00</p>
+                <p><i class="fa fa-map-marker"></i> Av. Salaverry S/N Urb. Lara</p>
+            </div>
+          </div>
+        </div>
+        <div class="scrollup"><i class="fa fa-angle-double-up"></i></div>
+      </div>
+    </div>
+</div>
+<div class="footer-final">
+    <div class="container">
+      <p class="text-center"> <small>©2016 - ONG PAZ PERÚ</small></p>
+    </div>
+</div>
+
+<script type="text/javascript">
+       $(document).ready(function(){ 
+        $(window).scroll(function(){
+            if ($(this).scrollTop() > 900) {
+                $('.scrollup').fadeIn();
+            } else {
+                $('.scrollup').fadeOut();
+            }
+        }); 
+ 
+        $('.scrollup').click(function(){
+            $("html, body").animate({ scrollTop: 0 }, 600);
+            return false;
+        });
+    });
+</script>
+</body>
+</html>

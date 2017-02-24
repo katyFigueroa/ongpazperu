@@ -255,7 +255,7 @@ font-family: 'AvenirLTStd-Medium', sans-serif;
 
 
 /*-------ABOUTT-------------*/
-.section-about{ background-image: url('../img/niños_slider1.jpg'); width: 100%; background-size: cover;}
+.section-about{ background-image: url('../img/ninos_slider1.jpg'); width: 100%; background-size: cover;}
 .section-about h2{margin-bottom: 15px;}
 .section-about .sub-text{color: #fff; font-size: 18px; padding-bottom: 20px;}
 .section-about .overlay{background:rgba(50,57,70,0.5); width: 100%; background-size: cover; padding: 4em 0em 6em;}
